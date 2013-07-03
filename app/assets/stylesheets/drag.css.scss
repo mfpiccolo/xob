@@ -1,0 +1,22 @@
+div#drag {
+    position:  absolute;
+    left: 0;
+    top: 0; /* set these so Chrome doesn't return 'auto' from getComputedStyle */
+    width: 200px;
+    background: rgba(255,255,255,0.66);
+    border: 2px  solid #CCC;
+    border-radius: 20px; padding: 8px;
+    text-align: center;
+}
+
+input#see-through {
+  background-color:transparent;
+  border: 0px solid;
+  height: 20px;
+  width: 70px;
+  color: black;
+
+  &:focus {
+    outline:none;
+  }
+}

@@ -1,0 +1,10 @@
+<%= form_for @search do |f| %>
+
+  <div draggable="true" id="drag"><%= f.text_field :terms, id: "see-through", placeholder: "Type * Drag" %></div>
+
+  <%= f.submit %>
+
+<% end %>
+
+
+<div id="box"></div>
