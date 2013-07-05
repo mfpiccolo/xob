@@ -1,10 +1,17 @@
-<%= form_for @search do |f| %>
+<div id="fade-me">
+  <div id="droppable">
 
-  <div draggable="true" id="drag"><%= f.text_field :terms, id: "see-through", placeholder: "Type * Drag" %></div>
+    <p>Drop stuff in here!</p>
 
-  <%= f.submit %>
+    <%= form_for @search do |f| %>
 
-<% end %>
+      <div id="draggable"><%= f.text_field :terms, size: 10, placeholder: "Type * Drag" %></div>
 
+      <%= f.submit %>
 
-<div id="box"></div>
+    <% end %>
+
+  </div>
+
+  <a id="add-div" class="button">button</a>
+</div>
