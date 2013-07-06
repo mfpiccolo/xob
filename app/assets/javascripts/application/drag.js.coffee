@@ -1,60 +1,58 @@
 jQuery ->
+
   $("#add-div").click ->
-    $("<div id='draggable' class='ui-draggable' style='left: 215px; top: 64px;'><input id='search_terms' name='search[terms]' placeholder='Type * Drag' size='10' type='text'></div>").draggable().appendTo( "body" );
+    $("<div id='draggable' class='ui-draggable' style='left: 215px; position: absolute;'><input id='search_terms' name='search[terms]' placeholder='Type * Drag' size='10' type='text'></div>").draggable().appendTo( "#whole-page" );
 
+  $ ->
+    $("#draggable").draggable ->
+      start: (event, ui) ->
+        ui.helper.removeMe = true
 
+      stop: (event, ui) ->
+        ui.helper.remove()  if ui.helper.removeMe
+      revert: "valid"
+      helper:"clone"
 
-$ ->
-  # $("#draggable").draggable()
-  $("#draggable").draggable ->
-    start: (event, ui) ->
+  $("#whole-page").droppable(
+    activeClass: "ui-state-default"
+    hoverClass: "ui-state-hover"
+    accept: ":not(.ui-sortable-helper)"
 
-      # flag to indicate that we want to remove element on drag stop
-      ui.helper.removeMe = true
+    drop: (event, ui) ->
+      $(ui.draggable).appendTo($("#whole-page"))
+      $("#new_search").has(".ui-draggable").length
+      if $("#new_search").has(".ui-draggable").length == 0
+        $("#box").animate
+          backgroundColor: "rgb( 224, 255, 255  )"
+        $("#box").find("p").html "Drop stuff in here!"
+  )
 
-    stop: (event, ui) ->
+  $("#box").droppable(
+    greedy: true
+    activeClass: "ui-state-default"
+    hoverClass: "ui-state-hover"
+    accept: ":not(.ui-sortable-helper)"
+    drop: (event, ui) ->
+      # alert "eh"
+      $(this).find("p").html "Ready to Search!"
+      $(this).animate
+        backgroundColor: "rgb( 0, 191, 255 )"
+      $(ui.draggable).appendTo($("#new_search"))
+  )
 
-      # remove draggable if flag is still true
-      # which means it wasn't unset on drop into parent
-      # so dragging stopped outside of parent
-      ui.helper.remove()  if ui.helper.removeMe
+  $(document).on "click", "input", ($e) ->
+    $(this).on "keyup", ->
+      oneLetterWidth = 6
+      minCharacters = 10
+      dragbox = $(this).parent()
+      len = $(this).val().length
+      if len > minCharacters
 
-    # move back if dropped into a droppable
-    revert: "valid"
-  $("#droppable").droppable(
-      activeClass: "ui-state-default"
-      hoverClass: "ui-state-hover"
-      accept: ":not(.ui-sortable-helper)"
-      drop: (event, ui) ->
-        $(this).find("p").html "Dropped!"
-        $(this).animate
-          color: "green"
-          backgroundColor: "rgb( 20, 20, 20 )"
-        $("<li></li>").text(ui.draggable.text()).addClass("cart-item").appendTo this
-    )
+        # increase width
+        dragbox.width len * oneLetterWidth
+        $(this).width len * oneLetterWidth
+      else
 
-
-init = ->
-  # I'm assuming that 1 letter will expand the input by 6 pixels
-  oneLetterWidth = 6
-
-  # I'm also assuming that input will resize when at least 10 live characters
-  # are typed
-  minCharacters = 10
-
-  dragbox = $("#draggable")
-  $("input").keyup ->
-    len = $(this).val().length
-    if len > minCharacters
-
-      # increase width
-      dragbox.width len * oneLetterWidth
-      $(this).width len * oneLetterWidth
-    else
-
-      # restore minimal width;
-      dragbox.width 70
-      $(this).width 70
-
-window.onload = init
-
+        # restore minimal width;
+        dragbox.width 70
+        $(this).width 70
