@@ -1,17 +1,31 @@
 <div class="droppable" id="whole-page">
   <div class="droppable" id="box">
 
-    <p>Drop stuff in here!</p>
+    <div class='ui-draggable terms'><input id='search_terms' name='search[terms]' placeholder='Terms' size='10' type='text'></div>
 
-    <div id='draggable' class='ui-draggable' style='left: 215px; position: absolute;'><input id='search_terms' name='search[terms]' placeholder='Type * Drag' size='10' type='text'></div>
+    <div class='ui-draggable domain'><input name='search[domain]' placeholder='Domain' size='10' type='text'></div>
+
+    <div class='ui-draggable image'><input name='search[image]' Value='image' size='10' type='text' READONLY></div>
+
+    <div class="ui-draggable file_type"><select id="search_file_type" name="search[file_type]">
+      <option value="" disabled selected>File Type</option>
+      <option value="pdf">pdf</option>
+      <option value="doc">doc</option>
+      <option value="xls">xls</option>
+      <option value="txt">txt</option>
+      <option value="rtf">rtf</option>
+    </select></div>
 
     <%= form_for @search do |f| %>
+
 
       <%= f.submit %>
 
     <% end %>
 
+    <p>Drop stuff in here!</p>
+
   </div>
 
-  <a id="add-div" class="button">button</a>
+  <a id="add-terms" class="button" style="left: 215px; position: absolute;">Add Terms</a>
 </div>
