@@ -6,7 +6,7 @@ class SearchesController < ApplicationController
 
   def create
     @search = Search.new(params[:search])
-    @results = @search.search_google.items
+    @results = @search.search_google
     render :index, collection: @results, object: @search
   end
 
