@@ -30,6 +30,7 @@ gem "jquery-ui-rails"
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
+  gem "pry-debugger"
   gem "meta_request"
   gem "quiet_assets"
 end
