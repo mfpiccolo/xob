@@ -2,7 +2,7 @@ div.ui-draggable {
   position:  absolute;
   left: 215px;
   top: 0; /* set these so Chrome doesn't return 'auto' from getComputedStyle */
-  width: 80px;
+  width: 90px;
   background: rgba(255,255,255,0.66);
   border: 2px  solid #CCC;
   border-radius: 20px; padding: 8px;
@@ -12,7 +12,7 @@ div.ui-draggable {
     background-color: transparent;
     border: 0px solid;
     height: 20px;
-    width: 50px;
+    width: 70px;
     color: black;
     resize: none;
     text-align: center;
@@ -25,21 +25,27 @@ div.ui-draggable {
 
 div {
   .domain {
+    top: 50px;
     background-color: blue !important;
-    margin-top: 100px;
   }
+
   .terms {
     background-color: green !important;
-    margin-top: 150px;
+    top: 100px;
   }
 
   .image {
     background-color: #008080 !important;
-    margin-top: 200px;
+    top: 150px;
   }
 
-  .file_type{
+  .file_type {
     background-color: yellow !important;
-    margin-top: 250px;
+    top: 200px;
+  }
+
+  .must_have {
+    background-color: orange !important;
+    top: 250px;
   }
 }

@@ -1,7 +1,7 @@
 jQuery ->
 
   $("#add-terms").click ->
-    $("<div class='ui-draggable terms' style='left: 215px; position: absolute;'><input id='search_terms' name='search[add_terms]' placeholder='Terms' size='10' type='text'></div>").draggable().appendTo( "#whole-page" );
+    $("<div class='ui-draggable terms' style='left: 215px; position: absolute;'><input id='search_terms' name='search[add_terms]' placeholder='More Terms' size='10' type='text'></div>").draggable().appendTo( "#whole-page" )
 
   $ ->
     $("div.ui-draggable").draggable ->
@@ -12,7 +12,7 @@ jQuery ->
         ui.helper.remove()  if ui.helper.removeMe
       revert: "valid"
 
-  $(document).on "dblclick", "input", ($e) ->
+  $(document).on "dblclick", ".expandable", ($e) ->
     parent = $(this).parent("div")
     if parent.hasClass("grown")
       parent.animate width: $(this).width()
@@ -22,7 +22,6 @@ jQuery ->
       parent.addClass("grown")
 
   $("#whole-page").droppable(
-    greedy: true
     activeClass: "ui-state-default"
     hoverClass: "ui-state-hover"
     accept: ":not(.ui-sortable-helper)"
@@ -36,14 +35,22 @@ jQuery ->
   )
 
   $("#box").droppable(
+    greedy: true
     activeClass: "ui-state-default"
     hoverClass: "ui-state-hover"
-    accept: ":not(.ui-sortable-helper)"
     drop: (event, ui) ->
       $(this).animate
         backgroundColor: "rgb( 0, 191, 255 )"
       $(this).find("p").html "Ready to Search!"
       $("#new_search").append($(ui.draggable))
+  )
+
+  $("#trash").droppable(
+    greedy: true
+    activeClass: "ui-state-default"
+    hoverClass: "ui-state-hover"
+    drop: (event, ui) ->
+      $(ui.draggable).remove()
   )
 
   $(document).on "click", "input", ($e) ->
