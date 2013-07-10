@@ -1,11 +1,13 @@
 div.ui-draggable {
-  position:  absolute;
-  left: 215px;
-  top: 0; /* set these so Chrome doesn't return 'auto' from getComputedStyle */
+  position: absolute;
+  left: 120px;
+  z-index: 1;
   width: 110px;
   background: rgba(255,255,255,0.66);
   border: 2px  solid #CCC;
-  border-radius: 20px; padding: 8px;
+  border-radius:30px;
+  -moz-border-radius:30px;
+  -webkit-border-radius:30px;
   text-align: center;
 
   input {
@@ -24,38 +26,38 @@ div.ui-draggable {
 }
 
 div {
-  .domain {
-    top: 50px;
-    background-color: blue !important;
-  }
-
   .terms {
     background-color: green !important;
-    top: 100px;
+    top: 160px;
+  }
+
+  .domain {
+    top: 220px;
+    background-color: blue !important;
   }
 
   .image {
     background-color: #008080 !important;
-    top: 150px;
+    top: 280px;
   }
 
   .file_type {
     background-color: yellow !important;
-    top: 200px;
+    top: 340px;
   }
 
   .must_have {
     background-color: grey !important;
-    top: 250px;
+    top: 400px;
   }
 
   .excluded_terms {
     background-color: red !important;
-    top: 300px;
+    top: 460px;
   }
 
   .exact_terms {
     background-color: purple !important;
-    top: 350px;
+    top: 520px;
   }
 }

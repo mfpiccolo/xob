@@ -1,0 +1,15 @@
+<% if @results %>
+  <table>
+    <tr>
+      <td>Title</td>
+      <td>Link</td>
+    </tr>
+
+    <% @results.items.each do |result| %>
+      <tr>
+        <td><%= result.title %></td>
+        <td><%= link_to result.link, result.link %></td>
+      </tr>
+    <% end %>
+  </table>
+<% end %>

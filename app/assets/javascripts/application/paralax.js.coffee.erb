@@ -1,0 +1,34 @@
+$(document).ready ->
+  $("a.link").click ->
+    $("#wrapper").scrollTo $(this).attr("href"), 800
+    setPosition $(this).attr("href"), "#cloud1", "0px", "400px", "800px", "1200px"
+    setPosition $(this).attr("href"), "#cloud2", "0px", "800px", "1600px", "2400px"
+    if $("div.ui-draggable").hasClass("up")
+      $("div.ui-draggable").animate
+        top: "-=1000px", 170
+      $("div.ui-draggable").removeClass("up")
+    else
+      $("div.ui-draggable").delay(800).animate
+        top: "+=1000px", 170
+
+    #add this
+    $("a.link").removeClass "selected"
+    $(this).addClass "selected"
+
+    #end add this
+    false
+
+  setPosition = (check, div, p1, p2, p3, p4) ->
+    if check is "#box1"
+      $(div).scrollTo p1, 800
+    else if check is "#box2"
+      $("div.ui-draggable").addClass("up")
+      $(div).scrollTo p2, 800
+    else if check is "#box3"
+      $("div.ui-draggable").addClass("up")
+      $(div).scrollTo p3, 800
+    else
+      $("div.ui-draggable").addClass("up")
+      $(div).scrollTo p4, 800
+
+

@@ -26,6 +26,7 @@ end
 
 gem 'jquery-rails'
 gem "jquery-ui-rails"
+gem "jquery-scrollto-rails"
 
 group :development do
   gem "better_errors"
