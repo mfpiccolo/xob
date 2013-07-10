@@ -30,7 +30,7 @@ jQuery ->
       $("#whole-page").append($(ui.draggable))
       if $("#new_search").has(".ui-draggable").length == 0
         $("#box").animate
-          backgroundColor: "rgb( 224, 255, 255  )"
+          backgroundColor: "rgba( 224, 255, 255, 0.3 )"
         $("#box").find("p").html "Drop stuff in here!"
   )
 
@@ -40,7 +40,7 @@ jQuery ->
     hoverClass: "ui-state-hover"
     drop: (event, ui) ->
       $(this).animate
-        backgroundColor: "rgb( 0, 191, 255 )"
+        backgroundColor: "rgba( 0, 191, 255, 0.3 )"
       $(this).find("p").html "Ready to Search!"
       $("#new_search").append($(ui.draggable))
   )
