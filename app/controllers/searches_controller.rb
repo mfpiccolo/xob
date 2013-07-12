@@ -6,7 +6,8 @@ class SearchesController < ApplicationController
 
   def create
     @search = Search.new(params[:search])
-    @results = @search.search_google
+    @results = @search.search
+    @service = params[:search][:service]
   end
 
   def index

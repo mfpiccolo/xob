@@ -4,19 +4,19 @@ class Search < ActiveRecord::Base
   include GoogleCustomSearchApi
 
   attr_accessible :domain, :terms, :image, :add_terms, :file_type, :must_have,
-    :excluded_terms, :exact_terms
+    :excluded_terms, :exact_terms, :service
 
   after_initialize :build_query_string
 
   attr_accessor :domain, :terms, :image, :add_terms, :file_type, :must_have,
-  :excluded_terms, :exact_terms, :query
+  :excluded_terms, :exact_terms, :service, :query
 
-  def search_google
-    results = GoogleCustomSearchApi.search(query)
-  end
-
-  def search_twitter
-
+  def search
+    if service == "google"
+      GoogleCustomSearchApi.search(query)
+    elsif service == "twitter"
+      Twitter.search(query)
+    end
   end
 
 
