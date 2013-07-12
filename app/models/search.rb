@@ -15,6 +15,10 @@ class Search < ActiveRecord::Base
     results = GoogleCustomSearchApi.search(query)
   end
 
+  def search_twitter
+
+  end
+
 
   private
 
