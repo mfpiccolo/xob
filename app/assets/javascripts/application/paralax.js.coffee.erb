@@ -12,15 +12,20 @@ $(document).ready ->
     false
 
   $("#home-link").click ->
-    $("div.ui-draggable").delay(800).animate
-      top: "+=1000px", 170
-    $("div.ui-draggable").removeClass("up")
+    unless $("div.ui-draggable").hasClass("down")
+      $("div.ui-draggable").delay(600).animate
+        top: "+=1000px", 320
+      $("div.ui-draggable").removeClass("up")
+      $("div.ui-draggable").addClass("down")
+
 
   $(".results").click ->
     unless $("div.ui-draggable").hasClass("up")
       $("div.ui-draggable").animate
-        top: "-=1000px", 170
+        top: "-=1000px", 320
       $("div.ui-draggable").addClass("up")
+      $("div.ui-draggable").removeClass("down")
+
 
 
   setPosition = (check, div, p1, p2, p3, p4) ->

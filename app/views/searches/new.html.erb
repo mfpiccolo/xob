@@ -1,18 +1,17 @@
 <div class="droppable" id="whole-page">
   <div id="header">
-    <h1 id="logo">Scrolling Clouds</h1>
+    <!-- <h1 id="logo">Scrolling Clouds</h1> -->
     <ul id="menu">
-      <li><a id="home-link" href="#box1" class="link">Home</a></li>
-      <li><a href="#box2" class="link results">Box 2</a></li>
-      <li><a href="#box3" class="link results">Box 3</a></li>
-      <li><a href="#box4" class="link results">Box 4</a></li>
+      <li><a id="home-link" href="#box1" class="link">Search Box</a></li>
+      <li><a href="#box2" class="link results">Google</a></li>
+      <li><a href="#box3" class="link results">Twitter</a></li>
+      <li><a href="#box4" class="link results">Bing</a></li>
     </ul>
   </div>
 
-  <div class="ui-draggable" id="google"><input class="expandable" name="search[service]" Value="google" size="10" type="text" READONLY></div>
+  <div class="ui-draggable" id="google"><input class="expandable" name="search[google]" Value="google" size="10" type="hidden" READONLY></div>
 
-  <div class="ui-draggable" id="twitter"><input class="expandable" name="search[service]" Value="twitter" size="10" type="text" READONLY></div>
-
+  <div class="ui-draggable" id="twitter"><input class="expandable" name="search[twitter]" Value="twitter" size="10" type="hidden" READONLY></div>
 
 
   <div class="ui-draggable terms"><input class="expandable" id="search_terms" name="search[terms]" placeholder="Terms" size="10" type="text"></div>
@@ -28,6 +27,13 @@
     <option value="xls">xls</option>
     <option value="txt">txt</option>
     <option value="rtf">rtf</option>
+  </select></div>
+
+  <div class="ui-draggable result_type"><select class="expandable" id="search_result_type" name="search[result_type]">
+    <option value="" disabled selected>Result Tpye</option>
+    <option value="popular">Popular</option>
+    <option value="recent">Recent</option>
+    <option value="mixed">Mixed</option>
   </select></div>
 
   <div class='ui-draggable must_have'><input class="expandable" name='search[must_have]' placeholder='With This or That'  size='10' type='text'></div>
@@ -46,14 +52,14 @@
       <li id="box2" class="box">
         <a name="box2"></a>
         <div class="content">
-          <div class="inner">
+          <div id="inner-box-2" class="inner">
           Box 2
           </div>
         </div>
       </li>
       <li id="box3" class="box">
         <a name="box3"></a>
-        <div class="content"><div class="inner">Box 3</div></div>
+        <div class="content"><div id="inner-box-3" class="inner">Box 3</div></div>
       </li>
       <li id="box4" class="box">
         <a name="box4"></a>
@@ -62,12 +68,12 @@
     </ul>
   </div>
 
-    <div id="cloud1" class="clouds">
+  <!-- <div id="cloud1" class="clouds">
     <div id="clouds-small"></div>
   </div>
   <div id="cloud2" class="clouds">
     <div id="clouds-big"></div>
-  </div>
+  </div> -->
 
   <%= form_for @search, remote: true do |f| %>
 

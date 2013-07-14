@@ -15,15 +15,15 @@ jQuery ->
   $(document).on "dblclick", ".expandable", ($e) ->
     parent = $(this).parent("div")
     if parent.hasClass("grown")
-      parent.animate width: $(this).width()
+      parent.animate
+        width: $(this).width() + 50
       parent.removeClass("grown")
     else
-      parent.animate width: $(this).width() + 50
+      parent.animate
+        width: $(this).width() + 100
       parent.addClass("grown")
 
   $("#whole-page").droppable(
-    activeClass: "ui-state-default"
-    hoverClass: "ui-state-hover"
     accept: ":not(.ui-sortable-helper)"
 
     drop: (event, ui) ->

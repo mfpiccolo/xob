@@ -17,4 +17,6 @@
 //= require scrollTo
 //= require application/drag
 //= require application/paralax
+//= require application/all
+//= require application/spin/spin
 

@@ -4,19 +4,19 @@ class Search < ActiveRecord::Base
   include GoogleCustomSearchApi
 
   attr_accessible :domain, :terms, :image, :add_terms, :file_type, :must_have,
-    :excluded_terms, :exact_terms, :service
+    :excluded_terms, :exact_terms, :google, :twitter, :result_type
 
-  after_initialize :build_query_string
+  after_initialize :set_services, :build_query_string
 
   attr_accessor :domain, :terms, :image, :add_terms, :file_type, :must_have,
-  :excluded_terms, :exact_terms, :service, :query
+    :excluded_terms, :exact_terms, :google, :twitter, :services, :result_type, :google_query,
+    :twitter_terms, :twitter_options
 
   def search
-    if service == "google"
-      GoogleCustomSearchApi.search(query)
-    elsif service == "twitter"
-      Twitter.search(query)
-    end
+    {
+      google_results: (GoogleCustomSearchApi.search(google_query) unless google_query.blank?),
+      twitter_results: (Twitter.search(twitter_terms, twitter_options) unless twitter_terms.blank?)
+    }
   end
 
 
@@ -30,21 +30,46 @@ class Search < ActiveRecord::Base
     @exact_terms = exact_terms.gsub(" ", "+") if @exact_terms.present?
   end
 
+  def set_services
+    if google && twitter
+      @services = [google, twitter]
+    elsif google
+      @services = [google]
+    elsif twitter
+      @services = [twitter]
+    end
+  end
+
   def build_query_string
     terms_to_query_string
-    @query = ""
-    query_hash = {
-      q: (("q=#{terms}" if terms) || ""),
-      hq: (("&hq=#{add_terms}" if add_terms) || ""),
-      siteSearch: (("&siteSearch=#{domain}" if domain) || ""),
-      searchType: (("&searchType=#{image}" if image) || ""),
-      fileType: (("&fileType=#{file_type}" if file_type) || ""),
-      orTerms: (("&orTerms=#{must_have}" if must_have) || ""),
-      excludeTerms: (("&excludeTerms=#{excluded_terms}" if excluded_terms) || ""),
-      exactTerms: (("&exactTerms=#{exact_terms}" if exact_terms) || "")
-    }
-    query_hash.each_pair do |k, v|
-      @query << v
+    @google_query = ""
+    @twitter_query = ""
+    unless services.blank?
+      @services.each do |service|
+        if service == "twitter"
+          @twitter_terms = ((terms if terms) || "")
+
+          @twitter_options = {
+            result_type: ((result_type if result_type) || "")
+          }
+
+        elsif service == "google"
+          query_hash = {
+            q: (("q=#{terms}" if terms) || ""),
+            hq: (("&hq=#{add_terms}" if add_terms) || ""),
+            siteSearch: (("&siteSearch=#{domain}" if domain) || ""),
+            searchType: (("&searchType=#{image}" if image) || ""),
+            fileType: (("&fileType=#{file_type}" if file_type) || ""),
+            orTerms: (("&orTerms=#{must_have}" if must_have) || ""),
+            excludeTerms: (("&excludeTerms=#{excluded_terms}" if excluded_terms) || ""),
+            exactTerms: (("&exactTerms=#{exact_terms}" if exact_terms) || "")
+          }
+
+          query_hash.each_pair do |k, v|
+            @google_query << v
+          end
+        end
+      end
     end
   end
 

@@ -3,21 +3,32 @@ div.ui-draggable {
   left: 120px;
   z-index: 1;
   width: 110px;
-  background: rgba(255,255,255,0.66);
-  border: 2px  solid #CCC;
+  background: rgb(56,58,60);
+  // border: 2px  solid #CCC;
   border-radius:30px;
   -moz-border-radius:30px;
   -webkit-border-radius:30px;
   text-align: center;
+  transition: box-shadow 0.4s ease-in-out;
+  -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
+  -moz-transition: -moz-box-shadow 0.4s ease-in-out;
+
+  &:active {
+    -webkit-box-shadow:0 0 15px rgb(45,130,94);
+    -moz-box-shadow: 0 0 15px rgb(45,130,94);
+    box-shadow:0 0 15px rgb(45,130,94);
+  }
 
   input {
     background-color: transparent;
     border: 0px solid;
     height: 20px;
-    width: 90px;
-    color: black;
+    width: 45px;
+    color: rgb(180,180,180);
     resize: none;
     text-align: center;
+    vertical-align: middle;
+    top: 50%;
 
     &:focus {
       outline:none;
@@ -28,44 +39,71 @@ div.ui-draggable {
 div {
   .terms {
     background-color: green !important;
-    top: 160px;
+    top: 14%;
+    left: 10%;
   }
 
   .domain {
-    top: 220px;
+    top: 14%;
+    left: 20%;
     background-color: blue !important;
   }
 
   .image {
     background-color: #008080 !important;
-    top: 280px;
+    top: 14%;
+    left: 30%;
   }
 
   .file_type {
     background-color: yellow !important;
-    top: 340px;
+    top: 14%;
+    left: 40%;
   }
 
   .must_have {
     background-color: grey !important;
-    top: 400px;
+    top: 14%;
+    left: 50%;
   }
 
   .excluded_terms {
     background-color: red !important;
-    top: 460px;
+    top: 14%;
+    left: 60%;
   }
 
   .exact_terms {
     background-color: purple !important;
-    top: 520px;
+    top: 14%;
+    left: 70%;
   }
 
   #twitter {
-
+    top: 3%;
+    left: 50%;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 29px;
+      background:url("twitter.png") center bottom no-repeat !important;
   }
 
   #google {
+    top: 3%;
+    left: 60%;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 29px;
+    background:url("google.png") center bottom no-repeat !important;
+  }
 
+  .result_type {
+    background-color: pink !important;
+    top: 14%;
+    left: 80%;
   }
 }
