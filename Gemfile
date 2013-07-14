@@ -25,11 +25,14 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem "jquery-ui-rails"
 
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
+  gem "pry-debugger"
   gem "meta_request"
+  gem "quiet_assets"
 end
 
 # To use ActiveModel has_secure_password

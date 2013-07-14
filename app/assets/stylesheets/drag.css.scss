@@ -1,22 +1,51 @@
-div#drag {
-    position:  absolute;
-    left: 0;
-    top: 0; /* set these so Chrome doesn't return 'auto' from getComputedStyle */
-    width: 200px;
-    background: rgba(255,255,255,0.66);
-    border: 2px  solid #CCC;
-    border-radius: 20px; padding: 8px;
+div.ui-draggable {
+  position:  absolute;
+  left: 215px;
+  top: 0; /* set these so Chrome doesn't return 'auto' from getComputedStyle */
+  width: 90px;
+  background: rgba(255,255,255,0.66);
+  border: 2px  solid #CCC;
+  border-radius: 20px; padding: 8px;
+  text-align: center;
+
+  input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 70px;
+    color: black;
+    resize: none;
     text-align: center;
+
+    &:focus {
+      outline:none;
+    }
+  }
 }
 
-input#see-through {
-  background-color:transparent;
-  border: 0px solid;
-  height: 20px;
-  width: 70px;
-  color: black;
+div {
+  .domain {
+    top: 50px;
+    background-color: blue !important;
+  }
 
-  &:focus {
-    outline:none;
+  .terms {
+    background-color: green !important;
+    top: 100px;
+  }
+
+  .image {
+    background-color: #008080 !important;
+    top: 150px;
+  }
+
+  .file_type {
+    background-color: yellow !important;
+    top: 200px;
+  }
+
+  .must_have {
+    background-color: orange !important;
+    top: 250px;
   }
 }
