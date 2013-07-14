@@ -1,0 +1,35 @@
+<div class="droppable" id="whole-page">
+  <div class="droppable" id="box">
+
+    <div class='ui-draggable terms'><input class="expandable" id='search_terms' name='search[terms]' placeholder='Terms' size='10' type='text'></div>
+
+    <div class='ui-draggable domain'><input class="expandable" name='search[domain]' placeholder='Domain' size='10' type='text'></div>
+
+    <div class='ui-draggable image'><input class="expandable" name='search[image]' Value='image' size='10' type='text' READONLY></div>
+
+    <div class="ui-draggable file_type"><select class="expandable" id="search_file_type" name="search[file_type]">
+      <option value="" disabled selected>File Type</option>
+      <option value="pdf">pdf</option>
+      <option value="doc">doc</option>
+      <option value="xls">xls</option>
+      <option value="txt">txt</option>
+      <option value="rtf">rtf</option>
+    </select></div>
+
+    <div class='ui-draggable must_have'><input class="expandable" name='search[must_have]' placeholder='With This or That'  size='10' type='text'></div>
+
+    <div class='ui-draggable excluded_terms'><input class="expandable" name='search[excluded_terms]' placeholder="Shouldnt Have"  size='10' type='text'></div>
+
+    <div class='ui-draggable exact_terms'><input class="expandable" name='search[exact_terms]' placeholder="Exact"  size='10' type='text'></div>
+
+    <p>Drop stuff in here!</p>
+
+  </div>
+
+  <div class="droppable" id="trash">Trash</div>
+
+  <a id="add-terms" class="button" style="left: 215px; position: absolute;">Add Terms</a>
+
+
+
+</div>

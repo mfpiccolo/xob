@@ -4,7 +4,7 @@
     <td>Link</td>
   </tr>
 
-  <% @results.each do |result| %>
+  <% @results.items.each do |result| %>
     <tr>
       <td><%= result.title %></td>
       <td><%= link_to result.link, result.link %></td>
@@ -14,3 +14,5 @@
 
 <br /><br />
 <%= @search.query %>
+
+<%= @results %>
