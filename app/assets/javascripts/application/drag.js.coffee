@@ -15,22 +15,22 @@ jQuery ->
   $(document).on "dblclick", ".expandable", ($e) ->
     parent = $(this).parent("div")
     if parent.hasClass("grown")
-      parent.animate width: $(this).width()
+      parent.animate
+        width: $(this).width() + 50
       parent.removeClass("grown")
     else
-      parent.animate width: $(this).width() + 50
+      parent.animate
+        width: $(this).width() + 100
       parent.addClass("grown")
 
   $("#whole-page").droppable(
-    activeClass: "ui-state-default"
-    hoverClass: "ui-state-hover"
     accept: ":not(.ui-sortable-helper)"
 
     drop: (event, ui) ->
       $("#whole-page").append($(ui.draggable))
       if $("#new_search").has(".ui-draggable").length == 0
         $("#box").animate
-          backgroundColor: "rgb( 224, 255, 255  )"
+          backgroundColor: "rgba( 224, 255, 255, 0.3 )"
         $("#box").find("p").html "Drop stuff in here!"
   )
 
@@ -40,7 +40,7 @@ jQuery ->
     hoverClass: "ui-state-hover"
     drop: (event, ui) ->
       $(this).animate
-        backgroundColor: "rgb( 0, 191, 255 )"
+        backgroundColor: "rgba( 0, 191, 255, 0.3 )"
       $(this).find("p").html "Ready to Search!"
       $("#new_search").append($(ui.draggable))
   )

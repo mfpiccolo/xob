@@ -1,0 +1,15 @@
+<% if @results[:twitter_results] %>
+  <table>
+    <tr>
+      <td>tweet</td>
+    </tr>
+
+    <% @results[:twitter_results].results.each do |result| %>
+      <tr>
+        <td><%= result.text %></td>
+      </tr>
+    <% end %>
+  </table>
+<% else %>
+  <p>Sorry, no results from Twitter</p>
+<% end %>

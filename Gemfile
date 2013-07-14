@@ -12,6 +12,8 @@ gem "httparty"
 gem "addressable"
 gem "thin"
 
+gem "twitter"
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -26,6 +28,7 @@ end
 
 gem 'jquery-rails'
 gem "jquery-ui-rails"
+gem "jquery-scrollto-rails"
 
 group :development do
   gem "better_errors"
@@ -33,6 +36,23 @@ group :development do
   gem "pry-debugger"
   gem "meta_request"
   gem "quiet_assets"
+  gem "awesome_print"
+  gem "guard"
+  gem "guard-minitest"
+  gem "simplecov"
+  gem "terminal-notifier-guard"
+end
+
+group :test do
+  gem "capybara"
+  gem "minitest"
+  gem "minitest-matchers"
+  gem "minitest-capybara"
+  gem "capybara_minitest_spec"
+  gem "minitest-rails"
+  gem "minitest-rails-capybara"
+  gem 'factory_girl_rails'
+  gem "mocha"
 end
 
 # To use ActiveModel has_secure_password

@@ -6,11 +6,12 @@ class SearchesController < ApplicationController
 
   def create
     @search = Search.new(params[:search])
-    @results = @search.search_google.items
-    render :index, collection: @results, object: @search
+    @results = @search.search
+    @service = params[:search][:service]
   end
 
   def index
+    # render partial: 'search_results', formats: :js, object: @results
   end
 
 end
