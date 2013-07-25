@@ -2,25 +2,37 @@
   <div id="header">
     <!-- <h1 id="logo">Scrolling Clouds</h1> -->
     <ul id="menu">
-      <li><a id="home-link" href="#box1" class="link">Search Box</a></li>
-      <li><a href="#box2" class="link results">Google</a></li>
-      <li><a href="#box3" class="link results">Twitter</a></li>
-      <li><a href="#box4" class="link results">Bing</a></li>
+      <li><a id="home-link" href="#box1" class="link home">SEARCH BOX</a></li>
+      <li><a href="#box2" class="link results google">GOOGLE</a></li>
+      <li><a href="#box3" class="link results twitter">TWITTER</a></li>
+      <li><a href="#box4" class="link results twitter">BING</a></li>
+      <div id="nav-bar"><div id="slide"></div></div>
     </ul>
   </div>
 
-  <div class="ui-draggable" id="google"><input class="expandable" name="search[google]" Value="google" size="10" type="hidden" READONLY></div>
+<!--   <svg class="ui-draggable">
+    <polygon points="75,50 100,50 115,75 100,100 75,100 57,75" style="fill:#3488c9;"/>
+  </svg> -->
 
-  <div class="ui-draggable" id="twitter"><input class="expandable" name="search[twitter]" Value="twitter" size="10" type="hidden" READONLY></div>
+<!--   <div class="hexagon ui-draggable">
+    <div><input class="expandable" name="search[google]" Value="google" size="10" type="hidden" READONLY></div>
+    <div>2</div>
+    <div>3</div>
+  </div> -->
 
 
-  <div class="ui-draggable terms"><input class="expandable" id="search_terms" name="search[terms]" placeholder="Terms" size="10" type="text"></div>
+  <div class="ui-draggable down" id="google"><input class="expandable" name="search[google]" Value="google" size="10" type="hidden" READONLY></div>
 
-  <div class="ui-draggable domain"><input class="expandable" name="search[domain]" placeholder="Domain" size="10" type="text"></div>
+  <div class="ui-draggable down" id="twitter"><input class="expandable" name="search[twitter]" Value="twitter" size="10" type="hidden" READONLY></div>
 
-  <div class="ui-draggable image"><input class="expandable" name="search[image]" Value="image" size="10" type="text" READONLY></div>
 
-  <div class="ui-draggable file_type"><select class="expandable" id="search_file_type" name="search[file_type]">
+  <div class="ui-draggable terms down"><input class="expandable" id="search_terms" name="search[terms]" placeholder="Terms" size="10" type="text"></div>
+
+  <div class="ui-draggable domain down"><input class="expandable" name="search[domain]" placeholder="Domain" size="10" type="text"></div>
+
+  <div class="ui-draggable image down"><input class="expandable" name="search[image]" Value="image" size="10" type="text" READONLY></div>
+
+  <div class="ui-draggable file_type down"><select class="expandable" id="search_file_type" name="search[file_type]">
     <option value="" disabled selected>File Type</option>
     <option value="pdf">pdf</option>
     <option value="doc">doc</option>
@@ -29,25 +41,35 @@
     <option value="rtf">rtf</option>
   </select></div>
 
-  <div class="ui-draggable result_type"><select class="expandable" id="search_result_type" name="search[result_type]">
+  <div class="ui-draggable result_type down"><select class="expandable" id="search_result_type" name="search[result_type]">
     <option value="" disabled selected>Result Tpye</option>
     <option value="popular">Popular</option>
     <option value="recent">Recent</option>
     <option value="mixed">Mixed</option>
   </select></div>
 
-  <div class='ui-draggable must_have'><input class="expandable" name='search[must_have]' placeholder='With This or That'  size='10' type='text'></div>
+  <div class='ui-draggable must_have down'><input class="expandable" name='search[must_have]' placeholder='With This or That'  size='10' type='text'></div>
 
-  <div class='ui-draggable excluded_terms'><input class="expandable" name='search[excluded_terms]' placeholder="Shouldnt Have"  size='10' type='text'></div>
+  <div class='ui-draggable excluded_terms down'><input class="expandable" name='search[excluded_terms]' placeholder="Shouldnt Have"  size='10' type='text'></div>
 
-  <div class='ui-draggable exact_terms'><input class="expandable" name='search[exact_terms]' placeholder="Exact"  size='10' type='text'></div>
+  <div class='ui-draggable exact_terms down'><input class="expandable" name='search[exact_terms]' placeholder="Exact"  size='10' type='text'></div>
 
   <div id="wrapper">
 
     <ul id="mask">
       <li id="box1" class="box">
+        <div id="google-drags">
+        </div>
+        <div id="twitter-drags">
+        </div>
         <a name="box1"></a>
-        <div class="content"><div class="inner droppable" id="box"><p>Home Box</p></div></div>
+        <div class="content" id="search-box">
+          <div class="inner droppable" id="box">
+            <p>
+              Home Box
+            </p>
+          </div>
+        </div>
       </li>
       <li id="box2" class="box">
         <a name="box2"></a>
@@ -68,7 +90,7 @@
     </ul>
   </div>
 
-  <!-- <div id="cloud1" class="clouds">
+<!--   <div id="cloud1" class="clouds">
     <div id="clouds-small"></div>
   </div>
   <div id="cloud2" class="clouds">

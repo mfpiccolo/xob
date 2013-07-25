@@ -2,13 +2,13 @@ div.ui-draggable {
   position: absolute;
   left: 120px;
   z-index: 1;
-  width: 110px;
-  background: rgb(56,58,60);
-  // border: 2px  solid #CCC;
-  border-radius:30px;
-  -moz-border-radius:30px;
-  -webkit-border-radius:30px;
-  text-align: center;
+  height: 40px;
+  width: 200px;
+  background: rgb(32,168,108);
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  text-align: left;
   transition: box-shadow 0.4s ease-in-out;
   -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
   -moz-transition: -moz-box-shadow 0.4s ease-in-out;
@@ -20,68 +20,66 @@ div.ui-draggable {
   }
 
   input {
-    background-color: transparent;
-    border: 0px solid;
-    height: 20px;
-    width: 45px;
-    color: rgb(180,180,180);
-    resize: none;
-    text-align: center;
-    vertical-align: middle;
-    top: 50%;
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 20px;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+    margin-left: 5px;
+    min-width: 100px;
+  }
 
-    &:focus {
-      outline:none;
-    }
+  &:focus {
+      border-color: #339933;
   }
 }
 
 div {
   .terms {
-    background-color: green !important;
-    top: 14%;
+    background-color: rgb(50,194,213) !important;
+    top: 66%;
     left: 10%;
   }
 
   .domain {
-    top: 14%;
-    left: 20%;
-    background-color: blue !important;
+    top: 30%;
+    left: 10%;
   }
 
   .image {
-    background-color: #008080 !important;
-    top: 14%;
-    left: 30%;
+    top: 36%;
+    left: 10%;
   }
 
   .file_type {
-    background-color: yellow !important;
-    top: 14%;
-    left: 40%;
+    top: 42%;
+    left: 10%;
   }
 
   .must_have {
-    background-color: grey !important;
-    top: 14%;
-    left: 50%;
+    top: 48%;
+    left: 10%;
   }
 
   .excluded_terms {
-    background-color: red !important;
-    top: 14%;
-    left: 60%;
+    top: 54%;
+    left: 10%;
   }
 
   .exact_terms {
-    background-color: purple !important;
-    top: 14%;
-    left: 70%;
+    top: 60%;
+    left: 10%;
   }
 
   #twitter {
-    top: 3%;
-    left: 50%;
+    top: 75%;
+    left: 15%;
     width: 56px;
     height: 56px;
     border-radius: 28px;
@@ -91,8 +89,8 @@ div {
   }
 
   #google {
-    top: 3%;
-    left: 60%;
+    top: 22%;
+    left: 15%;
     width: 56px;
     height: 56px;
     border-radius: 28px;
@@ -103,7 +101,14 @@ div {
 
   .result_type {
     background-color: pink !important;
-    top: 14%;
-    left: 80%;
+    top: 72%;
+    left: 10%;
   }
+}
+
+.handle {
+  position: absolute;
+  border: 0.1em solid black;
+  width: 1em;
+  height: 1em;
 }

@@ -12,6 +12,28 @@ jQuery ->
         ui.helper.remove()  if ui.helper.removeMe
       revert: "valid"
 
+    $("#whole-page").droppable(
+      accept: ":not(.ui-sortable-helper)"
+
+      drop: (event, ui) ->
+        $("#whole-page").append($(ui.draggable))
+        if $("#new_search").has(".ui-draggable").length == 0
+          $("#box").animate
+            backgroundColor: "rgba( 224, 255, 255, 0.3 )"
+          $("#box").find("p").html "Drop stuff in here!"
+    )
+
+    $("#box").droppable(
+      greedy: true
+      activeClass: "ui-state-default"
+      hoverClass: "ui-state-hover"
+      drop: (event, ui) ->
+        $(this).animate
+          backgroundColor: "rgba( 0, 191, 255, 0.3 )"
+        $(this).find("p").html "Ready to Search!"
+        $("#new_search").append($(ui.draggable))
+    )
+
   $(document).on "dblclick", ".expandable", ($e) ->
     parent = $(this).parent("div")
     if parent.hasClass("grown")
@@ -23,28 +45,6 @@ jQuery ->
         width: $(this).width() + 100
       parent.addClass("grown")
 
-  $("#whole-page").droppable(
-    accept: ":not(.ui-sortable-helper)"
-
-    drop: (event, ui) ->
-      $("#whole-page").append($(ui.draggable))
-      if $("#new_search").has(".ui-draggable").length == 0
-        $("#box").animate
-          backgroundColor: "rgba( 224, 255, 255, 0.3 )"
-        $("#box").find("p").html "Drop stuff in here!"
-  )
-
-  $("#box").droppable(
-    greedy: true
-    activeClass: "ui-state-default"
-    hoverClass: "ui-state-hover"
-    drop: (event, ui) ->
-      $(this).animate
-        backgroundColor: "rgba( 0, 191, 255, 0.3 )"
-      $(this).find("p").html "Ready to Search!"
-      $("#new_search").append($(ui.draggable))
-  )
-
   $("#trash").droppable(
     greedy: true
     activeClass: "ui-state-default"
@@ -55,17 +55,17 @@ jQuery ->
 
   $(document).on "click", "input", ($e) ->
     $(this).on "keyup", ->
-      oneLetterWidth = 6
-      minCharacters = 10
+      oneLetterWidth = 10
+      minCharacters = 13
       dragbox = $(this).parent()
       len = $(this).val().length
       if len > minCharacters
 
         # increase width
-        dragbox.width len * oneLetterWidth
+        dragbox.width len * oneLetterWidth + 80
         $(this).width len * oneLetterWidth
       else
 
         # restore minimal width;
-        dragbox.width 70
-        $(this).width 70
+        dragbox.width 200
+        $(this).width 120

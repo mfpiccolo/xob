@@ -1,6 +1,6 @@
 /*** Style Definitions ***/
 html {
-  background-color: rgb(63,70,73);
+  background-color: rgb(64,70,73);
   font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -91,6 +91,25 @@ h1#logo {
 
 /*** Body Content ***/
 
+.link {
+  font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro',
+    Helvetica, Arial, sans-serif;
+}
+
+#nav-bar {
+  background-color: black;
+  height: 15px;
+  width: 350px;
+  margin-top: 40px;
+
+  div#slide {
+    background: rgb(32,168,108);
+    height: 15px;
+    width: 100px;
+    position: absolute;
+  }
+}
+
 ul {
 list-style-image: none;
 list-style-type: none;
@@ -106,6 +125,8 @@ list-style-type: none;
 }
 
 #mask {
+  -webkit-padding-start: 0;
+  -webkit-margin-start: 0;
   width:400%;
   height:100%;
 }
@@ -117,27 +138,60 @@ list-style-type: none;
 }
 
 .content {
-  width:960px;
+  float:left;
+  width:740px;
   height:400px;
-  top:20%;
   margin: 0 auto;
-  position:relative;
-  background:rgba(255,255,255, 0.3);
+  position: absolute;
+  background:rgba(255,255,255, 0);
   border-radius:35px;
   -moz-border-radius:35px;
   -webkit-border-radius:35px;
 }
 
+#search-box {
+  top: 20%;
+  left: 33%;
+}
+
 .inner {
-  width:920px;
+  width:700px;
   height:360px;
-  background:rgba(56, 58, 60, 0.3);
+  background:rgba(34, 92, 135, .7);
   border-radius:30px;
   -moz-border-radius:30px;
   -webkit-border-radius:30px;
-  margin:5px;
   padding:15px;
+  margin: 0 auto;
   top:5px;
+  position:relative;
+}
+
+#google-drags {
+  // float:left;
+  width:20%;
+  height:40%;
+  background:rgba(55, 103, 86, 0.5);
+  border-radius:30px;
+  margin: 0 25px 0 50px;
+  -moz-border-radius:30px;
+  -webkit-border-radius:30px;
+  padding:15px;
+  top:20%;
+  position:relative;
+}
+
+#twitter-drags {
+  float:left;
+  width:20%;
+  height:15%;
+  background:rgba(57, 105, 125, 0.5);
+  border-radius:30px;
+  margin: -40px 25px 0 50px;
+  -moz-border-radius:30px;
+  -webkit-border-radius:30px;
+  padding:15px;
+  top:20%;
   position:relative;
 }
 

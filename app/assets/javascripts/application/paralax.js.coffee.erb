@@ -11,6 +11,14 @@ $(document).ready ->
     #end add this
     false
 
+  $("a.link").click ->
+    if $(this).hasClass "home"
+      $("#slide").animate
+        left: "0px", "slow"
+    else if $(this).hasClass "google"
+      $("#slide").animate
+        left:"200", "slow"
+
   $("#home-link").click ->
     unless $("div.ui-draggable").hasClass("down")
       $("div.ui-draggable").delay(600).animate
@@ -25,8 +33,6 @@ $(document).ready ->
         top: "-=1000px", 320
       $("div.ui-draggable").addClass("up")
       $("div.ui-draggable").removeClass("down")
-
-
 
   setPosition = (check, div, p1, p2, p3, p4) ->
     if check is "#box1"
