@@ -19,7 +19,7 @@ jQuery ->
         $("#whole-page").append($(ui.draggable))
         if $("#new_search").has(".ui-draggable").length == 0
           $("#box").animate
-            backgroundColor: "rgba( 224, 255, 255, 0.3 )"
+            backgroundColor: "rgba( 250, 250, 250, 1 )"
           $("#box").find("p").html "Drop stuff in here!"
     )
 
@@ -69,3 +69,11 @@ jQuery ->
         # restore minimal width;
         dragbox.width 200
         $(this).width 120
+
+  $.ajaxPrefilter (options, _, jqXHR) ->
+    # alert "something"
+    jqXHR.complete ->
+      $(".results").addClass "glow-alert"
+
+  $(".results").click ->
+    $(this).removeClass "glow-alert"

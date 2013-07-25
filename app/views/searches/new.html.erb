@@ -2,10 +2,10 @@
   <div id="header">
     <!-- <h1 id="logo">Scrolling Clouds</h1> -->
     <ul id="menu">
-      <li><a id="home-link" href="#box1" class="link home">SEARCH BOX</a></li>
+      <li><a id="home-link" href="#box1" class="link home selected">SEARCH</a></li>
       <li><a href="#box2" class="link results google">GOOGLE</a></li>
       <li><a href="#box3" class="link results twitter">TWITTER</a></li>
-      <li><a href="#box4" class="link results twitter">BING</a></li>
+      <li><a href="#box4" class="link results bing">BING</a></li>
       <div id="nav-bar"><div id="slide"></div></div>
     </ul>
   </div>
@@ -62,6 +62,8 @@
         </div>
         <div id="twitter-drags">
         </div>
+        <div id="trash">
+        </div>
         <a name="box1"></a>
         <div class="content" id="search-box">
           <div class="inner droppable" id="box">
@@ -100,7 +102,7 @@
   <%= form_for @search, remote: true do |f| %>
 
 
-    <%= f.submit %>
+    <%= f.submit id: "submit-button", value: "Search" %>
 
   <% end %>
 
