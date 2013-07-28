@@ -14,16 +14,16 @@ $(document).ready ->
   $("a.link").click ->
     if $(this).hasClass "home"
       $("#slide").animate
-        left: "40", "slow"
+        left: "0", "slow"
     else if $(this).hasClass "google"
       $("#slide").animate
-        left: "140", "slow"
+        left: "100", "slow"
     else if $(this).hasClass "twitter"
       $("#slide").animate
-        left: "240", "slow"
+        left: "200", "slow"
     else if $(this).hasClass "bing"
       $("#slide").animate
-        left: "340", "slow"
+        left: "300", "slow"
 
   $("#home-link").click ->
     unless $("div.ui-draggable").hasClass("down")

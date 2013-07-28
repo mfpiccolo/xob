@@ -1,22 +1,17 @@
 jQuery ->
 
-  $("#add-terms").click ->
-    $("<div class='ui-draggable terms' style='left: 215px; position: absolute;'><input id='search_terms' name='search[add_terms]' placeholder='More Terms' size='10' type='text'></div>").draggable().appendTo( "#whole-page" )
-
   $ ->
-    $("div.ui-draggable").draggable ->
-      start: (event, ui) ->
-        ui.helper.removeMe = true
 
-      stop: (event, ui) ->
-        ui.helper.remove()  if ui.helper.removeMe
-      revert: "valid"
+    $(".cloner").draggable
+      helper: "clone"
 
     $("#whole-page").droppable(
       accept: ":not(.ui-sortable-helper)"
 
       drop: (event, ui) ->
-        $("#whole-page").append($(ui.draggable))
+        offset = ui.helper.offset()
+        cloned = ui.helper.clone().removeClass("cloner")
+        cloned.draggable().appendTo(this).offset offset
         if $("#new_search").has(".ui-draggable").length == 0
           $("#box").animate
             backgroundColor: "rgba( 250, 250, 250, 1 )"
@@ -28,6 +23,9 @@ jQuery ->
       activeClass: "ui-state-default"
       hoverClass: "ui-state-hover"
       drop: (event, ui) ->
+        offset = ui.helper.offset()
+        cloned = ui.helper.clone().removeClass("cloner")
+        cloned.draggable().appendTo(this).offset offset
         $(this).animate
           backgroundColor: "rgba( 0, 191, 255, 0.3 )"
         $(this).find("p").html "Ready to Search!"
@@ -52,6 +50,16 @@ jQuery ->
     drop: (event, ui) ->
       $(ui.draggable).remove()
   )
+
+  # nextElement = (element) ->
+  #   # offset = element.offset()
+  #   newElement = element.clone()
+  #   newElement.removeClass("ui-draggable-dragging")
+  #   newElement.draggable().appendTo("#whole-page")
+
+  # $(document).on "mousedown", ".cloner", ($e) ->
+  #   nextElement $(this)
+  #   $(this).removeClass("cloner")
 
   $(document).on "click", "input", ($e) ->
     $(this).on "keyup", ->
