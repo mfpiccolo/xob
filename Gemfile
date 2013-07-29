@@ -15,6 +15,7 @@ gem "thin"
 gem "twitter"
 
 gem 'coffee-rails', '~> 3.2.1'
+gem "devise"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -51,9 +52,11 @@ group :test do
   gem "minitest-capybara"
   gem "capybara_minitest_spec"
   gem "minitest-rails"
+  # gem "minitest-rails-shoulda"
   gem "minitest-rails-capybara"
   gem 'factory_girl_rails'
   gem "mocha"
+  gem "thincloud-test"
 end
 
 # To use ActiveModel has_secure_password

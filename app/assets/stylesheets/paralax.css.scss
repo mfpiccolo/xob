@@ -39,6 +39,14 @@ h1#logo {
   left:10px;
 }
 
+#login-links {
+  float:left;
+  padding-left: 0;
+  position:relative;
+  margin-right: 10px;
+  z-index:11;
+}
+
 #menu {
   float:right;
   padding-left: 0;
@@ -91,7 +99,48 @@ h1#logo {
 
 /*** Body Content ***/
 
+#top-bar {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background-color: grey;
+  display: inline;
+  float: left;
+  z-index: 11;
+
+  h4 {
+    margin: 0 10px 0 10px;
+    display: inline;
+    float: left;
+    z-index: 11;
+  }
+
+  form {
+    z-index: 11;
+    display: inline;
+    float: left;
+
+    div {
+      display: inline;
+      float: left;
+
+      label {
+        display: inline;
+        float: left;
+      }
+
+      input {
+        width: 75px;
+        display: inline;
+        float: left;
+      }
+    }
+  }
+}
+
 #nav-bar {
+  margin-left:auto;
+  margin-right:0px;
   background-color: black;
   height: 10px;
   width: 400px;

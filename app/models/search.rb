@@ -3,6 +3,8 @@ require "./lib/google_custom_search_api.rb"
 class Search < ActiveRecord::Base
   include GoogleCustomSearchApi
 
+  belongs_to :user
+
   attr_accessible :domain, :terms, :image, :add_terms, :file_type, :must_have,
     :excluded_terms, :exact_terms, :google, :twitter, :result_type
 
