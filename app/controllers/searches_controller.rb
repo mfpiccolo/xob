@@ -6,7 +6,7 @@ class SearchesController < ApplicationController
   end
 
   def create
-    @search = Search.new(params[:search])
+    @search = Search.new(search_params)
     @results = @search.search
     @service = params[:search][:service]
   end
@@ -24,6 +24,14 @@ class SearchesController < ApplicationController
     respond_to do |format|
       format.json { render :json => "test" }
     end
+  end
+
+  private
+
+  def search_params
+    params.require(:search).permit(:domain, :terms, :image, :add_terms,
+      :file_type, :must_have, :excluded_terms, :exact_terms, :google,
+      :twitter, :result_type, :draggables)
   end
 
 end

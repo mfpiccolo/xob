@@ -7,7 +7,5 @@ class User < ActiveRecord::Base
          # :token_authenticatable, :confirmable, :lockable,
          # :timeoutable, :omniauthable
 
-  attr_accessible :email, :password, :password_confirmation, :remember_me
-
   has_many :searches
 end

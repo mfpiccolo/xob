@@ -5,9 +5,6 @@ class Search < ActiveRecord::Base
 
   belongs_to :user
 
-  attr_accessible :domain, :terms, :image, :add_terms, :file_type, :must_have,
-    :excluded_terms, :exact_terms, :google, :twitter, :result_type, :draggables
-
   after_initialize :set_services, :build_query_string
 
   attr_accessor :domain, :terms, :image, :add_terms, :file_type, :must_have,
