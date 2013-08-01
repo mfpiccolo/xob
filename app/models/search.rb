@@ -6,7 +6,7 @@ class Search < ActiveRecord::Base
   belongs_to :user
 
   attr_accessible :domain, :terms, :image, :add_terms, :file_type, :must_have,
-    :excluded_terms, :exact_terms, :google, :twitter, :result_type
+    :excluded_terms, :exact_terms, :google, :twitter, :result_type, :draggables
 
   after_initialize :set_services, :build_query_string
 
@@ -19,6 +19,11 @@ class Search < ActiveRecord::Base
       google_results: (GoogleCustomSearchApi.search(google_query) unless google_query.blank?),
       twitter_results: (Twitter.search(twitter_terms, twitter_options) unless twitter_terms.blank?)
     }
+  end
+
+  def save_search(json)
+    self.draggables = json
+    save!
   end
 
 
