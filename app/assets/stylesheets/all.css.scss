@@ -52,6 +52,39 @@ input#submit-button {
   }
 }
 
+#save-search {
+  top: 65%;
+  left: 63%;
+  cursor: pointer;
+  position: absolute;
+  background:none;
+  border: none;
+  color:rgb(120,173,221);
+  text-decoration:none;
+  font-size: 22px;
+  padding:10px;
+  margin: 0 2.5px 0 2.5px;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+
+  &:hover {
+    background:none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    text-decoration:none;
+    font-size: 22px;
+    padding:10px;
+    margin: 0 2.5px 0 2.5px;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+  }
+}
+
+
+
 div#whole-page {
   width:      100%;
   height:     100%;
