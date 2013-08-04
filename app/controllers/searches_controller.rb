@@ -1,7 +1,7 @@
 class SearchesController < ApplicationController
 
   def new
-     @search = Search.new
+    @search = Search.new
     @user = current_user || User.new
   end
 

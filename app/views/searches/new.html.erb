@@ -1,127 +1,98 @@
+<div class="menuholder">
+  <ul class="menu slide">
+    <li><a href="http://www.script-tutorials.com/" class="red">Home</a></li>
+    <li><a href="http://www.script-tutorials.com/" class="orange">Login/Sign Up</a>
+      <div class="subs">
+        <% if user_signed_in? %>
+          <dl>
+            <dt>Sign In</dt>
+            Logged in as <strong><%= current_user.email %></strong>.
+            <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %>
+            <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+          </dl>
+        <% else %>
+          <dl>
+            <dt>Sign In</dt>
+            <%= form_for(@user, :url => session_path(@user)) do |f| %>
+              <%= f.label :email %>
+              <%= f.email_field :email, :autofocus => true %>
+
+              <%= f.label :password %>
+              <%= f.password_field :password %>
+
+              <%= f.submit "Sign in" %>
+            <% end %>
+
+          </dl>
+          <dl>
+            <dt>Sign Up</dt>
+            <%= form_for(@user, :url => registration_path(@user)) do |f| %>
+
+              <div><%= f.label :email %>
+              <%= f.email_field :email, :autofocus => true %></div>
+
+              <div><%= f.label :password %>
+              <%= f.password_field :password %></div>
+
+              <div><%= f.label :password_confirmation %>
+              <%= f.password_field :password_confirmation %></div>
+
+              <div><%= f.submit "Sign up" %></div>
+            <% end %>
+          </dl>
+        <% end %>
+        <dl>
+          <dt>Links #3</dt>
+          <dd><a href="http://www.script-tutorials.com/category/html-css/">HTML / CSS</a></dd>
+          <dd><a href="http://www.script-tutorials.com/category/jquery/">JS / jQuery</a></dd>
+          <dd><a href="http://www.script-tutorials.com/category/php/">PHP</a></dd>
+        </dl>
+        <dl>
+          <dt>Links #4</dt>
+          <dd><a href="http://www.script-tutorials.com/category/mysql/">MySQL</a></dd>
+          <dd><a href="http://www.script-tutorials.com/category/xslt/">XSLT</a></dd>
+          <dd><a href="http://www.script-tutorials.com/category/ajax/">Ajax</a></dd>
+        </dl>
+      </div>
+    </li>
+    <li><a href="http://www.script-tutorials.com/category/resources/" class="yellow">Saved Searches</a>
+        <div class="subs">
+      <dl>
+        <dt>Links #5</dt>
+        <% @user.searches.each do |search| %>
+          <dd><%= link_to search %></dd>
+        <% end %>
+      </dl>
+      <dl>
+        <dt>Links #6</dt>
+        <dd><a href="http://www.script-tutorials.com/category/xslt/">XSLT</a></dd>
+        <dd><a href="http://www.script-tutorials.com/category/ajax/">Ajax</a></dd>
+      </dl>
+      <dl>
+        <dt>Links #7</dt>
+        <dd><a href="http://www.script-tutorials.com/category/html-css/">HTML / CSS</a></dd>
+        <dd><a href="http://www.script-tutorials.com/category/jquery/">JS / jQuery</a></dd>
+      </dl>
+      <dl>
+        <dt>Links #8</dt>
+        <dd><a href="http://www.script-tutorials.com/category/mysql/">MySQL</a></dd>
+        <dd><a href="http://www.script-tutorials.com/category/ajax/">Ajax</a></dd>
+      </dl>
+    </div>
+  </li>
+  <li><a href="http://www.script-tutorials.com/category/resources/" class="green">Other</a></li>
+  <li><a href="http://www.script-tutorials.com/about/" class="blue">About</a></li>
+  <li><a href="http://www.script-tutorials.com/creating-css3-dropdown-menu-3/" class="violet">Back</a></li>
+  </ul>
+  <div class="back"></div>
+  <div class="shadow"></div>
+</div>
+
 <div class="droppable" id="whole-page">
 
-  <div class="menuholder">
-      <ul class="menu slide">
-          <li><a href="http://www.script-tutorials.com/" class="red">Home</a></li>
-          <li><a href="http://www.script-tutorials.com/" class="orange">Tutorials</a>
 
-          <div class="subs">
 
-              <dl>
-
-                  <dt>Links #1</dt>
-
-                  <dd><a href="http://www.script-tutorials.com/category/html-css/">HTML / CSS</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/jquery/">JS / jQuery</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/php/">PHP</a></dd>
-
-              </dl>
-
-              <dl>
-
-                  <dt>Links #2</dt>
-
-                  <dd><a href="http://www.script-tutorials.com/category/mysql/">MySQL</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/xslt/">XSLT</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/ajax/">Ajax</a></dd>
-
-              </dl>
-
-              <dl>
-
-                  <dt>Links #3</dt>
-
-                  <dd><a href="http://www.script-tutorials.com/category/html-css/">HTML / CSS</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/jquery/">JS / jQuery</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/php/">PHP</a></dd>
-
-              </dl>
-
-              <dl>
-
-                  <dt>Links #4</dt>
-
-                  <dd><a href="http://www.script-tutorials.com/category/mysql/">MySQL</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/xslt/">XSLT</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/ajax/">Ajax</a></dd>
-
-              </dl>
-
-          </div>
-
-      </li>
-
-      <li><a href="http://www.script-tutorials.com/category/resources/" class="yellow">Resources</a>
-
-          <div class="subs">
-
-              <dl>
-
-                  <dt>Links #5</dt>
-
-                  <dd><a href="http://www.script-tutorials.com/category/php/">PHP</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/mysql/">MySQL</a></dd>
-
-              </dl>
-
-              <dl>
-
-                  <dt>Links #6</dt>
-
-                  <dd><a href="http://www.script-tutorials.com/category/xslt/">XSLT</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/ajax/">Ajax</a></dd>
-
-              </dl>
-
-              <dl>
-
-                  <dt>Links #7</dt>
-
-                  <dd><a href="http://www.script-tutorials.com/category/html-css/">HTML / CSS</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/jquery/">JS / jQuery</a></dd>
-
-              </dl>
-
-              <dl>
-
-                  <dt>Links #8</dt>
-
-                  <dd><a href="http://www.script-tutorials.com/category/mysql/">MySQL</a></dd>
-
-                  <dd><a href="http://www.script-tutorials.com/category/ajax/">Ajax</a></dd>
-
-              </dl>
-
-          </div>
-
-      </li>
-
-      <li><a href="http://www.script-tutorials.com/category/resources/" class="green">Other</a></li>
-
-      <li><a href="http://www.script-tutorials.com/about/" class="blue">About</a></li>
-
-      <li><a href="http://www.script-tutorials.com/creating-css3-dropdown-menu-3/" class="violet">Back</a></li>
-
-      </ul>
-
-      <div class="back"></div>
-
-      <div class="shadow"></div>
-
-  </div>
-
-  <div id="top-bar">
+  <!-- <div id="top-bar">
 
     <% if user_signed_in? %>
       Logged in as <strong><%= current_user.email %></strong>.
@@ -157,7 +128,7 @@
       <% end %>
 
     <% end %>
-  </div>
+  </div> -->
 
   <div id="header">
 
