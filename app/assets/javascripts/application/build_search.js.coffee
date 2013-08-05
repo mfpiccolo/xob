@@ -14,7 +14,7 @@ jQuery ->
       $.each draggables, (key, value) ->
 
         if key.match(/required/)
-          requiredDiv = $("""<div class="ui-draggable required_terms down cloner"></div>""").css
+          requiredDiv = $("""<div class="ui-draggable required_terms down"></div>""").css
             top: value.top - 1000
             left: value.left
           input = $("""<input class="expandable" id="required_terms" name="search[required_terms]" placeholder="Terms" size="10" type="text">""").val(value.value)
