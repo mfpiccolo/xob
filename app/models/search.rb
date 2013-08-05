@@ -5,9 +5,11 @@ class Search < ActiveRecord::Base
 
   belongs_to :user
 
+  serialize :draggables, JSON
+
   after_initialize :set_services, :build_query_string
 
-  attr_accessor :domain, :terms, :image, :add_terms, :file_type, :must_have,
+  attr_accessor :domain, :required_terms, :image, :add_terms, :file_type, :must_have,
     :excluded_terms, :exact_terms, :google, :twitter, :services, :result_type, :google_query,
     :twitter_terms, :twitter_options
 
@@ -27,7 +29,7 @@ class Search < ActiveRecord::Base
   private
 
   def terms_to_query_string
-    @terms = @terms.gsub(" ", "+") if @terms.present?
+    @required_terms = @required_terms.gsub(" ", "+") if @required_terms.present?
     @add_terms = @add_terms.gsub(" ", "+") if @add_terms.present?
     @must_have = @must_have.gsub(" ", "+") if @must_have.present?
     @excluded_terms = excluded_terms.gsub(" ", "+") if @excluded_terms.present?
@@ -51,7 +53,7 @@ class Search < ActiveRecord::Base
     unless services.blank?
       @services.each do |service|
         if service == "twitter"
-          @twitter_terms = ((terms if terms) || "")
+          @twitter_terms = ((required_terms if required_terms) || "")
 
           @twitter_options = {
             result_type: ((result_type if result_type) || "")
@@ -59,7 +61,7 @@ class Search < ActiveRecord::Base
 
         elsif service == "google"
           query_hash = {
-            q: (("q=#{terms}" if terms) || ""),
+            q: (("q=#{required_terms}" if required_terms) || ""),
             hq: (("&hq=#{add_terms}" if add_terms) || ""),
             siteSearch: (("&siteSearch=#{domain}" if domain) || ""),
             searchType: (("&searchType=#{image}" if image) || ""),
