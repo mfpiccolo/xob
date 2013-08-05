@@ -1,8 +1,11 @@
 class SearchesController < ApplicationController
 
   def new
-     @search = Search.new
+    @search = Search.new
     @user = current_user || User.new
+    if gon && current_user.searches && current_user.searches.first && current_user.searches.first.draggables
+      gon.draggables = current_user.searches.first.draggables
+    end
   end
 
   def create
@@ -29,7 +32,7 @@ class SearchesController < ApplicationController
   private
 
   def search_params
-    params.require(:search).permit(:domain, :terms, :image, :add_terms,
+    params.require(:search).permit(:domain, :required_terms, :image, :add_terms,
       :file_type, :must_have, :excluded_terms, :exact_terms, :google,
       :twitter, :result_type, :draggables)
   end

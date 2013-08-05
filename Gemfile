@@ -9,6 +9,7 @@ gem "rails4_upgrade"
 
 gem 'pg'
 
+gem "gon"
 gem 'json'
 gem "httparty"
 gem "addressable"
