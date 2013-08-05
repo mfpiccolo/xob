@@ -60,7 +60,7 @@
       <dl>
         <dt>Links #5</dt>
         <% @user.searches.each do |search| %>
-          <dd><%= link_to search %></dd>
+          <dd><a href=# id="build-draggables">First Search</a></dd>
         <% end %>
       </dl>
       <dl>
@@ -148,7 +148,7 @@
   <div class="ui-draggable twitter down" id="twitter"><input class="expandable" name="search[twitter]" Value="twitter" size="10" type="hidden" READONLY></div>
 
 
-  <div class="ui-draggable terms down cloner"><input class="expandable" id="search_terms" name="search[terms]" placeholder="Terms" size="10" type="text"></div>
+  <div class="ui-draggable required_terms down cloner"><input class="expandable" id="required_terms" name="search[required_terms]" placeholder="Terms" size="10" type="text"></div>
 
   <div class="ui-draggable domain down cloner"><input class="expandable" name="search[domain]" placeholder="Domain" size="10" type="text"></div>
 
@@ -170,7 +170,7 @@
     <option value="mixed">Mixed</option>
   </select></div>
 
-  <div class='ui-draggable must_have down'><input class="expandable" name='search[must_have]' placeholder='With This or That'  size='10' type='text'></div>
+  <div class='ui-draggable must_have down'><input class="expandable" name='search[must_have]' placeholder='Must Have'  size='10' type='text'></div>
 
   <div class='ui-draggable excluded_terms down'><input class="expandable" name='search[excluded_terms]' placeholder="Shouldnt Have"  size='10' type='text'></div>
 

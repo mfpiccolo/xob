@@ -6,12 +6,14 @@ jQuery ->
       draggables = {}
       jQuery.each jQuery(".ui-draggable"), (index, draggable) ->
         child = undefined
+        parentId = undefined
         classes = undefined
         left = undefined
         offset = undefined
         top = undefined
         value = undefined
         draggable = jQuery(this)
+        parentId = draggable.parent().attr("id")
         child = draggable.children()
         value = child.val()
         classes = draggable.attr("class").replace(/ui-draggable|down|cloner|\s/g, "")
@@ -23,6 +25,7 @@ jQuery ->
           value: value
           left: left
           top: top
+          parent_id: parentId
 
       $.ajax
         type: "POST"

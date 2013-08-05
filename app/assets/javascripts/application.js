@@ -19,4 +19,4 @@
 //= require application/all
 //= require application/spin/spin
 //= require application/save_search
-
+//= require application/build_search
