@@ -16,8 +16,10 @@ gem 'json'
 gem "httparty"
 gem "addressable"
 gem "thin"
-gem 'rails_12factor'
 
+group :production do
+  gem 'rails_12factor'
+end
 
 gem "twitter"
 
