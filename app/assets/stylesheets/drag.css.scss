@@ -84,7 +84,7 @@ div {
     border-radius: 28px;
     -webkit-border-radius: 28px;
     -moz-border-radius: 29px;
-      background:url("twitter.png") center bottom no-repeat !important;
+      background: asset-url("twitter.png") center bottom no-repeat !important;
   }
 
   #google {
@@ -95,7 +95,7 @@ div {
     border-radius: 28px;
     -webkit-border-radius: 28px;
     -moz-border-radius: 29px;
-    background:url("google.png") center bottom no-repeat !important;
+    background: asset-url("google.png") center bottom no-repeat !important;
   }
 
   .result_type {
