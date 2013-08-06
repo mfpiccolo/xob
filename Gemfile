@@ -14,6 +14,7 @@ gem 'json'
 gem "httparty"
 gem "addressable"
 gem "thin"
+gem 'rails_12factor'
 
 
 gem "twitter"
