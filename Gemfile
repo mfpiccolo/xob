@@ -14,7 +14,7 @@ gem 'json'
 gem "httparty"
 gem "addressable"
 gem "thin"
-# gem 'protected_attributes'
+
 
 gem "twitter"
 
@@ -36,7 +36,6 @@ gem 'actionpack-xml_parser', github: 'rails/actionpack-xml_parser'
 gem 'actionview-encoded_mail_to', '~>1.0.3'
 gem 'activerecord-session_store', '~>0.0.1'
 gem 'activeresource', '~>4.0.0.beta1'
-# gem 'protected_attributes', '~>1.0.1'
 gem 'rails-observers', '~>0.1.1'
 gem 'rails-perftest', '~>0.0.2'
 
