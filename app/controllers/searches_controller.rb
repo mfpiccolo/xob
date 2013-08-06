@@ -3,7 +3,7 @@ class SearchesController < ApplicationController
   def new
     @search = Search.new
     @user = current_user || User.new
-    if gon && current_user.searches && current_user.searches.first && current_user.searches.first.draggables
+    if gon && @user.searches && @user.searches.first && @user.searches.first.draggables
       gon.draggables = current_user.searches.first.draggables
     end
   end
