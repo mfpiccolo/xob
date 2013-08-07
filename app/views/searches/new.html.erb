@@ -60,7 +60,7 @@
       <dl>
         <dt>Links #5</dt>
         <% @user.searches.each do |search| %>
-          <dd><a href=# id="build-draggables">First Search</a></dd>
+          <dd><%= link_to search.id, get_draggables_searches_path(id: search.id), remote: true %></a></dd>
         <% end %>
       </dl>
       <dl>
@@ -89,46 +89,6 @@
 </div>
 
 <div class="droppable" id="whole-page">
-
-
-
-  <!-- <div id="top-bar">
-
-    <% if user_signed_in? %>
-      Logged in as <strong><%= current_user.email %></strong>.
-      <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %>
-      <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
-    <% else %>
-      <h4>Sign in</h4>
-
-      <%= form_for(@user, :url => session_path(@user)) do |f| %>
-        <div><%= f.label :email %>
-        <%= f.email_field :email, :autofocus => true %></div>
-
-        <div><%= f.label :password %>
-        <%= f.password_field :password %></div>
-
-        <div><%= f.submit "Sign in" %></div>
-      <% end %>
-
-      <h4>Sign up</h4>
-
-      <%= form_for(@user, :url => registration_path(@user)) do |f| %>
-
-        <div><%= f.label :email %>
-        <%= f.email_field :email, :autofocus => true %></div>
-
-        <div><%= f.label :password %>
-        <%= f.password_field :password %></div>
-
-        <div><%= f.label :password_confirmation %>
-        <%= f.password_field :password_confirmation %></div>
-
-        <div><%= f.submit "Sign up" %></div>
-      <% end %>
-
-    <% end %>
-  </div> -->
 
   <div id="header">
 

@@ -109,9 +109,6 @@ GEM
       multipart-post (~> 1.2.0)
     ffi (1.9.0)
     formatador (0.2.4)
-    gon (4.1.1)
-      actionpack (>= 2.3.0)
-      json
     guard (1.8.2)
       formatador (>= 0.2.4)
       listen (>= 1.0.0)
@@ -286,7 +283,6 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise (~> 3.0.0)
   factory_girl_rails
-  gon
   guard
   guard-minitest
   httparty
