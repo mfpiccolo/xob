@@ -22,6 +22,7 @@ class Search < ActiveRecord::Base
 
   def save_search(json)
     self.draggables = json
+    self.name = JSON.parse(json)["name"]
     save!
   end
 
