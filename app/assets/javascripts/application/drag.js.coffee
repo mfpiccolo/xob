@@ -66,7 +66,7 @@ jQuery ->
     nextElement $(this)
     $(this).removeClass("cloner")
 
-  $(document).on "click", "input", ($e) ->
+  $(document).on "click", "input.expandable", ($e) ->
     $(this).on "keyup", ->
       oneLetterWidth = 10
       minCharacters = 13

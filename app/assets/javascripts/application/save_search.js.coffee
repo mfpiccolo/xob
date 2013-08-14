@@ -27,6 +27,8 @@ jQuery ->
           top: top
           parent_id: parentId
 
+      draggables["name"] = $("#search-name").val()
+
       $.ajax
         type: "POST"
         url: "/searches/save_search"
