@@ -17,6 +17,7 @@ jQuery ->
         requiredDiv = $("""<div class="ui-draggable required_terms down"></div>""").css
           top: value.top - 1000
           left: value.left
+          console.log value
         input = $("""<input class="expandable" id="required_terms" name="search[required_terms]" placeholder="Terms" size="10" type="text">""").val(value.value)
         input.appendTo requiredDiv
         requiredDiv.appendTo $("#" + value.parent_id)
@@ -94,7 +95,7 @@ jQuery ->
         twitterDiv.appendTo $("#" + value.parent_id)
         twitterDiv.draggable()
       else
-        alert "Wrong key: #{key}"
+        # alert "Wrong key: #{key}"
       # console.log key
   ), 330
 

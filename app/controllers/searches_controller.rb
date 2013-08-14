@@ -25,7 +25,7 @@ class SearchesController < ApplicationController
   def search_params
     params.require(:search).permit(:domain, :required_terms, :image, :add_terms,
       :file_type, :must_have, :excluded_terms, :exact_terms, :google,
-      :twitter, :result_type, :draggables)
+      :twitter, :result_type, :draggables, :name)
   end
 
 end
