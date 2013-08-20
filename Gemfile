@@ -61,18 +61,23 @@ group :development do
   gem "terminal-notifier-guard"
 end
 
-group :test do
-  gem "capybara"
-  gem "minitest"
-  gem "minitest-matchers"
-  gem "minitest-capybara"
-  gem "capybara_minitest_spec"
-  gem "minitest-rails"
-  # gem "minitest-rails-shoulda"
-  gem "minitest-rails-capybara"
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'pry'
+  gem 'pry-debugger'
   gem 'factory_girl_rails'
-  gem "mocha"
-  gem "thincloud-test"
+  gem 'rb-fsevent'
+  gem 'guard-rspec'
+  gem 'vcr'
+
+end
+
+group :test do
+  gem 'capybara'
+  gem "capybara-firebug"
+  gem 'poltergeist'
+  gem 'webmock'
 end
 
 # To use ActiveModel has_secure_password

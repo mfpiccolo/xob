@@ -1,0 +1,834 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=005725305140932479840:tmucz4yln4s&key=AIzaSyBb-c6luucnupLoXKbttAdF57ncuIgRBZs&q=lebron
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Tue, 20 Aug 2013 04:13:30 GMT
+      Date:
+      - Tue, 20 Aug 2013 04:13:30 GMT
+      Cache-Control:
+      - private, max-age=0, must-revalidate, no-transform
+      Etag:
+      - '"-Tovf7bBO_sxgIuyqJ-V8mxev7A/OTOrFvUgyjSyiJiRlhLyk3rUiPM"'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogImtpbmQiOiAiY3VzdG9tc2VhcmNoI3NlYXJjaCIsCiAidXJsIjogewog
+        ICJ0eXBlIjogImFwcGxpY2F0aW9uL2pzb24iLAogICJ0ZW1wbGF0ZSI6ICJo
+        dHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9jdXN0b21zZWFyY2gvdjE/cT17
+        c2VhcmNoVGVybXN9Jm51bT17Y291bnQ/fSZzdGFydD17c3RhcnRJbmRleD99
+        JmxyPXtsYW5ndWFnZT99JnNhZmU9e3NhZmU/fSZjeD17Y3g/fSZjcmVmPXtj
+        cmVmP30mc29ydD17c29ydD99JmZpbHRlcj17ZmlsdGVyP30mZ2w9e2dsP30m
+        Y3I9e2NyP30mZ29vZ2xlaG9zdD17Z29vZ2xlSG9zdD99JmMyY29mZj17ZGlz
+        YWJsZUNuVHdUcmFuc2xhdGlvbj99JmhxPXtocT99JmhsPXtobD99JnNpdGVT
+        ZWFyY2g9e3NpdGVTZWFyY2g/fSZzaXRlU2VhcmNoRmlsdGVyPXtzaXRlU2Vh
+        cmNoRmlsdGVyP30mZXhhY3RUZXJtcz17ZXhhY3RUZXJtcz99JmV4Y2x1ZGVU
+        ZXJtcz17ZXhjbHVkZVRlcm1zP30mbGlua1NpdGU9e2xpbmtTaXRlP30mb3JU
+        ZXJtcz17b3JUZXJtcz99JnJlbGF0ZWRTaXRlPXtyZWxhdGVkU2l0ZT99JmRh
+        dGVSZXN0cmljdD17ZGF0ZVJlc3RyaWN0P30mbG93UmFuZ2U9e2xvd1Jhbmdl
+        P30maGlnaFJhbmdlPXtoaWdoUmFuZ2U/fSZzZWFyY2hUeXBlPXtzZWFyY2hU
+        eXBlfSZmaWxlVHlwZT17ZmlsZVR5cGU/fSZyaWdodHM9e3JpZ2h0cz99Jmlt
+        Z1NpemU9e2ltZ1NpemU/fSZpbWdUeXBlPXtpbWdUeXBlP30maW1nQ29sb3JU
+        eXBlPXtpbWdDb2xvclR5cGU/fSZpbWdEb21pbmFudENvbG9yPXtpbWdEb21p
+        bmFudENvbG9yP30mYWx0PWpzb24iCiB9LAogInF1ZXJpZXMiOiB7CiAgIm5l
+        eHRQYWdlIjogWwogICB7CiAgICAidGl0bGUiOiAiR29vZ2xlIEN1c3RvbSBT
+        ZWFyY2ggLSBsZWJyb24iLAogICAgInRvdGFsUmVzdWx0cyI6ICI3MjcwMDAw
+        IiwKICAgICJzZWFyY2hUZXJtcyI6ICJsZWJyb24iLAogICAgImNvdW50Ijog
+        MTAsCiAgICAic3RhcnRJbmRleCI6IDExLAogICAgImlucHV0RW5jb2Rpbmci
+        OiAidXRmOCIsCiAgICAib3V0cHV0RW5jb2RpbmciOiAidXRmOCIsCiAgICAi
+        c2FmZSI6ICJvZmYiLAogICAgImN4IjogIjAwNTcyNTMwNTE0MDkzMjQ3OTg0
+        MDp0bXVjejR5bG40cyIKICAgfQogIF0sCiAgInJlcXVlc3QiOiBbCiAgIHsK
+        ICAgICJ0aXRsZSI6ICJHb29nbGUgQ3VzdG9tIFNlYXJjaCAtIGxlYnJvbiIs
+        CiAgICAidG90YWxSZXN1bHRzIjogIjcyNzAwMDAiLAogICAgInNlYXJjaFRl
+        cm1zIjogImxlYnJvbiIsCiAgICAiY291bnQiOiAxMCwKICAgICJzdGFydElu
+        ZGV4IjogMSwKICAgICJpbnB1dEVuY29kaW5nIjogInV0ZjgiLAogICAgIm91
+        dHB1dEVuY29kaW5nIjogInV0ZjgiLAogICAgInNhZmUiOiAib2ZmIiwKICAg
+        ICJjeCI6ICIwMDU3MjUzMDUxNDA5MzI0Nzk4NDA6dG11Y3o0eWxuNHMiCiAg
+        IH0KICBdCiB9LAogImNvbnRleHQiOiB7CiAgInRpdGxlIjogInhvYi1zZWFy
+        Y2giCiB9LAogInNlYXJjaEluZm9ybWF0aW9uIjogewogICJzZWFyY2hUaW1l
+        IjogMC40NzIwMzQsCiAgImZvcm1hdHRlZFNlYXJjaFRpbWUiOiAiMC40NyIs
+        CiAgInRvdGFsUmVzdWx0cyI6ICI3MjcwMDAwIiwKICAiZm9ybWF0dGVkVG90
+        YWxSZXN1bHRzIjogIjcsMjcwLDAwMCIKIH0sCiAiaXRlbXMiOiBbCiAgewog
+        ICAia2luZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0IiwKICAgInRpdGxlIjog
+        IkxlQnJvbiBKYW1lcyAtIFdpa2lwZWRpYSwgdGhlIGZyZWUgZW5jeWNsb3Bl
+        ZGlhIiwKICAgImh0bWxUaXRsZSI6ICJcdTAwM2NiXHUwMDNlTGVCcm9uXHUw
+        MDNjL2JcdTAwM2UgSmFtZXMgLSBXaWtpcGVkaWEsIHRoZSBmcmVlIGVuY3lj
+        bG9wZWRpYSIsCiAgICJsaW5rIjogImh0dHA6Ly9lbi53aWtpcGVkaWEub3Jn
+        L3dpa2kvTGVCcm9uX0phbWVzIiwKICAgImRpc3BsYXlMaW5rIjogImVuLndp
+        a2lwZWRpYS5vcmciLAogICAic25pcHBldCI6ICJMZUJyb24gUmF5bW9uZSBK
+        YW1lcyAoL2zJmcuIYnLJkm4vOyBib3JuIERlY2VtYmVyIDMwLCAxOTg0KSwg
+        bmlja25hbWVkIFwiS2luZyAgIEphbWVzXCIsIGlzIGFuIEFtZXJpY2FuIHBy
+        b2Zlc3Npb25hbCBiYXNrZXRiYWxsIHBsYXllciBmb3IgdGhlIE1pYW1pIEhl
+        YXQgb2bCoC4uLiIsCiAgICJodG1sU25pcHBldCI6ICJcdTAwM2NiXHUwMDNl
+        TGVCcm9uXHUwMDNjL2JcdTAwM2UgUmF5bW9uZSBKYW1lcyAoL2zJmcuIYnLJ
+        km4vOyBib3JuIERlY2VtYmVyIDMwLCAxOTg0KSwgbmlja25hbWVkICZxdW90
+        O0tpbmcgXHUwMDNjYnJcdTAwM2UgIEphbWVzJnF1b3Q7LCBpcyBhbiBBbWVy
+        aWNhbiBwcm9mZXNzaW9uYWwgYmFza2V0YmFsbCBwbGF5ZXIgZm9yIHRoZSBN
+        aWFtaSBIZWF0IG9mJm5ic3A7XHUwMDNjYlx1MDAzZS4uLlx1MDAzYy9iXHUw
+        MDNlIiwKICAgImNhY2hlSWQiOiAieDFBR2Yxcy0yV2tKIiwKICAgImZvcm1h
+        dHRlZFVybCI6ICJlbi53aWtpcGVkaWEub3JnL3dpa2kvTGVCcm9uX0phbWVz
+        IiwKICAgImh0bWxGb3JtYXR0ZWRVcmwiOiAiZW4ud2lraXBlZGlhLm9yZy93
+        aWtpL1x1MDAzY2JcdTAwM2VMZUJyb25cdTAwM2MvYlx1MDAzZV9KYW1lcyIs
+        CiAgICJwYWdlbWFwIjogewogICAgImNzZV9pbWFnZSI6IFsKICAgICB7CiAg
+        ICAgICJzcmMiOiAiaHR0cDovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lw
+        ZWRpYS9jb21tb25zL3RodW1iLzMvM2YvTGVCcm9uX0phbWVzX2F0X0dTVy5q
+        cGcvMjM1cHgtTGVCcm9uX0phbWVzX2F0X0dTVy5qcGciCiAgICAgfQogICAg
+        XSwKICAgICJwZXJzb24iOiBbCiAgICAgewogICAgICAibG9jYXRpb24iOiAi
+        dGhlIFVuaXRlZCBTdGF0ZXMiLAogICAgICAicm9sZSI6ICJGb3J3YXJkIgog
+        ICAgIH0KICAgIF0sCiAgICAiY3NlX3RodW1ibmFpbCI6IFsKICAgICB7CiAg
+        ICAgICJ3aWR0aCI6ICIxODAiLAogICAgICAiaGVpZ2h0IjogIjI4MCIsCiAg
+        ICAgICJzcmMiOiAiaHR0cHM6Ly9lbmNyeXB0ZWQtdGJuMy5nc3RhdGljLmNv
+        bS9pbWFnZXM/cT10Ym46QU5kOUdjVExrODJyU2lYQ3NvNVhSTEl4aTFfcnZx
+        YXE3Vkw2bHgwbXJlVS0zUHRoZTlNR1VZSjIxai1oSVowIgogICAgIH0KICAg
+        IF0sCiAgICAiaGNhcmQiOiBbCiAgICAgewogICAgICAiZm4iOiAiTGVCcm9u
+        IEphbWVzIiwKICAgICAgImJkYXkiOiAiMTk4NC0xMi0zMCIsCiAgICAgICJy
+        b2xlIjogIkZvcndhcmQiCiAgICAgfQogICAgXQogICB9CiAgfSwKICB7CiAg
+        ICJraW5kIjogImN1c3RvbXNlYXJjaCNyZXN1bHQiLAogICAidGl0bGUiOiAi
+        VGhlIE9mZmljaWFsIFdlYnNpdGUgb2YgTGVCcm9uIEphbWVzIiwKICAgImh0
+        bWxUaXRsZSI6ICJUaGUgT2ZmaWNpYWwgV2Vic2l0ZSBvZiBcdTAwM2NiXHUw
+        MDNlTGVCcm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMiLAogICAibGluayI6ICJo
+        dHRwOi8vd3d3LmxlYnJvbmphbWVzLmNvbS8iLAogICAiZGlzcGxheUxpbmsi
+        OiAid3d3LmxlYnJvbmphbWVzLmNvbSIsCiAgICJzbmlwcGV0IjogIkNoZWNr
+        IG91dCB0aGUgb2ZmaWNpYWwgd2Vic2l0ZSBvZiBMZWJyb24gSmFtZXMgYW5k
+        IGV4cGVyaWVuY2UgdGhlIGxpZmVzdHlsZSwgICBmYXNoaW9uIGFuZCBtdXNp
+        YyBjb21tdW5pdHkgb2YgI3RlYW1MZWJyb24uIiwKICAgImh0bWxTbmlwcGV0
+        IjogIkNoZWNrIG91dCB0aGUgb2ZmaWNpYWwgd2Vic2l0ZSBvZiBcdTAwM2Ni
+        XHUwMDNlTGVicm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMgYW5kIGV4cGVyaWVu
+        Y2UgdGhlIGxpZmVzdHlsZSwgXHUwMDNjYnJcdTAwM2UgIGZhc2hpb24gYW5k
+        IG11c2ljIGNvbW11bml0eSBvZiAjdGVhbUxlYnJvbi4iLAogICAiY2FjaGVJ
+        ZCI6ICJKS1lpSE1rVjZnQUoiLAogICAiZm9ybWF0dGVkVXJsIjogInd3dy5s
+        ZWJyb25qYW1lcy5jb20vIiwKICAgImh0bWxGb3JtYXR0ZWRVcmwiOiAid3d3
+        Llx1MDAzY2JcdTAwM2VsZWJyb25cdTAwM2MvYlx1MDAzZWphbWVzLmNvbS8i
+        LAogICAicGFnZW1hcCI6IHsKICAgICJjc2VfaW1hZ2UiOiBbCiAgICAgewog
+        ICAgICAic3JjIjogImh0dHA6Ly93d3cubGVicm9uamFtZXMuY29tL3dwLWNv
+        bnRlbnQvdGhlbWVzL2xiai1iYXNlL2ltZy9ob21lX3RodW1iLnBuZyIKICAg
+        ICB9CiAgICBdLAogICAgImNzZV90aHVtYm5haWwiOiBbCiAgICAgewogICAg
+        ICAid2lkdGgiOiAiMjQwIiwKICAgICAgImhlaWdodCI6ICIxOTIiLAogICAg
+        ICAic3JjIjogImh0dHBzOi8vZW5jcnlwdGVkLXRibjIuZ3N0YXRpYy5jb20v
+        aW1hZ2VzP3E9dGJuOkFOZDlHY1FLTjJWcmJrRHpXWmE4V2FrOG9zZG1HaDhS
+        VTBfYzRMclZhTE01dDRPYWNrY0FBc1I5ZVJubjFFemYiCiAgICAgfQogICAg
+        XSwKICAgICJtZXRhdGFncyI6IFsKICAgICB7CiAgICAgICJ2aWV3cG9ydCI6
+        ICJ3aWR0aD1kZXZpY2Utd2lkdGgiLAogICAgICAib2c6dXJsIjogImh0dHA6
+        Ly93d3cubGVicm9uamFtZXMuY29tIiwKICAgICAgIm9nOnNpdGVfbmFtZSI6
+        ICJMZWJyb24gSmFtZXMiLAogICAgICAib2c6aW1hZ2UiOiAiaHR0cDovL3d3
+        dy5sZWJyb25qYW1lcy5jb20vd3AtY29udGVudC90aGVtZXMvbGJqLWJhc2Uv
+        aW1nL2hvbWVfdGh1bWIucG5nIgogICAgIH0KICAgIF0KICAgfQogIH0sCiAg
+        ewogICAia2luZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0IiwKICAgInRpdGxl
+        IjogIkxlQnJvbiBKYW1lcyAoS2luZ0phbWVzKSBvbiBUd2l0dGVyIiwKICAg
+        Imh0bWxUaXRsZSI6ICJcdTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAw
+        M2UgSmFtZXMgKEtpbmdKYW1lcykgb24gVHdpdHRlciIsCiAgICJsaW5rIjog
+        Imh0dHBzOi8vdHdpdHRlci5jb20vS2luZ0phbWVzIiwKICAgImRpc3BsYXlM
+        aW5rIjogInR3aXR0ZXIuY29tIiwKICAgInNuaXBwZXQiOiAiTGVCcm9uIEph
+        bWVzIFZlcmlmaWVkIGFjY291bnQuIEBLaW5nSmFtZXMuIFNULlYtTSBDbGFz
+        cyBvZiAwMy4gQW1vbmdzdCBMYSAgIEZhbWlsaWEhIMK3IGxlYnJvbmphbWVz
+        LmNvbSDCtyAzLDQ2MSBUd2VldHMgwrcgMjc4IEZvbGxvd2luZyDCtyA5LDQ3
+        OSwzMTEgRm9sbG93ZXJzLiIsCiAgICJodG1sU25pcHBldCI6ICJcdTAwM2Ni
+        XHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMgVmVyaWZpZWQgYWNj
+        b3VudC4gQEtpbmdKYW1lcy4gU1QuVi1NIENsYXNzIG9mIDAzLiBBbW9uZ3N0
+        IExhIFx1MDAzY2JyXHUwMDNlICBGYW1pbGlhISDCtyBsZWJyb25qYW1lcy5j
+        b20gJm1pZGRvdDsgMyw0NjEgVHdlZXRzICZtaWRkb3Q7IDI3OCBGb2xsb3dp
+        bmcgJm1pZGRvdDsgOSw0NzksMzExIEZvbGxvd2Vycy4iLAogICAiY2FjaGVJ
+        ZCI6ICJPUGF5VFVPZnBwVUoiLAogICAiZm9ybWF0dGVkVXJsIjogImh0dHBz
+        Oi8vdHdpdHRlci5jb20vS2luZ0phbWVzIiwKICAgImh0bWxGb3JtYXR0ZWRV
+        cmwiOiAiaHR0cHM6Ly90d2l0dGVyLmNvbS9LaW5nSmFtZXMiLAogICAicGFn
+        ZW1hcCI6IHsKICAgICJjc2VfaW1hZ2UiOiBbCiAgICAgewogICAgICAic3Jj
+        IjogImh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy8xODk4
+        MzgzMDgzL0tpbmdKYW1lc19iaWdnZXIuanBnIgogICAgIH0KICAgIF0sCiAg
+        ICAiY3NlX3RodW1ibmFpbCI6IFsKICAgICB7CiAgICAgICJ3aWR0aCI6ICI3
+        MCIsCiAgICAgICJoZWlnaHQiOiAiNzAiLAogICAgICAic3JjIjogImh0dHBz
+        Oi8vZW5jcnlwdGVkLXRibjMuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFO
+        ZDlHY1NzTU53UWtORlB2YzdWN05sNFBKWDNucWo5WVczSWQ1S1NwTFgwT2pm
+        WEowY3ZrZWN6SWpPeSIKICAgICB9CiAgICBdLAogICAgIm1ldGF0YWdzIjog
+        WwogICAgIHsKICAgICAgIm1zYXBwbGljYXRpb24tdGlsZWltYWdlIjogIi8v
+        YWJzLnR3aW1nLmNvbS9mYXZpY29ucy93aW44LXRpbGUtMTQ0LnBuZyIsCiAg
+        ICAgICJtc2FwcGxpY2F0aW9uLXRpbGVjb2xvciI6ICIjMDBhY2VkIiwKICAg
+        ICAgInN3aWZ0LXBhZ2UtbmFtZSI6ICJwcm9maWxlIgogICAgIH0KICAgIF0K
+        ICAgfQogIH0sCiAgewogICAia2luZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0
+        IiwKICAgInRpdGxlIjogIkxlQnJvbiBKYW1lcyBTdGF0cywgQmlvIGFuZCBH
+        YW1lIExvZ3MgfCBOQkEuY29tIiwKICAgImh0bWxUaXRsZSI6ICJcdTAwM2Ni
+        XHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMgU3RhdHMsIEJpbyBh
+        bmQgR2FtZSBMb2dzIHwgTkJBLmNvbSIsCiAgICJsaW5rIjogImh0dHA6Ly93
+        d3cubmJhLmNvbS9wbGF5ZXJmaWxlL2xlYnJvbl9qYW1lcy8iLAogICAiZGlz
+        cGxheUxpbmsiOiAid3d3Lm5iYS5jb20iLAogICAic25pcHBldCI6ICJTdGF0
+        aXN0aWNzLCBiaW9ncmFwaHksIGFuZCBmYW50YXN5IHBsYXllciBpbmZvcm1h
+        dGlvbi4iLAogICAiaHRtbFNuaXBwZXQiOiAiU3RhdGlzdGljcywgYmlvZ3Jh
+        cGh5LCBhbmQgZmFudGFzeSBwbGF5ZXIgaW5mb3JtYXRpb24uIiwKICAgImNh
+        Y2hlSWQiOiAiblFUYlkxWE1WRGdKIiwKICAgImZvcm1hdHRlZFVybCI6ICJ3
+        d3cubmJhLmNvbS9wbGF5ZXJmaWxlL2xlYnJvbl9qYW1lcy8iLAogICAiaHRt
+        bEZvcm1hdHRlZFVybCI6ICJ3d3cubmJhLmNvbS9wbGF5ZXJmaWxlL1x1MDAz
+        Y2JcdTAwM2VsZWJyb25cdTAwM2MvYlx1MDAzZV9qYW1lcy8iLAogICAicGFn
+        ZW1hcCI6IHsKICAgICJjc2VfaW1hZ2UiOiBbCiAgICAgewogICAgICAic3Jj
+        IjogImh0dHA6Ly9pLmNkbi50dXJuZXIuY29tL25iYS9uYmEvbWVkaWEvYWN0
+        X2xlYnJvbl9qYW1lcy5qcGciCiAgICAgfQogICAgXSwKICAgICJjc2VfdGh1
+        bWJuYWlsIjogWwogICAgIHsKICAgICAgIndpZHRoIjogIjIxNiIsCiAgICAg
+        ICJoZWlnaHQiOiAiMTkyIiwKICAgICAgInNyYyI6ICJodHRwczovL2VuY3J5
+        cHRlZC10Ym4zLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NRUWxv
+        TmZoWi13SzV3M0xkTGZ3ajdQdlVZRWZiTjFIOE9OY2FORERLd2I5dFd4ZkZQ
+        YnJvcDZTdzgiCiAgICAgfQogICAgXSwKICAgICJtZXRhdGFncyI6IFsKICAg
+        ICB7CiAgICAgICJmYjphZG1pbnMiOiAiMjUxMzYwMiIsCiAgICAgICJvZzp0
+        aXRsZSI6ICJMZUJyb24gSmFtZXMgLSBOQkEgUGxheWVyIC0gTWlhbWkgSGVh
+        dCAjNiAtIEZvcndhcmQiLAogICAgICAib2c6dHlwZSI6ICJhdGhsZXRlIiwK
+        ICAgICAgIm9nOnVybCI6ICJodHRwOi8vd3d3Lm5iYS5jb20vcGxheWVyZmls
+        ZS9sZWJyb25famFtZXMvIiwKICAgICAgIm9nOmltYWdlIjogImh0dHA6Ly9p
+        LmNkbi50dXJuZXIuY29tL25iYS9uYmEvbWVkaWEvYWN0X2xlYnJvbl9qYW1l
+        cy5qcGciLAogICAgICAib2c6c2l0ZV9uYW1lIjogIk5CQS5jb20iLAogICAg
+        ICAib2c6ZGVzY3JpcHRpb24iOiAiTGVCcm9uIEphbWVzIC0gTkJBIFBsYXll
+        ciAtIE1pYW1pIEhlYXQgIzYgLSBGb3J3YXJkIgogICAgIH0KICAgIF0KICAg
+        fQogIH0sCiAgewogICAia2luZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0IiwK
+        ICAgInRpdGxlIjogIkxlQnJvbjogJ015IHZvaWNlIGNvdWxkIGJlIGh1Z2Un
+        IiwKICAgImh0bWxUaXRsZSI6ICJcdTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNj
+        L2JcdTAwM2U6ICYjMzk7TXkgdm9pY2UgY291bGQgYmUgaHVnZSYjMzk7IiwK
+        ICAgImxpbmsiOiAiaHR0cDovL2VzcG4uZ28uY29tL25iYS90cnVlaG9vcC9t
+        aWFtaWhlYXQvc3RvcnkvXy9pZC85NTU3MjkyL2xlYnJvbi1qYW1lcy1taWFt
+        aS1oZWF0LXNheXMtbmJwYS1nb2luZy1iYWNrd2FyZHMtcmlnaHQtbm93IiwK
+        ICAgImRpc3BsYXlMaW5rIjogImVzcG4uZ28uY29tIiwKICAgInNuaXBwZXQi
+        OiAiQXVnIDEyLCAyMDEzIC4uLiBMZUJyb24gSmFtZXMgc2FpZCB0aGUgTmF0
+        aW9uYWwgQmFza2V0YmFsbCBQbGF5ZXJzJyBBc3NvY2lhdGlvbiBpcyBub3Qg
+        aW4gYSBnb29kICAgcGxhY2UgcmlnaHQgbm93IGFuZCB0aGF0J3Mgd2h5IGhl
+        J3MgY29uc2lkZXJpbmcgcnVubmluZyBmb3IgdGhlwqAuLi4iLAogICAiaHRt
+        bFNuaXBwZXQiOiAiQXVnIDEyLCAyMDEzIFx1MDAzY2JcdTAwM2UuLi5cdTAw
+        M2MvYlx1MDAzZSBcdTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2Ug
+        SmFtZXMgc2FpZCB0aGUgTmF0aW9uYWwgQmFza2V0YmFsbCBQbGF5ZXJzJiMz
+        OTsgQXNzb2NpYXRpb24gaXMgbm90IGluIGEgZ29vZCBcdTAwM2Niclx1MDAz
+        ZSAgcGxhY2UgcmlnaHQgbm93IGFuZCB0aGF0JiMzOTtzIHdoeSBoZSYjMzk7
+        cyBjb25zaWRlcmluZyBydW5uaW5nIGZvciB0aGUmbmJzcDtcdTAwM2NiXHUw
+        MDNlLi4uXHUwMDNjL2JcdTAwM2UiLAogICAiY2FjaGVJZCI6ICJRcXVVUHVF
+        TEhaSUoiLAogICAiZm9ybWF0dGVkVXJsIjogImVzcG4uZ28uY29tLy4uLi9s
+        ZWJyb24tamFtZXMtbWlhbWktaGVhdC1zYXlzLW5icGEtZ29pbmctYmFja3dh
+        cmRzLXJpZ2h0LSBub3ciLAogICAiaHRtbEZvcm1hdHRlZFVybCI6ICJlc3Bu
+        LmdvLmNvbS8uLi4vXHUwMDNjYlx1MDAzZWxlYnJvblx1MDAzYy9iXHUwMDNl
+        LWphbWVzLW1pYW1pLWhlYXQtc2F5cy1uYnBhLWdvaW5nLWJhY2t3YXJkcy1y
+        aWdodC0gbm93IiwKICAgInBhZ2VtYXAiOiB7CiAgICAiY3NlX2ltYWdlIjog
+        WwogICAgIHsKICAgICAgInNyYyI6ICJodHRwOi8vYS5lc3BuY2RuLmNvbS9j
+        b21iaW5lci9pP2ltZz0vaS9oZWFkc2hvdHMvbmJhL3BsYXllcnMvZnVsbC8x
+        OTY2LnBuZyZ3PTY1Jmg9OTAmc2NhbGU9Y3JvcCZiYWNrZ3JvdW5kPTB4Y2Nj
+        Y2NjJnRyYW5zcGFyZW50PWZhbHNlIgogICAgIH0KICAgIF0sCiAgICAiY3Nl
+        X3RodW1ibmFpbCI6IFsKICAgICB7CiAgICAgICJ3aWR0aCI6ICI2MSIsCiAg
+        ICAgICJoZWlnaHQiOiAiODUiLAogICAgICAic3JjIjogImh0dHBzOi8vZW5j
+        cnlwdGVkLXRibjMuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1Fi
+        VGFwZkt5eEJqWHh3OV9zTzVNRnFIOXY3bU9zYmpNZjdjQXIxMTM1aTAwUGk0
+        VzduRnhRdExnIgogICAgIH0KICAgIF0sCiAgICAibWV0YXRhZ3MiOiBbCiAg
+        ICAgewogICAgICAibXN2YWxpZGF0ZS4wMSI6ICJCMUZFQjdDNjgyQzQ2QzhG
+        Q0RBMzEzMEYzRDE4QUMyOCIsCiAgICAgICJuZXdzX2tleXdvcmRzIjogIm5i
+        YSwgbGVicm9uIGphbWVzLCBtaWFtaSBoZWF0LCBkZXJlayBmaXNoZXIsIGJy
+        b29rbHluIG5ldHMsIGtldmluIGdhcm5ldHQsIHBhdWwgcGllcmNlLCBqYXNv
+        biB0ZXJyeSwgamFzb24ga2lkZCwgZHdpZ2h0IGhvd2FyZCwgaG91c3RvbiBy
+        b2NrZXRzLCBqYW1lcyBoYXJkZW4sIGNoYW5kbGVyIHBhcnNvbnMsIGplcmVt
+        eSBsaW4sIG1pa2UgbWlsbGVyLCBncmVnIG9kZW4sIG5icGEsIHVuaW9uLCBw
+        cmVzaWRlbnQiLAogICAgICAic3luZGljYXRpb24tc291cmNlIjogImh0dHA6
+        Ly9lc3BuLmdvLmNvbS9uYmEvdHJ1ZWhvb3AvbWlhbWloZWF0L3N0b3J5L18v
+        aWQvOTU1NzI5Mi9sZWJyb24tamFtZXMtbWlhbWktaGVhdC1zYXlzLW5icGEt
+        Z29pbmctYmFja3dhcmRzLXJpZ2h0LW5vdyIsCiAgICAgICJvZzp0aXRsZSI6
+        ICJMZUJyb246IE5CUEEgJ25vdCBpbiBnb29kIHBsYWNlIHJpZ2h0IG5vdyci
+        LAogICAgICAib2c6dHlwZSI6ICJhcnRpY2xlIiwKICAgICAgIm9nOnVybCI6
+        ICJodHRwOi8vZXNwbi5nby5jb20vbmJhL3RydWVob29wL21pYW1paGVhdC9z
+        dG9yeS9fL2lkLzk1NTcyOTIvbGVicm9uLWphbWVzLW1pYW1pLWhlYXQtc2F5
+        cy1uYnBhLWdvaW5nLWJhY2t3YXJkcy1yaWdodC1ub3ciLAogICAgICAib2c6
+        ZGVzY3JpcHRpb24iOiAiTGVCcm9uIEphbWVzIHNhaWQgdGhlIE5hdGlvbmFs
+        IEJhc2tldGJhbGwgUGxheWVycycgQXNzb2NpYXRpb24gaXMgbm90IGluIGEg
+        Z29vZCBwbGFjZSByaWdodCBub3cgYW5kIHRoYXQncyB3aHkgaGUncyBjb25z
+        aWRlcmluZyBydW5uaW5nIGZvciB0aGUgdW5pb24ncyB2YWNhbnQgcHJlc2lk
+        ZW5jeS4iLAogICAgICAib2c6aW1hZ2UiOiAiaHR0cDovL2EuZXNwbmNkbi5j
+        b20vY29tYmluZXIvaT9pbWc9L2kvaGVhZHNob3RzL25iYS9wbGF5ZXJzL2Z1
+        bGwvMTk2Ni5wbmcmdz02NSZoPTkwJnNjYWxlPWNyb3AmYmFja2dyb3VuZD0w
+        eGNjY2NjYyZ0cmFuc3BhcmVudD1mYWxzZSIsCiAgICAgICJ0d2l0dGVyOmNh
+        cmQiOiAic3VtbWFyeSIsCiAgICAgICJ0d2l0dGVyOmltYWdlIjogImh0dHA6
+        Ly9hLmVzcG5jZG4uY29tL2NvbWJpbmVyL2k/aW1nPS9pL2hlYWRzaG90cy9u
+        YmEvcGxheWVycy9mdWxsLzE5NjYucG5nJnc9NjUmaD05MCZzY2FsZT1jcm9w
+        JmJhY2tncm91bmQ9MHhjY2NjY2MmdHJhbnNwYXJlbnQ9ZmFsc2UiLAogICAg
+        ICAidHdpdHRlcjp0aXRsZSI6ICJMZUJyb246IE5CUEEgJ25vdCBpbiBnb29k
+        IHBsYWNlIHJpZ2h0IG5vdyciLAogICAgICAidHdpdHRlcjpkZXNjcmlwdGlv
+        biI6ICJMZUJyb24gSmFtZXMgc2FpZCB0aGUgTmF0aW9uYWwgQmFza2V0YmFs
+        bCBQbGF5ZXJzJyBBc3NvY2lhdGlvbiBpcyBub3QgaW4gYSBnb29kIHBsYWNl
+        IHJpZ2h0IG5vdyBhbmQgdGhhdCdzIHdoeSBoZSdzIGNvbnNpZGVyaW5nIHJ1
+        bm5pbmcgZm9yIHRoZSB1bmlvbidzIHZhY2FudCBwcmVzaWRlbmN5LiIsCiAg
+        ICAgICJvZzpzaXRlX25hbWUiOiAiRVNQTi5jb20iLAogICAgICAiZmI6YXBw
+        X2lkIjogIjExNjY1NjE2MTcwODkxNyIKICAgICB9CiAgICBdCiAgIH0KICB9
+        LAogIHsKICAgImtpbmQiOiAiY3VzdG9tc2VhcmNoI3Jlc3VsdCIsCiAgICJ0
+        aXRsZSI6ICJUaGUgMTAgQmVzdCBHYW1lcyBvZiBMZUJyb24gSmFtZXMnIE1p
+        YW1pIEhlYXQgVGVudXJlIHwgQmxlYWNoZXIgLi4uIiwKICAgImh0bWxUaXRs
+        ZSI6ICJUaGUgMTAgQmVzdCBHYW1lcyBvZiBcdTAwM2NiXHUwMDNlTGVCcm9u
+        XHUwMDNjL2JcdTAwM2UgSmFtZXMmIzM5OyBNaWFtaSBIZWF0IFRlbnVyZSB8
+        IEJsZWFjaGVyIFx1MDAzY2JcdTAwM2UuLi5cdTAwM2MvYlx1MDAzZSIsCiAg
+        ICJsaW5rIjogImh0dHA6Ly9ibGVhY2hlcnJlcG9ydC5jb20vYXJ0aWNsZXMv
+        MTcyOTMzNS0xMC1iZXN0LWdhbWVzLW9mLWxlYnJvbi1qYW1lcy1taWFtaS1o
+        ZWF0LXRlbnVyZSIsCiAgICJkaXNwbGF5TGluayI6ICJibGVhY2hlcnJlcG9y
+        dC5jb20iLAogICAic25pcHBldCI6ICJBdWcgNywgMjAxMyAuLi4gSXQgaG9u
+        ZXN0bHkgZG9lc24ndCBzZWVtIGxpa2UgaXQgaGFzIGJlZW4gdGhyZWUgeWVh
+        cnMgc2luY2UgTGVCcm9uIEphbWVzIGp1bXBlZCAgIHNoaXAgZnJvbSB0aGUg
+        Q2xldmVsYW5kIENhdmFsaWVycyB0byB0aGUgTWlhbWkgSGVhdCAuIiwKICAg
+        Imh0bWxTbmlwcGV0IjogIkF1ZyA3LCAyMDEzIFx1MDAzY2JcdTAwM2UuLi5c
+        dTAwM2MvYlx1MDAzZSBJdCBob25lc3RseSBkb2VzbiYjMzk7dCBzZWVtIGxp
+        a2UgaXQgaGFzIGJlZW4gdGhyZWUgeWVhcnMgc2luY2UgXHUwMDNjYlx1MDAz
+        ZUxlQnJvblx1MDAzYy9iXHUwMDNlIEphbWVzIGp1bXBlZCBcdTAwM2Niclx1
+        MDAzZSAgc2hpcCBmcm9tIHRoZSBDbGV2ZWxhbmQgQ2F2YWxpZXJzIHRvIHRo
+        ZSBNaWFtaSBIZWF0IC4iLAogICAiY2FjaGVJZCI6ICIySjNjUVczcmZob0oi
+        LAogICAiZm9ybWF0dGVkVXJsIjogImJsZWFjaGVycmVwb3J0LmNvbS8uLi4v
+        MTcyOTMzNS0xMC1iZXN0LWdhbWVzLW9mLWxlYnJvbi1qYW1lcy1taWFtaS1o
+        ZWF0LSB0ZW51cmUiLAogICAiaHRtbEZvcm1hdHRlZFVybCI6ICJibGVhY2hl
+        cnJlcG9ydC5jb20vLi4uLzE3MjkzMzUtMTAtYmVzdC1nYW1lcy1vZi1cdTAw
+        M2NiXHUwMDNlbGVicm9uXHUwMDNjL2JcdTAwM2UtamFtZXMtbWlhbWktaGVh
+        dC0gdGVudXJlIiwKICAgInBhZ2VtYXAiOiB7CiAgICAiY3NlX2ltYWdlIjog
+        WwogICAgIHsKICAgICAgInNyYyI6ICJodHRwOi8vaW1nLmJsZWFjaGVycmVw
+        b3J0Lm5ldC9pbWcvaW1hZ2VzL3Bob3Rvcy8wMDIvNDM2LzA4My9oaS1yZXMt
+        MTcxNTQ3ODM1X2Nyb3BfZXhhY3QuanBnP3c9MTUwMCZoPTE1MDAmcT04NSIK
+        ICAgICB9CiAgICBdLAogICAgImNzZV90aHVtYm5haWwiOiBbCiAgICAgewog
+        ICAgICAid2lkdGgiOiAiMjI1IiwKICAgICAgImhlaWdodCI6ICIyMjUiLAog
+        ICAgICAic3JjIjogImh0dHBzOi8vZW5jcnlwdGVkLXRibjIuZ3N0YXRpYy5j
+        b20vaW1hZ2VzP3E9dGJuOkFOZDlHY1FiVE40RGRWWERIbmtSZEJxRU13eXZh
+        bG4yS3JRbWtjRU40U1d6Qzl0LVprZU5UZ2ZJbGlOS1cxWSIKICAgICB9CiAg
+        ICBdLAogICAgIm1ldGF0YWdzIjogWwogICAgIHsKICAgICAgImFydGljbGU6
+        cHVibGlzaGVyIjogImh0dHA6Ly93d3cuZmFjZWJvb2suY29tL2JsZWFjaGVy
+        cmVwb3J0IiwKICAgICAgIm9nOmRlc2NyaXB0aW9uIjogIkl0IGhvbmVzdGx5
+        IGRvZXNuJ3Qgc2VlbSBsaWtlIGl0IGhhcyBiZWVuIHRocmVlIHllYXJzIHNp
+        bmNlICBMZUJyb24gSmFtZXMgIGp1bXBlZCBzaGlwIGZyb20gdGhlICBDbGV2
+        ZWxhbmQgQ2F2YWxpZXJzICB0byB0aGUgIE1pYW1pIEhlYXQgLiAgICBUaW1l
+        IGZsaWVzIHdoZW4geW91J3JlIGhhdmluZyBmdW4uLi4iLAogICAgICAib2c6
+        aW1hZ2UiOiAiaHR0cDovL2ltZy5ibGVhY2hlcnJlcG9ydC5uZXQvaW1nL2lt
+        YWdlcy9waG90b3MvMDAyLzQzNi8wODMvaGktcmVzLTE3MTU0NzgzNV9jcm9w
+        X2V4YWN0LmpwZz93PTE1MDAmaD0xNTAwJnE9ODUiLAogICAgICAib2c6c2l0
+        ZV9uYW1lIjogIkJsZWFjaGVyIFJlcG9ydCIsCiAgICAgICJvZzp0aXRsZSI6
+        ICIxMCBCZXN0IEdhbWVzIG9mIExlQnJvbidzIFRlbnVyZSB3aXRoIEhlYXQi
+        LAogICAgICAib2c6dHlwZSI6ICJhcnRpY2xlIiwKICAgICAgIm9nOnVybCI6
+        ICJodHRwOi8vYmxlYWNoZXJyZXBvcnQuY29tL2FydGljbGVzLzE3MjkzMzUt
+        MTAtYmVzdC1nYW1lcy1vZi1sZWJyb24tamFtZXMtbWlhbWktaGVhdC10ZW51
+        cmUiLAogICAgICAidHdpdHRlcjpjYXJkIjogInN1bW1hcnkiLAogICAgICAi
+        dHdpdHRlcjpkZXNjcmlwdGlvbiI6ICJJdCBob25lc3RseSBkb2Vzbid0IHNl
+        ZW0gbGlrZSBpdCBoYXMgYmVlbiB0aHJlZSB5ZWFycyBzaW5jZSAgTGVCcm9u
+        IEphbWVzICBqdW1wZWQgc2hpcCBmcm9tIHRoZSAgQ2xldmVsYW5kIENhdmFs
+        aWVycyAgdG8gdGhlICBNaWFtaSBIZWF0IC4gICAgVGltZSBmbGllcyB3aGVu
+        IHlvdSdyZSBoYXZpbmcgZnVuLi4uIiwKICAgICAgInR3aXR0ZXI6aW1hZ2Ui
+        OiAiaHR0cDovL2ltZy5ibGVhY2hlcnJlcG9ydC5uZXQvaW1nL2ltYWdlcy9w
+        aG90b3MvMDAyLzQzNi8wODMvaGktcmVzLTE3MTU0NzgzNV9jcm9wX2V4YWN0
+        LmpwZz93PTIwMCZoPTIwMCZxPTg1IiwKICAgICAgInR3aXR0ZXI6c2l0ZSI6
+        ICJAYmxlYWNoZXJyZXBvcnQiLAogICAgICAidHdpdHRlcjp0aXRsZSI6ICIx
+        MCBCZXN0IEdhbWVzIG9mIExlQnJvbidzIFRlbnVyZSB3aXRoIEhlYXQiLAog
+        ICAgICAidHdpdHRlcjp1cmwiOiAiaHR0cDovL2JsZWFjaGVycmVwb3J0LmNv
+        bS9hcnRpY2xlcy8xNzI5MzM1LTEwLWJlc3QtZ2FtZXMtb2YtbGVicm9uLWph
+        bWVzLW1pYW1pLWhlYXQtdGVudXJlIiwKICAgICAgInR3aXR0ZXI6YXBwOmlk
+        OmlwaG9uZSI6ICI0MTgwNzU5MzUiLAogICAgICAidHdpdHRlcjphcHA6bmFt
+        ZTppcGhvbmUiOiAiVGVhbSBTdHJlYW0gYnkgQmxlYWNoZXIgUmVwb3J0IiwK
+        ICAgICAgInR3aXR0ZXI6YXBwOnVybDppcGhvbmUiOiAidGVhbXN0cmVhbTov
+        L2FydGljbGUvbS5ibGVhY2hlcnJlcG9ydC5jb20vYXJ0aWNsZXMvMTcyOTMz
+        NS0xMC1iZXN0LWdhbWVzLW9mLWxlYnJvbi1qYW1lcy1taWFtaS1oZWF0LXRl
+        bnVyZSIsCiAgICAgICJ0d2l0dGVyOmFwcDppZDppcGFkIjogIjQ4NDcyNTc0
+        OCIsCiAgICAgICJ0d2l0dGVyOmFwcDpuYW1lOmlwYWQiOiAiVGVhbSBTdHJl
+        YW0gYnkgQmxlYWNoZXIgUmVwb3J0IiwKICAgICAgInR3aXR0ZXI6YXBwOnVy
+        bDppcGFkIjogInRlYW1zdHJlYW06Ly9hcnRpY2xlL20uYmxlYWNoZXJyZXBv
+        cnQuY29tL2FydGljbGVzLzE3MjkzMzUtMTAtYmVzdC1nYW1lcy1vZi1sZWJy
+        b24tamFtZXMtbWlhbWktaGVhdC10ZW51cmUiLAogICAgICAidHdpdHRlcjph
+        cHA6aWQ6Z29vZ2xlcGxheSI6ICJjb20uYmxlYWNoZXJyZXBvcnQuYW5kcm9p
+        ZC50ZWFtc3RyZWFtIiwKICAgICAgInR3aXR0ZXI6YXBwOm5hbWU6Z29vZ2xl
+        cGxheSI6ICJUZWFtIFN0cmVhbSBieSBCbGVhY2hlciBSZXBvcnQiLAogICAg
+        ICAidHdpdHRlcjphcHA6dXJsOmdvb2dsZXBsYXkiOiAiaHR0cDovL20uYmxl
+        YWNoZXJyZXBvcnQuY29tL2FydGljbGVzLzE3MjkzMzUtMTAtYmVzdC1nYW1l
+        cy1vZi1sZWJyb24tamFtZXMtbWlhbWktaGVhdC10ZW51cmUiLAogICAgICAi
+        ZmI6YXBwX2lkIjogIjEzNTE3NDA1NTE2MiIsCiAgICAgICJhb2wtdGUtYXV0
+        aCI6ICIxYzQyNDU4MC0wZjg2LTRkOWItODhiMi1iYzhjMGQwMjlkNGMiCiAg
+        ICAgfQogICAgXQogICB9CiAgfSwKICB7CiAgICJraW5kIjogImN1c3RvbXNl
+        YXJjaCNyZXN1bHQiLAogICAidGl0bGUiOiAiTGVCcm9uIEphbWVzIFN0YXRz
+        LCBOZXdzLCBWaWRlb3MsIEhpZ2hsaWdodHMsIFBpY3R1cmVzLCBCaW8gLSBN
+        aWFtaSAuLi4iLAogICAiaHRtbFRpdGxlIjogIlx1MDAzY2JcdTAwM2VMZUJy
+        b25cdTAwM2MvYlx1MDAzZSBKYW1lcyBTdGF0cywgTmV3cywgVmlkZW9zLCBI
+        aWdobGlnaHRzLCBQaWN0dXJlcywgQmlvIC0gTWlhbWkgXHUwMDNjYlx1MDAz
+        ZS4uLlx1MDAzYy9iXHUwMDNlIiwKICAgImxpbmsiOiAiaHR0cDovL2VzcG4u
+        Z28uY29tL25iYS9wbGF5ZXIvXy9pZC8xOTY2L2xlYnJvbi1qYW1lcyIsCiAg
+        ICJkaXNwbGF5TGluayI6ICJlc3BuLmdvLmNvbSIsCiAgICJzbmlwcGV0Ijog
+        IkdldCB0aGUgbGF0ZXN0IG5ld3MsIHN0YXRzLCB2aWRlb3MsIGhpZ2hsaWdo
+        dHMgYW5kIG1vcmUgYWJvdXQgTWlhbWkgSGVhdCBzbWFsbCAgIGZvcndhcmQg
+        TGVCcm9uIEphbWVzIG9uIEVTUE4uY29tLiIsCiAgICJodG1sU25pcHBldCI6
+        ICJHZXQgdGhlIGxhdGVzdCBuZXdzLCBzdGF0cywgdmlkZW9zLCBoaWdobGln
+        aHRzIGFuZCBtb3JlIGFib3V0IE1pYW1pIEhlYXQgc21hbGwgXHUwMDNjYnJc
+        dTAwM2UgIGZvcndhcmQgXHUwMDNjYlx1MDAzZUxlQnJvblx1MDAzYy9iXHUw
+        MDNlIEphbWVzIG9uIEVTUE4uY29tLiIsCiAgICJjYWNoZUlkIjogIkJwSTBO
+        alJrTnBBSiIsCiAgICJmb3JtYXR0ZWRVcmwiOiAiZXNwbi5nby5jb20vbmJh
+        L3BsYXllci9fL2lkLzE5NjYvbGVicm9uLWphbWVzIiwKICAgImh0bWxGb3Jt
+        YXR0ZWRVcmwiOiAiZXNwbi5nby5jb20vbmJhL3BsYXllci9fL2lkLzE5NjYv
+        XHUwMDNjYlx1MDAzZWxlYnJvblx1MDAzYy9iXHUwMDNlLWphbWVzIiwKICAg
+        InBhZ2VtYXAiOiB7CiAgICAiY3NlX2ltYWdlIjogWwogICAgIHsKICAgICAg
+        InNyYyI6ICJodHRwOi8vYS5lc3BuY2RuLmNvbS9jb21iaW5lci9pP2ltZz0v
+        aS9oZWFkc2hvdHMvbmJhL3BsYXllcnMvZnVsbC8xOTY2LnBuZyZoPTkwIgog
+        ICAgIH0KICAgIF0sCiAgICAiY3NlX3RodW1ibmFpbCI6IFsKICAgICB7CiAg
+        ICAgICJ3aWR0aCI6ICI5OSIsCiAgICAgICJoZWlnaHQiOiAiNzIiLAogICAg
+        ICAic3JjIjogImh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20v
+        aW1hZ2VzP3E9dGJuOkFOZDlHY1NyWXBqX1hCVWd4QkE2X01oMTZWTG5OSEs4
+        M3pPZGx6dUhDc25pYmFUeVJfN0pMZzl5RGFFdkJRIgogICAgIH0KICAgIF0s
+        CiAgICAibWV0YXRhZ3MiOiBbCiAgICAgewogICAgICAic2xpY2UiOiAib2Zm
+        IiwKICAgICAgIm1zdmFsaWRhdGUuMDEiOiAiQjFGRUI3QzY4MkM0NkM4RkNE
+        QTMxMzBGM0QxOEFDMjgiLAogICAgICAib2c6dGl0bGUiOiAiTGVCcm9uIEph
+        bWVzIiwKICAgICAgIm9nOnR5cGUiOiAiYXRobGV0ZSIsCiAgICAgICJvZzp1
+        cmwiOiAiaHR0cDovL2VzcG4uZ28uY29tL25iYS9wbGF5ZXIvXy9pZC8xOTY2
+        L2xlYnJvbi1qYW1lcyIsCiAgICAgICJvZzpkZXNjcmlwdGlvbiI6ICJHZXQg
+        dGhlIGxhdGVzdCBuZXdzLCBzdGF0cywgdmlkZW9zLCBoaWdobGlnaHRzIGFu
+        ZCBtb3JlIGFib3V0IE1pYW1pIEhlYXQgc21hbGwgZm9yd2FyZCBMZUJyb24g
+        SmFtZXMgb24gRVNQTi5jb20uIiwKICAgICAgIm9nOmltYWdlIjogImh0dHA6
+        Ly9hLmVzcG5jZG4uY29tL2NvbWJpbmVyL2k/aW1nPS9pL2hlYWRzaG90cy9u
+        YmEvcGxheWVycy9mdWxsLzE5NjYucG5nJmg9OTAiLAogICAgICAidHdpdHRl
+        cjpjYXJkIjogInN1bW1hcnkiLAogICAgICAidHdpdHRlcjppbWFnZSI6ICJo
+        dHRwOi8vYS5lc3BuY2RuLmNvbS9jb21iaW5lci9pP2ltZz0vaS9oZWFkc2hv
+        dHMvbmJhL3BsYXllcnMvZnVsbC8xOTY2LnBuZyZoPTkwIiwKICAgICAgInR3
+        aXR0ZXI6dGl0bGUiOiAiTGVCcm9uIEphbWVzIiwKICAgICAgInR3aXR0ZXI6
+        ZGVzY3JpcHRpb24iOiAiR2V0IHRoZSBsYXRlc3QgbmV3cywgc3RhdHMsIHZp
+        ZGVvcywgaGlnaGxpZ2h0cyBhbmQgbW9yZSBhYm91dCBNaWFtaSBIZWF0IHNt
+        YWxsIGZvcndhcmQgTGVCcm9uIEphbWVzIG9uIEVTUE4uY29tLiIsCiAgICAg
+        ICJvZzpzaXRlX25hbWUiOiAiRVNQTi5jb20iLAogICAgICAiZmI6YXBwX2lk
+        IjogIjExNjY1NjE2MTcwODkxNyIKICAgICB9CiAgICBdCiAgIH0KICB9LAog
+        IHsKICAgImtpbmQiOiAiY3VzdG9tc2VhcmNoI3Jlc3VsdCIsCiAgICJ0aXRs
+        ZSI6ICJEb2VzIExlQnJvbiBKYW1lcycgTWlhbWkgSGVhdCBGdXR1cmUgRGVw
+        ZW5kIG9uIERpdGNoaW5nIC4uLiIsCiAgICJodG1sVGl0bGUiOiAiRG9lcyBc
+        dTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMmIzM5OyBN
+        aWFtaSBIZWF0IEZ1dHVyZSBEZXBlbmQgb24gRGl0Y2hpbmcgXHUwMDNjYlx1
+        MDAzZS4uLlx1MDAzYy9iXHUwMDNlIiwKICAgImxpbmsiOiAiaHR0cDovL2Js
+        ZWFjaGVycmVwb3J0LmNvbS9hcnRpY2xlcy8xNzIxNzU5LWRvZXMtbGVicm9u
+        LWphbWVzLW1pYW1pLWhlYXQtZnV0dXJlLWRlcGVuZC1vbi1kaXRjaGluZy1k
+        d3lhbmUtd2FkZSIsCiAgICJkaXNwbGF5TGluayI6ICJibGVhY2hlcnJlcG9y
+        dC5jb20iLAogICAic25pcHBldCI6ICJKdWwgMzAsIDIwMTMgLi4uIExlQnJv
+        biBKYW1lcyBpcyBkb21pbmF0aW5nIHRoZSBOQkEgaW4gdGhlIHByZXNlbnQs
+        IGJ1dCBob3cgbG9uZyBpbnRvIHRoZSBmdXR1cmUgICBjYW4gaGUgY29udGlu
+        dWUgdG8gZG8gc28/IFRoZSBNaWFtaSBIZWF0IGhhdmUgd29uwqAuLi4iLAog
+        ICAiaHRtbFNuaXBwZXQiOiAiSnVsIDMwLCAyMDEzIFx1MDAzY2JcdTAwM2Uu
+        Li5cdTAwM2MvYlx1MDAzZSBcdTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNjL2Jc
+        dTAwM2UgSmFtZXMgaXMgZG9taW5hdGluZyB0aGUgTkJBIGluIHRoZSBwcmVz
+        ZW50LCBidXQgaG93IGxvbmcgaW50byB0aGUgZnV0dXJlIFx1MDAzY2JyXHUw
+        MDNlICBjYW4gaGUgY29udGludWUgdG8gZG8gc28/IFRoZSBNaWFtaSBIZWF0
+        IGhhdmUgd29uJm5ic3A7XHUwMDNjYlx1MDAzZS4uLlx1MDAzYy9iXHUwMDNl
+        IiwKICAgImNhY2hlSWQiOiAiSWp2dzJ6RUQzdU1KIiwKICAgImZvcm1hdHRl
+        ZFVybCI6ICJibGVhY2hlcnJlcG9ydC5jb20vLi4uLzE3MjE3NTktZG9lcy1s
+        ZWJyb24tamFtZXMtbWlhbWktaGVhdC1mdXR1cmUtIGRlcGVuZC1vbi1kaXRj
+        aGluZy1kd3lhbmUtd2FkZSIsCiAgICJodG1sRm9ybWF0dGVkVXJsIjogImJs
+        ZWFjaGVycmVwb3J0LmNvbS8uLi4vMTcyMTc1OS1kb2VzLVx1MDAzY2JcdTAw
+        M2VsZWJyb25cdTAwM2MvYlx1MDAzZS1qYW1lcy1taWFtaS1oZWF0LWZ1dHVy
+        ZS0gZGVwZW5kLW9uLWRpdGNoaW5nLWR3eWFuZS13YWRlIiwKICAgInBhZ2Vt
+        YXAiOiB7CiAgICAiY3NlX2ltYWdlIjogWwogICAgIHsKICAgICAgInNyYyI6
+        ICJodHRwOi8vaW1nLmJsZWFjaGVycmVwb3J0Lm5ldC9pbWcvaW1hZ2VzL3Bo
+        b3Rvcy8wMDIvNDIzLzc4OS9TY3JlZW5TaG90MjAxMy0wNy0zMGF0OC4wNi4x
+        MVBNX2Nyb3BfZXhhY3QuanBnP3c9MTUwMCZoPTE1MDAmcT04NSIKICAgICB9
+        CiAgICBdLAogICAgImNzZV90aHVtYm5haWwiOiBbCiAgICAgewogICAgICAi
+        d2lkdGgiOiAiMjc1IiwKICAgICAgImhlaWdodCI6ICIxODMiLAogICAgICAi
+        c3JjIjogImh0dHBzOi8vZW5jcnlwdGVkLXRibjEuZ3N0YXRpYy5jb20vaW1h
+        Z2VzP3E9dGJuOkFOZDlHY1N0RWF5RjFrMUJuQU1nRFdCaVJDdkdPYXdMcy1U
+        aVJ1Z0dVelo4ZXVfcTA1amRTeFpXRVRZYzNPVXUiCiAgICAgfQogICAgXSwK
+        ICAgICJtZXRhdGFncyI6IFsKICAgICB7CiAgICAgICJhcnRpY2xlOnB1Ymxp
+        c2hlciI6ICJodHRwOi8vd3d3LmZhY2Vib29rLmNvbS9ibGVhY2hlcnJlcG9y
+        dCIsCiAgICAgICJvZzpkZXNjcmlwdGlvbiI6ICJMZUJyb24gSmFtZXMgIGlz
+        IGRvbWluYXRpbmcgdGhlICBOQkEgIGluIHRoZSBwcmVzZW50LCBidXQgaG93
+        IGxvbmcgaW50byB0aGUgZnV0dXJlIGNhbiBoZSBjb250aW51ZSB0byBkbyBz
+        bz8gICAgVGhlICBNaWFtaSBIZWF0ICBoYXZlIHdvbiBjb25zZWN1dGl2ZSB0
+        aXRsZXMgd2l0aCBMZUJyb24gbGVhZGluZyAuLi4iLAogICAgICAib2c6aW1h
+        Z2UiOiAiaHR0cDovL2ltZy5ibGVhY2hlcnJlcG9ydC5uZXQvaW1nL2ltYWdl
+        cy9waG90b3MvMDAyLzQyMy83ODkvU2NyZWVuU2hvdDIwMTMtMDctMzBhdDgu
+        MDYuMTFQTV9jcm9wX2V4YWN0LmpwZz93PTE1MDAmaD0xNTAwJnE9ODUiLAog
+        ICAgICAib2c6c2l0ZV9uYW1lIjogIkJsZWFjaGVyIFJlcG9ydCIsCiAgICAg
+        ICJvZzp0aXRsZSI6ICJEb2VzIExlQnJvbidzIEZ1dHVyZSBEZXBlbmQgb24g
+        V2FkZT8iLAogICAgICAib2c6dHlwZSI6ICJhcnRpY2xlIiwKICAgICAgIm9n
+        OnVybCI6ICJodHRwOi8vYmxlYWNoZXJyZXBvcnQuY29tL2FydGljbGVzLzE3
+        MjE3NTktZG9lcy1sZWJyb24tamFtZXMtbWlhbWktaGVhdC1mdXR1cmUtZGVw
+        ZW5kLW9uLWRpdGNoaW5nLWR3eWFuZS13YWRlIiwKICAgICAgInR3aXR0ZXI6
+        Y2FyZCI6ICJzdW1tYXJ5IiwKICAgICAgInR3aXR0ZXI6ZGVzY3JpcHRpb24i
+        OiAiTGVCcm9uIEphbWVzICBpcyBkb21pbmF0aW5nIHRoZSAgTkJBICBpbiB0
+        aGUgcHJlc2VudCwgYnV0IGhvdyBsb25nIGludG8gdGhlIGZ1dHVyZSBjYW4g
+        aGUgY29udGludWUgdG8gZG8gc28/ICAgIFRoZSAgTWlhbWkgSGVhdCAgaGF2
+        ZSB3b24gY29uc2VjdXRpdmUgdGl0bGVzIHdpdGggTGVCcm9uIGxlYWRpbmcg
+        Li4uIiwKICAgICAgInR3aXR0ZXI6aW1hZ2UiOiAiaHR0cDovL2ltZy5ibGVh
+        Y2hlcnJlcG9ydC5uZXQvaW1nL2ltYWdlcy9waG90b3MvMDAyLzQyMy83ODkv
+        U2NyZWVuU2hvdDIwMTMtMDctMzBhdDguMDYuMTFQTV9jcm9wX2V4YWN0Lmpw
+        Zz93PTIwMCZoPTIwMCZxPTg1IiwKICAgICAgInR3aXR0ZXI6c2l0ZSI6ICJA
+        YmxlYWNoZXJyZXBvcnQiLAogICAgICAidHdpdHRlcjp0aXRsZSI6ICJEb2Vz
+        IExlQnJvbidzIEZ1dHVyZSBEZXBlbmQgb24gV2FkZT8iLAogICAgICAidHdp
+        dHRlcjp1cmwiOiAiaHR0cDovL2JsZWFjaGVycmVwb3J0LmNvbS9hcnRpY2xl
+        cy8xNzIxNzU5LWRvZXMtbGVicm9uLWphbWVzLW1pYW1pLWhlYXQtZnV0dXJl
+        LWRlcGVuZC1vbi1kaXRjaGluZy1kd3lhbmUtd2FkZSIsCiAgICAgICJ0d2l0
+        dGVyOmFwcDppZDppcGhvbmUiOiAiNDE4MDc1OTM1IiwKICAgICAgInR3aXR0
+        ZXI6YXBwOm5hbWU6aXBob25lIjogIlRlYW0gU3RyZWFtIGJ5IEJsZWFjaGVy
+        IFJlcG9ydCIsCiAgICAgICJ0d2l0dGVyOmFwcDp1cmw6aXBob25lIjogInRl
+        YW1zdHJlYW06Ly9hcnRpY2xlL20uYmxlYWNoZXJyZXBvcnQuY29tL2FydGlj
+        bGVzLzE3MjE3NTktZG9lcy1sZWJyb24tamFtZXMtbWlhbWktaGVhdC1mdXR1
+        cmUtZGVwZW5kLW9uLWRpdGNoaW5nLWR3eWFuZS13YWRlIiwKICAgICAgInR3
+        aXR0ZXI6YXBwOmlkOmlwYWQiOiAiNDg0NzI1NzQ4IiwKICAgICAgInR3aXR0
+        ZXI6YXBwOm5hbWU6aXBhZCI6ICJUZWFtIFN0cmVhbSBieSBCbGVhY2hlciBS
+        ZXBvcnQiLAogICAgICAidHdpdHRlcjphcHA6dXJsOmlwYWQiOiAidGVhbXN0
+        cmVhbTovL2FydGljbGUvbS5ibGVhY2hlcnJlcG9ydC5jb20vYXJ0aWNsZXMv
+        MTcyMTc1OS1kb2VzLWxlYnJvbi1qYW1lcy1taWFtaS1oZWF0LWZ1dHVyZS1k
+        ZXBlbmQtb24tZGl0Y2hpbmctZHd5YW5lLXdhZGUiLAogICAgICAidHdpdHRl
+        cjphcHA6aWQ6Z29vZ2xlcGxheSI6ICJjb20uYmxlYWNoZXJyZXBvcnQuYW5k
+        cm9pZC50ZWFtc3RyZWFtIiwKICAgICAgInR3aXR0ZXI6YXBwOm5hbWU6Z29v
+        Z2xlcGxheSI6ICJUZWFtIFN0cmVhbSBieSBCbGVhY2hlciBSZXBvcnQiLAog
+        ICAgICAidHdpdHRlcjphcHA6dXJsOmdvb2dsZXBsYXkiOiAiaHR0cDovL20u
+        YmxlYWNoZXJyZXBvcnQuY29tL2FydGljbGVzLzE3MjE3NTktZG9lcy1sZWJy
+        b24tamFtZXMtbWlhbWktaGVhdC1mdXR1cmUtZGVwZW5kLW9uLWRpdGNoaW5n
+        LWR3eWFuZS13YWRlIiwKICAgICAgImZiOmFwcF9pZCI6ICIxMzUxNzQwNTUx
+        NjIiLAogICAgICAiYW9sLXRlLWF1dGgiOiAiMWM0MjQ1ODAtMGY4Ni00ZDli
+        LTg4YjItYmM4YzBkMDI5ZDRjIgogICAgIH0KICAgIF0KICAgfQogIH0sCiAg
+        ewogICAia2luZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0IiwKICAgInRpdGxl
+        IjogIkxlQnJvbiBKYW1lczog4oCcSSdtIHN0aWxsIGdldHRpbmcgYmV0dGVy
+        4oCdIHwgUHJvQmFza2V0YmFsbFRhbGsiLAogICAiaHRtbFRpdGxlIjogIlx1
+        MDAzY2JcdTAwM2VMZUJyb25cdTAwM2MvYlx1MDAzZSBKYW1lczog4oCcSSYj
+        Mzk7bSBzdGlsbCBnZXR0aW5nIGJldHRlcuKAnSB8IFByb0Jhc2tldGJhbGxU
+        YWxrIiwKICAgImxpbmsiOiAiaHR0cDovL3Byb2Jhc2tldGJhbGx0YWxrLm5i
+        Y3Nwb3J0cy5jb20vMjAxMy8wOC8wOS9sZWJyb24tamFtZXMtaW0tc3RpbGwt
+        Z2V0dGluZy1iZXR0ZXIvIiwKICAgImRpc3BsYXlMaW5rIjogInByb2Jhc2tl
+        dGJhbGx0YWxrLm5iY3Nwb3J0cy5jb20iLAogICAic25pcHBldCI6ICJBdWcg
+        OSwgMjAxMyAuLi4gTGVCcm9uIEphbWVzIHdhcyBtYWtpbmcgaGlzIGZpcnN0
+        IHRvdXIgb2YgdGhlIFBoaWxpcHBpbmVzIHJlY2VudGx5LCBhIE5pa2UgICBz
+        cG9uc29yZWQgdG91ciB0byBib29zdCBoaXMgYnJhbmQgaW4gb24gb2YgdGhl
+        IHdvcmxkJ3MgcmVhbCBiYXNrZXRiYWxswqAuLi4iLAogICAiaHRtbFNuaXBw
+        ZXQiOiAiQXVnIDksIDIwMTMgXHUwMDNjYlx1MDAzZS4uLlx1MDAzYy9iXHUw
+        MDNlIFx1MDAzY2JcdTAwM2VMZUJyb25cdTAwM2MvYlx1MDAzZSBKYW1lcyB3
+        YXMgbWFraW5nIGhpcyBmaXJzdCB0b3VyIG9mIHRoZSBQaGlsaXBwaW5lcyBy
+        ZWNlbnRseSwgYSBOaWtlIFx1MDAzY2JyXHUwMDNlICBzcG9uc29yZWQgdG91
+        ciB0byBib29zdCBoaXMgYnJhbmQgaW4gb24gb2YgdGhlIHdvcmxkJiMzOTtz
+        IHJlYWwgYmFza2V0YmFsbCZuYnNwO1x1MDAzY2JcdTAwM2UuLi5cdTAwM2Mv
+        Ylx1MDAzZSIsCiAgICJmb3JtYXR0ZWRVcmwiOiAicHJvYmFza2V0YmFsbHRh
+        bGsubmJjc3BvcnRzLmNvbS8yMDEzLy4uLi9sZWJyb24tamFtZXMtaW0tc3Rp
+        bGwtZ2V0dGluZy1iZXR0ZXIvIiwKICAgImh0bWxGb3JtYXR0ZWRVcmwiOiAi
+        cHJvYmFza2V0YmFsbHRhbGsubmJjc3BvcnRzLmNvbS8yMDEzLy4uLi9cdTAw
+        M2NiXHUwMDNlbGVicm9uXHUwMDNjL2JcdTAwM2UtamFtZXMtaW0tc3RpbGwt
+        Z2V0dGluZy1iZXR0ZXIvIiwKICAgInBhZ2VtYXAiOiB7CiAgICAiY3NlX2lt
+        YWdlIjogWwogICAgIHsKICAgICAgInNyYyI6ICJodHRwOi8vaTEueXRpbWcu
+        Y29tL3ZpL2JRejBiVVRQMTQ4L21heHJlc2RlZmF1bHQuanBnIgogICAgIH0K
+        ICAgIF0sCiAgICAiY3NlX3RodW1ibmFpbCI6IFsKICAgICB7CiAgICAgICJ3
+        aWR0aCI6ICIzMDAiLAogICAgICAiaGVpZ2h0IjogIjE2OCIsCiAgICAgICJz
+        cmMiOiAiaHR0cHM6Ly9lbmNyeXB0ZWQtdGJuMy5nc3RhdGljLmNvbS9pbWFn
+        ZXM/cT10Ym46QU5kOUdjVFYwMzJxYzdVNE13WlY3UFVsRFpCOG1Zdi1YaWM5
+        ZVNnNzkzZHMwb0cwRDdKb1ZQaDI3S0RXMlVWVyIKICAgICB9CiAgICBdLAog
+        ICAgIm1ldGF0YWdzIjogWwogICAgIHsKICAgICAgIm9nOnVybCI6ICJodHRw
+        Oi8vcHJvYmFza2V0YmFsbHRhbGsubmJjc3BvcnRzLmNvbS8yMDEzLzA4LzA5
+        L2xlYnJvbi1qYW1lcy1pbS1zdGlsbC1nZXR0aW5nLWJldHRlci8iLAogICAg
+        ICAib2c6dGl0bGUiOiAiTGVCcm9uIEphbWVzOiDigJxJ4oCZbSBzdGlsbCBn
+        ZXR0aW5nwqBiZXR0ZXLigJ0iLAogICAgICAib2c6ZGVzY3JpcHRpb24iOiAi
+        TGVCcm9uIEphbWVzIHdhcyBtYWtpbmcgaGlzIGZpcnN0IHRvdXIgb2YgdGhl
+        IFBoaWxpcHBpbmVzwqByZWNlbnRseSwgYSBOaWtlIHNwb25zb3JlZCB0b3Vy
+        IHRvIGJvb3N0IGhpcyBicmFuZCBpbiBvbiBvZiB0aGUgd29ybGTigJlzIHJl
+        YWwgYmFza2V0YmFsbCBob3RiZWRzLiBUaGUgdG91ciB3YXMgZmlsbGVkIHdp
+        dGggdGhlIHVzdWFsIGFwcGVhcmFuY2VzIGFuZCBhIGZldyBnYW1lcy4gQW5k
+        IGhlIGRpZG7igJl0IHJlYWxseSBzYXkgYW55dGhpbmcgeW91IHdvdWxkbuKA
+        mXQgZXhwZWN0LCBidXQgb25lIHRoaW5nIGhlIHNhaWQgY291bGQgYmUgc2Nh
+        cnnigKYiLAogICAgICAib2c6aW1hZ2UiOiAiaHR0cDovL25iY3Byb2Jhc2tl
+        dGJhbGx0YWxrLmZpbGVzLndvcmRwcmVzcy5jb20vMjAxMy8wOC8zNTB4LTEx
+        LmpwZz93PTIwMCZoPTE3MCZjcm9wPTEiLAogICAgICAiYXBwbGljYXRpb24t
+        bmFtZSI6ICJQcm9CYXNrZXRiYWxsVGFsayIsCiAgICAgICJtc2FwcGxpY2F0
+        aW9uLXdpbmRvdyI6ICJ3aWR0aD1kZXZpY2Utd2lkdGg7aGVpZ2h0PWRldmlj
+        ZS1oZWlnaHQiLAogICAgICAibXNhcHBsaWNhdGlvbi10b29sdGlwIjogIkJh
+        c2tldGJhbGwgLSBOQkMgU3BvcnRzIiwKICAgICAgIm1zYXBwbGljYXRpb24t
+        dGFzayI6ICJuYW1lPVN1YnNjcmliZTthY3Rpb24tdXJpPWh0dHA6Ly9wcm9i
+        YXNrZXRiYWxsdGFsay5uYmNzcG9ydHMuY29tL2ZlZWQvO2ljb24tdXJpPWh0
+        dHA6Ly8wLmdyYXZhdGFyLmNvbS9ibGF2YXRhci82ZDE2OTBlYmMxYTg4ZTNm
+        MGViYmM2ZDk4NDEwMmE2MD9zPTE2IiwKICAgICAgImZiOmFkbWlucyI6ICI2
+        NjA0ODQ1MTciCiAgICAgfQogICAgXQogICB9CiAgfSwKICB7CiAgICJraW5k
+        IjogImN1c3RvbXNlYXJjaCNyZXN1bHQiLAogICAidGl0bGUiOiAiS29iZSBC
+        cnlhbnQgdnMuIExlQnJvbiBKYW1lczogV2hpY2ggTkJBIFN1cGVyc3RhciBI
+        YXMgQmlnZ2VyIC4uLiIsCiAgICJodG1sVGl0bGUiOiAiS29iZSBCcnlhbnQg
+        dnMuIFx1MDAzY2JcdTAwM2VMZUJyb25cdTAwM2MvYlx1MDAzZSBKYW1lczog
+        V2hpY2ggTkJBIFN1cGVyc3RhciBIYXMgQmlnZ2VyIFx1MDAzY2JcdTAwM2Uu
+        Li5cdTAwM2MvYlx1MDAzZSIsCiAgICJsaW5rIjogImh0dHA6Ly9ibGVhY2hl
+        cnJlcG9ydC5jb20vYXJ0aWNsZXMvMTczMTkxOS1rb2JlLWJyeWFudC12cy1s
+        ZWJyb24tamFtZXMtd2hpY2gtbmJhLXN1cGVyc3Rhci1oYXMtYmlnZ2VyLWds
+        b2JhbC1pbXBhY3QiLAogICAiZGlzcGxheUxpbmsiOiAiYmxlYWNoZXJyZXBv
+        cnQuY29tIiwKICAgInNuaXBwZXQiOiAiQXVnIDgsIDIwMTMgLi4uIFRoZSBi
+        YXR0bGUgYmV0d2VlbiBLb2JlIEJyeWFudCBhbmQgTGVCcm9uIEphbWVzIGRv
+        ZXNuJ3QganVzdCB0YWtlIHBsYWNlIG9uIHRoZSAgIGNvdXJ0LiBJdCBwbGF5
+        cyBvdXQgb24gYSBnbG9iYWwgc2NhbGUgYXMgZWFjaCBzdXBlcnN0YXLCoC4u
+        LiIsCiAgICJodG1sU25pcHBldCI6ICJBdWcgOCwgMjAxMyBcdTAwM2NiXHUw
+        MDNlLi4uXHUwMDNjL2JcdTAwM2UgVGhlIGJhdHRsZSBiZXR3ZWVuIEtvYmUg
+        QnJ5YW50IGFuZCBcdTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2Ug
+        SmFtZXMgZG9lc24mIzM5O3QganVzdCB0YWtlIHBsYWNlIG9uIHRoZSBcdTAw
+        M2Niclx1MDAzZSAgY291cnQuIEl0IHBsYXlzIG91dCBvbiBhIGdsb2JhbCBz
+        Y2FsZSBhcyBlYWNoIHN1cGVyc3RhciZuYnNwO1x1MDAzY2JcdTAwM2UuLi5c
+        dTAwM2MvYlx1MDAzZSIsCiAgICJjYWNoZUlkIjogIlc4UlFTWjZCLUc0SiIs
+        CiAgICJmb3JtYXR0ZWRVcmwiOiAiYmxlYWNoZXJyZXBvcnQuY29tLy4uLi8x
+        NzMxOTE5LWtvYmUtYnJ5YW50LXZzLWxlYnJvbi1qYW1lcy13aGljaC1uYmEt
+        IHN1cGVyc3Rhci1oYXMtYmlnZ2VyLWdsb2JhbC1pbXBhY3QiLAogICAiaHRt
+        bEZvcm1hdHRlZFVybCI6ICJibGVhY2hlcnJlcG9ydC5jb20vLi4uLzE3MzE5
+        MTkta29iZS1icnlhbnQtdnMtXHUwMDNjYlx1MDAzZWxlYnJvblx1MDAzYy9i
+        XHUwMDNlLWphbWVzLXdoaWNoLW5iYS0gc3VwZXJzdGFyLWhhcy1iaWdnZXIt
+        Z2xvYmFsLWltcGFjdCIsCiAgICJwYWdlbWFwIjogewogICAgImNzZV9pbWFn
+        ZSI6IFsKICAgICB7CiAgICAgICJzcmMiOiAiaHR0cDovL2ltZy5ibGVhY2hl
+        cnJlcG9ydC5uZXQvaW1nL2ltYWdlcy9waG90b3MvMDAyLzQzOC8zMDgvS29i
+        ZUxlYnJvbl9jcm9wX25vcnRoLmpwZz93PTY1MCZoPTQ0MCZxPTc1IgogICAg
+        IH0KICAgIF0sCiAgICAiY3NlX3RodW1ibmFpbCI6IFsKICAgICB7CiAgICAg
+        ICJ3aWR0aCI6ICIyNzMiLAogICAgICAiaGVpZ2h0IjogIjE4NSIsCiAgICAg
+        ICJzcmMiOiAiaHR0cHM6Ly9lbmNyeXB0ZWQtdGJuMi5nc3RhdGljLmNvbS9p
+        bWFnZXM/cT10Ym46QU5kOUdjVHhwYzdUWnJzWE5DVHhqTmY5Uk55ZzNEakVh
+        N2xianFJUjBSUlY4OThhTlcydmU0emZ6emI5WUlnRyIKICAgICB9CiAgICBd
+        LAogICAgIm1ldGF0YWdzIjogWwogICAgIHsKICAgICAgImFydGljbGU6cHVi
+        bGlzaGVyIjogImh0dHA6Ly93d3cuZmFjZWJvb2suY29tL2JsZWFjaGVycmVw
+        b3J0IiwKICAgICAgIm9nOmRlc2NyaXB0aW9uIjogIlRoZSBiYXR0bGUgYmV0
+        d2VlbiAgS29iZSBCcnlhbnQgIGFuZCAgTGVCcm9uIEphbWVzICBkb2Vzbid0
+        IGp1c3QgdGFrZSBwbGFjZSBvbiB0aGUgY291cnQuIEl0IHBsYXlzIG91dCBv
+        biBhIGdsb2JhbCBzY2FsZSBhcyBlYWNoIHN1cGVyc3RhciBhdHRlbXB0cyB0
+        byBhc3NlcnQgaGltc2VsZiBhcyB0aGUgbGFyZ2VzdCBiYXNrZXRiYWxsIGlj
+        b24gaW4gdGhlIHdvcmxkLi4uIiwKICAgICAgIm9nOmltYWdlIjogImh0dHA6
+        Ly9pbWcuYmxlYWNoZXJyZXBvcnQubmV0L2ltZy9pbWFnZXMvcGhvdG9zLzAw
+        Mi80MzgvMzA4L0tvYmVMZWJyb25fY3JvcF9leGFjdC5qcGc/dz0xNTAwJmg9
+        MTUwMCZxPTg1IiwKICAgICAgIm9nOnNpdGVfbmFtZSI6ICJCbGVhY2hlciBS
+        ZXBvcnQiLAogICAgICAib2c6dGl0bGUiOiAiQmlnZ2VyIEdsb2JhbCBJbXBh
+        Y3Q6IEtvYmUgb3IgTEJKPyIsCiAgICAgICJvZzp0eXBlIjogImFydGljbGUi
+        LAogICAgICAib2c6dXJsIjogImh0dHA6Ly9ibGVhY2hlcnJlcG9ydC5jb20v
+        YXJ0aWNsZXMvMTczMTkxOS1rb2JlLWJyeWFudC12cy1sZWJyb24tamFtZXMt
+        d2hpY2gtbmJhLXN1cGVyc3Rhci1oYXMtYmlnZ2VyLWdsb2JhbC1pbXBhY3Qi
+        LAogICAgICAidHdpdHRlcjpjYXJkIjogInN1bW1hcnkiLAogICAgICAidHdp
+        dHRlcjpkZXNjcmlwdGlvbiI6ICJUaGUgYmF0dGxlIGJldHdlZW4gIEtvYmUg
+        QnJ5YW50ICBhbmQgIExlQnJvbiBKYW1lcyAgZG9lc24ndCBqdXN0IHRha2Ug
+        cGxhY2Ugb24gdGhlIGNvdXJ0LiBJdCBwbGF5cyBvdXQgb24gYSBnbG9iYWwg
+        c2NhbGUgYXMgZWFjaCBzdXBlcnN0YXIgYXR0ZW1wdHMgdG8gYXNzZXJ0IGhp
+        bXNlbGYgYXMgdGhlIGxhcmdlc3QgYmFza2V0YmFsbCBpY29uIGluIHRoZSB3
+        b3JsZC4uLiIsCiAgICAgICJ0d2l0dGVyOmltYWdlIjogImh0dHA6Ly9pbWcu
+        YmxlYWNoZXJyZXBvcnQubmV0L2ltZy9pbWFnZXMvcGhvdG9zLzAwMi80Mzgv
+        MzA4L0tvYmVMZWJyb25fY3JvcF9leGFjdC5qcGc/dz0yMDAmaD0yMDAmcT04
+        NSIsCiAgICAgICJ0d2l0dGVyOnNpdGUiOiAiQGJsZWFjaGVycmVwb3J0IiwK
+        ICAgICAgInR3aXR0ZXI6dGl0bGUiOiAiQmlnZ2VyIEdsb2JhbCBJbXBhY3Q6
+        IEtvYmUgb3IgTEJKPyIsCiAgICAgICJ0d2l0dGVyOnVybCI6ICJodHRwOi8v
+        YmxlYWNoZXJyZXBvcnQuY29tL2FydGljbGVzLzE3MzE5MTkta29iZS1icnlh
+        bnQtdnMtbGVicm9uLWphbWVzLXdoaWNoLW5iYS1zdXBlcnN0YXItaGFzLWJp
+        Z2dlci1nbG9iYWwtaW1wYWN0IiwKICAgICAgInR3aXR0ZXI6YXBwOmlkOmlw
+        aG9uZSI6ICI0MTgwNzU5MzUiLAogICAgICAidHdpdHRlcjphcHA6bmFtZTpp
+        cGhvbmUiOiAiVGVhbSBTdHJlYW0gYnkgQmxlYWNoZXIgUmVwb3J0IiwKICAg
+        ICAgInR3aXR0ZXI6YXBwOnVybDppcGhvbmUiOiAidGVhbXN0cmVhbTovL2Fy
+        dGljbGUvbS5ibGVhY2hlcnJlcG9ydC5jb20vYXJ0aWNsZXMvMTczMTkxOS1r
+        b2JlLWJyeWFudC12cy1sZWJyb24tamFtZXMtd2hpY2gtbmJhLXN1cGVyc3Rh
+        ci1oYXMtYmlnZ2VyLWdsb2JhbC1pbXBhY3QiLAogICAgICAidHdpdHRlcjph
+        cHA6aWQ6aXBhZCI6ICI0ODQ3MjU3NDgiLAogICAgICAidHdpdHRlcjphcHA6
+        bmFtZTppcGFkIjogIlRlYW0gU3RyZWFtIGJ5IEJsZWFjaGVyIFJlcG9ydCIs
+        CiAgICAgICJ0d2l0dGVyOmFwcDp1cmw6aXBhZCI6ICJ0ZWFtc3RyZWFtOi8v
+        YXJ0aWNsZS9tLmJsZWFjaGVycmVwb3J0LmNvbS9hcnRpY2xlcy8xNzMxOTE5
+        LWtvYmUtYnJ5YW50LXZzLWxlYnJvbi1qYW1lcy13aGljaC1uYmEtc3VwZXJz
+        dGFyLWhhcy1iaWdnZXItZ2xvYmFsLWltcGFjdCIsCiAgICAgICJ0d2l0dGVy
+        OmFwcDppZDpnb29nbGVwbGF5IjogImNvbS5ibGVhY2hlcnJlcG9ydC5hbmRy
+        b2lkLnRlYW1zdHJlYW0iLAogICAgICAidHdpdHRlcjphcHA6bmFtZTpnb29n
+        bGVwbGF5IjogIlRlYW0gU3RyZWFtIGJ5IEJsZWFjaGVyIFJlcG9ydCIsCiAg
+        ICAgICJ0d2l0dGVyOmFwcDp1cmw6Z29vZ2xlcGxheSI6ICJodHRwOi8vbS5i
+        bGVhY2hlcnJlcG9ydC5jb20vYXJ0aWNsZXMvMTczMTkxOS1rb2JlLWJyeWFu
+        dC12cy1sZWJyb24tamFtZXMtd2hpY2gtbmJhLXN1cGVyc3Rhci1oYXMtYmln
+        Z2VyLWdsb2JhbC1pbXBhY3QiLAogICAgICAiZmI6YXBwX2lkIjogIjEzNTE3
+        NDA1NTE2MiIsCiAgICAgICJhb2wtdGUtYXV0aCI6ICIxYzQyNDU4MC0wZjg2
+        LTRkOWItODhiMi1iYzhjMGQwMjlkNGMiCiAgICAgfQogICAgXQogICB9CiAg
+        fQogXQp9Cg==
+    http_version: 
+  recorded_at: Tue, 20 Aug 2013 04:13:31 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/search/tweets.json?q=lebron&result_type=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Twitter Ruby Gem 4.8.1
+      Authorization:
+      - OAuth oauth_consumer_key="JYPwBbGCOsbbkRDOEumpA", oauth_nonce="664df051c0530a3f48bf00fd765cf554",
+        oauth_signature="CRRyW9yEKx6W9PxSHKeDUOKOiTs%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1376972011", oauth_token="409349725-rKFQ09ejGhhTXejk2piUMd5AqTPNsEZMbJOcCVdI",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 20 Aug 2013 04:13:31 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Tue, 20 Aug 2013 04:13:31 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tfe
+      Set-Cookie:
+      - guest_id=v1%3A137697201120507995; Domain=.twitter.com; Path=/; Expires=Thu,
+        20-Aug-2015 04:13:31 UTC
+      - lang=en
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '179'
+      X-Rate-Limit-Reset:
+      - '1376972911'
+      X-Transaction:
+      - 954270fd37983f93
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"statuses":[{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:13:12 +0000 2013","id":369673446210285568,"id_str":"369673446210285568","text":"So
+        JAY FUCKIN Z wouldn''t start his concert in Miami until LEBRON got there !!!","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter
+        for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":154228454,"id_str":"154228454","name":"Mike
+        Banning","screen_name":"showtim379","location":"609\u2192253","description":"\u5de5
+        D\u25efnt \uff9aov\u4e47 \u311a\u25ef\u222a h\u25ef\u4e47s Aquarius, Sixers,Eagles,
+        Army, Asshole, Darkskin, I guess that''s it *shrugs* IG: @youngkings123 kik:
+        @moet3lib","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":1214,"friends_count":1009,"listed_count":9,"created_at":"Thu
+        Jun 10 18:16:52 +0000 2010","favourites_count":119,"utc_offset":-18000,"time_zone":"Quito","geo_enabled":true,"verified":false,"statuses_count":115906,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/533374149\/allen-iverson-tattoos2.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/533374149\/allen-iverson-tattoos2.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000299094459\/4dbc08b58107da169b5a99f659e1eb03_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000299094459\/4dbc08b58107da169b5a99f659e1eb03_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/154228454\/1358294301","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:13:10 +0000 2013","id":369673439562326016,"id_str":"369673439562326016","text":"The
+        last 10 seconds of the game, Lebron or Kevin Durant? Stop playing! I would
+        give the ball to Kobe!","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":586241007,"id_str":"586241007","name":"Golden_Ace","screen_name":"Romeo_Kims7s","location":"Atlanta,
+        Georgia","description":"L''As de Trefle qui Pique ton Coeur #CirocBoyz#EagleCrew#Teammauvais..Long
+        as yo momma luv ya don''t ever love a woman #Vampirelife#LakerGang....VSOP","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":84,"friends_count":207,"listed_count":0,"created_at":"Mon
+        May 21 02:00:53 +0000 2012","favourites_count":33,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":3287,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"ACDED6","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/378800000052278977\/7491aeb5df0bc637c96aefb0969e6eb9.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/378800000052278977\/7491aeb5df0bc637c96aefb0969e6eb9.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000303762896\/2f074c90affc32c9caf2bafcf22a96da_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000303762896\/2f074c90affc32c9caf2bafcf22a96da_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/586241007\/1374596089","profile_link_color":"038543","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"F6F6F6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"es"},"created_at":"Tue
+        Aug 20 04:13:08 +0000 2013","id":369673430691348480,"id_str":"369673430691348480","text":"RT
+        @ExpertoNBA: Los 5 mejores jugadores de la NBA seg\u00fan ESPN:\n\n1- LeBron
+        James\n2- Kevin Durant\n3- Chris Paul\n4- Kobe Bryant\n5- Russell West\u2026","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":352533147,"id_str":"352533147","name":"Kelvin
+        Bello","screen_name":"kelvinbello15","location":"Republica Dominicana","description":"Dominicano,Sincero,Inquieto,espont\u00e1neo,humilde,activo,multifacetico,deportista
+        y unas 2,500 cosas mas que ni yo mismo conozco!!","url":"https:\/\/t.co\/OIOHRxrXLr","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/OIOHRxrXLr","expanded_url":"https:\/\/www.facebook.com\/kelvinbello15","display_url":"facebook.com\/kelvinbello15","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":172,"friends_count":142,"listed_count":0,"created_at":"Wed
+        Aug 10 19:13:30 +0000 2011","favourites_count":2,"utc_offset":-14400,"time_zone":"La
+        Paz","geo_enabled":true,"verified":false,"statuses_count":7339,"lang":"es","contributors_enabled":false,"is_translator":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/378800000019244039\/b0c8daf67e81e89bdf6e8fb1cab69c9f.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/378800000019244039\/b0c8daf67e81e89bdf6e8fb1cab69c9f.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000083724257\/81084cb59a07b5320d3bedcd8878faf5_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000083724257\/81084cb59a07b5320d3bedcd8878faf5_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/352533147\/1365177153","profile_link_color":"009999","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"es"},"created_at":"Tue
+        Aug 20 01:41:55 +0000 2013","id":369635373867368450,"id_str":"369635373867368450","text":"Los
+        5 mejores jugadores de la NBA seg\u00fan ESPN:\n\n1- LeBron James\n2- Kevin
+        Durant\n3- Chris Paul\n4- Kobe Bryant\n5- Russell Westbrook","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1343622349,"id_str":"1343622349","name":"ExpertoNBA","screen_name":"ExpertoNBA","location":"","description":"All
+        NBA. EXPERT, an account full of NBA, \/\/ English, Espa\u00f1ol","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":16222,"friends_count":836,"listed_count":62,"created_at":"Thu
+        Apr 11 05:42:00 +0000 2013","favourites_count":190,"utc_offset":-16200,"time_zone":"Caracas","geo_enabled":false,"verified":false,"statuses_count":3601,"lang":"es","contributors_enabled":false,"is_translator":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/881407863\/62a8f74cd33f9995ee0b8d6593e8b239.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/881407863\/62a8f74cd33f9995ee0b8d6593e8b239.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/3508389067\/5a63f12a600c570c9a005ebdbe914690_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/3508389067\/5a63f12a600c570c9a005ebdbe914690_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1343622349\/1374348684","profile_link_color":"009999","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":141,"favorite_count":17,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"es"},"retweet_count":141,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"ExpertoNBA","name":"ExpertoNBA","id":1343622349,"id_str":"1343622349","indices":[3,14]}]},"favorited":false,"retweeted":false,"lang":"es"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:13:02 +0000 2013","id":369673404146020352,"id_str":"369673404146020352","text":"RT
+        @ESPN_Numbers: As a HS junior LeBron James had 57 catches for 1,160 yards
+        &amp; 16 TDs. Calvin Johnson caught 34 passes for 646 yards &amp; 10 T\u2026","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1532104904,"id_str":"1532104904","name":"Moose","screen_name":"NathanMooose","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":179,"friends_count":216,"listed_count":0,"created_at":"Wed
+        Jun 19 21:54:02 +0000 2013","favourites_count":394,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":259,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000157574253\/0bbcb04a136b5869c65a3ce385c7fd4c_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000157574253\/0bbcb04a136b5869c65a3ce385c7fd4c_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1532104904\/1374260863","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 13 17:06:58 +0000 2013","id":367331456567099393,"id_str":"367331456567099393","text":"As
+        a HS junior LeBron James had 57 catches for 1,160 yards &amp; 16 TDs. Calvin
+        Johnson caught 34 passes for 646 yards &amp; 10 TDs his junior year.","source":"\u003ca
+        href=\"http:\/\/www.tweetdeck.com\" rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":362189733,"id_str":"362189733","name":"Numbers
+        Never Lie","screen_name":"ESPN_Numbers","location":"","description":"Numbers
+        Never Lie is on ESPN2 at 2PM Monday-Friday.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":218037,"friends_count":194,"listed_count":1542,"created_at":"Fri
+        Aug 26 00:27:56 +0000 2011","favourites_count":30,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":3690,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/890413454\/604ac0d8e2bec5f408e81581f76fb34d.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/890413454\/604ac0d8e2bec5f408e81581f76fb34d.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/3760303798\/f150f92e007b000e62bd3dbe3f2de041_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/3760303798\/f150f92e007b000e62bd3dbe3f2de041_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/362189733\/1376448280","profile_link_color":"192D7D","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":7442,"favorite_count":1699,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},"retweet_count":7442,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"ESPN_Numbers","name":"Numbers
+        Never Lie","id":362189733,"id_str":"362189733","indices":[3,16]}]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:13:01 +0000 2013","id":369673400223952898,"id_str":"369673400223952898","text":"ESPN
+        lost me with its relentless overkill of stories and debate involving LeBron
+        James, Terrell Owens, Tim Tebow, Kobe Bryant, etc.","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":32187905,"id_str":"32187905","name":"Ross
+        Siler","screen_name":"rosssiler","location":"Seattle","description":"Jackpotting
+        around.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":2528,"friends_count":858,"listed_count":150,"created_at":"Thu
+        Apr 16 22:47:30 +0000 2009","favourites_count":10,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":10555,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2825346793\/622c80a14e26120e151e1deca65d6a92_normal.png","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2825346793\/622c80a14e26120e151e1deca65d6a92_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/32187905\/1358993953","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:13:00 +0000 2013","id":369673395010433024,"id_str":"369673395010433024","text":"RT
+        @NiggasBLike: RT if you see your fav player \n\nKobe \ud83d\udc0d\nLebron
+        \ud83d\udc51\nMelo \ud83d\udc02\nDurant \u26a1\nDRose \u267f\nRondo \ud83c\udf40\nCP3\u20e3\nWade\ud83d\udd26
+        \nDirk\ud83c\udde9\ud83c\uddea \nDuncan\ud83d\udca4 \nCurry\ud83d\udd25 \nHarde\u2026","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":66473679,"id_str":"66473679","name":"Shania''s
+        SIS","screen_name":"__mykaleee","location":"","description":"FUCK Everybody
+        , I HATE Everybody","url":"http:\/\/t.co\/CybDyqbw53","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/CybDyqbw53","expanded_url":"http:\/\/ask.fm\/MyKaleeee","display_url":"ask.fm\/MyKaleeee","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1753,"friends_count":1493,"listed_count":4,"created_at":"Mon
+        Aug 17 20:22:57 +0000 2009","favourites_count":238,"utc_offset":-18000,"time_zone":"Quito","geo_enabled":true,"verified":false,"statuses_count":15966,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"F04FA5","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/446176235\/Snapshot_20120307.JPG","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/446176235\/Snapshot_20120307.JPG","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000321203573\/5d1dd6b4a1e24b1679129a163723065f_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000321203573\/5d1dd6b4a1e24b1679129a163723065f_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/66473679\/1376596288","profile_link_color":"EB21E4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"AF09D9","profile_text_color":"316EE8","profile_use_background_image":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 13 00:39:42 +0000 2013","id":367083003400712192,"id_str":"367083003400712192","text":"RT
+        if you see your fav player \n\nKobe \ud83d\udc0d\nLebron \ud83d\udc51\nMelo
+        \ud83d\udc02\nDurant \u26a1\nDRose \u267f\nRondo \ud83c\udf40\nCP3\u20e3\nWade\ud83d\udd26
+        \nDirk\ud83c\udde9\ud83c\uddea \nDuncan\ud83d\udca4 \nCurry\ud83d\udd25 \nHarden\ud83d\ude80\nKyrie\u26a1\nGeorge
+        \ud83c\udd7f","source":"\u003ca href=\"http:\/\/twitter.com\/download\/iphone\"
+        rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":909476018,"id_str":"909476018","name":"Niggas
+        Be Like","screen_name":"NiggasBLike","location":"","description":"You my nigga","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":102745,"friends_count":5,"listed_count":78,"created_at":"Sun
+        Oct 28 04:03:57 +0000 2012","favourites_count":61,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":1735,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2795416115\/34a300044b624a445db270e5d16220c0_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2795416115\/34a300044b624a445db270e5d16220c0_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/909476018\/1375591621","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":755,"favorite_count":100,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},"retweet_count":755,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"NiggasBLike","name":"Niggas
+        Be Like","id":909476018,"id_str":"909476018","indices":[3,15]}]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:13:00 +0000 2013","id":369673394364895232,"id_str":"369673394364895232","text":"RT
+        @realcallimack: \"@trill_boss_chic: I don''t want Lebron on the Lakers.. It''s
+        just that ESPN says he might come to LA if Phil comes back.\"\u2026","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":213660429,"id_str":"213660429","name":"Gho$t
+        \u2022.\u2022","screen_name":"General_Kush","location":"Olympus ","description":"#youngRASTA
+        #Pisces #LVLYSL #JetLife #Treegang #LakersNation #GGG clothing line coming
+        soon","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":513,"friends_count":747,"listed_count":4,"created_at":"Tue
+        Nov 09 13:39:20 +0000 2010","favourites_count":6441,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":28157,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"19CC52","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/529790166\/WP_000248.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/529790166\/WP_000248.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000318301550\/e7e542c0879ae7c843e989ce542c68fe_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000318301550\/e7e542c0879ae7c843e989ce542c68fe_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/213660429\/1376627904","profile_link_color":"CC3366","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:03:08 +0000 2013","id":369670914189041664,"id_str":"369670914189041664","text":"\"@trill_boss_chic:
+        I don''t want Lebron on the Lakers.. It''s just that ESPN says he might come
+        to LA if Phil comes back.\" Keep his ass miami","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1500307560,"id_str":"1500307560","name":"Calli
+        Mack","screen_name":"realcallimack","location":"Bk, Ny","description":"Lakernation
+        forever I love hip hop music, and poetry. And I''m a huge wrestling fan.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":178,"friends_count":248,"listed_count":1,"created_at":"Tue
+        Jun 11 04:48:38 +0000 2013","favourites_count":9,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":614,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000009530915\/2965eddbcee9d2af58bbdd135e70a634_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000009530915\/2965eddbcee9d2af58bbdd135e70a634_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1500307560\/1371537338","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":5,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"trill_boss_chic","name":"\u2728\u2728MzBoss\u2728\u2728","id":38913511,"id_str":"38913511","indices":[1,17]}]},"favorited":false,"retweeted":false,"lang":"en"},"retweet_count":5,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"realcallimack","name":"Calli
+        Mack","id":1500307560,"id_str":"1500307560","indices":[3,17]},{"screen_name":"trill_boss_chic","name":"\u2728\u2728MzBoss\u2728\u2728","id":38913511,"id_str":"38913511","indices":[20,36]}]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:12:56 +0000 2013","id":369673378635853824,"id_str":"369673378635853824","text":"@shadbabury
+        lebron..","source":"web","truncated":false,"in_reply_to_status_id":369673177758453760,"in_reply_to_status_id_str":"369673177758453760","in_reply_to_user_id":309651639,"in_reply_to_user_id_str":"309651639","in_reply_to_screen_name":"shadbabury","user":{"id":369177908,"id_str":"369177908","name":"Nathan
+        money Skoufis","screen_name":"Skoufy","location":"MIA","description":"official
+        twitter page of most dominate champion.champion ball player now turned fashion
+        icon. now resides in miami beach. a living legend","url":"http:\/\/t.co\/5teJzkl1fU","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/5teJzkl1fU","expanded_url":"http:\/\/swag.com","display_url":"swag.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":143,"friends_count":86,"listed_count":0,"created_at":"Tue
+        Sep 06 22:24:53 +0000 2011","favourites_count":395,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":954,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"02070F","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/570629360\/5u3zvmy6kwqeabd8t1vr.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/570629360\/5u3zvmy6kwqeabd8t1vr.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000326843118\/e311342020df69ddeb9bf44972a74925_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000326843118\/e311342020df69ddeb9bf44972a74925_normal.jpeg","profile_link_color":"CF0404","profile_sidebar_border_color":"DB0B0B","profile_sidebar_fill_color":"0A0000","profile_text_color":"D10000","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"shadbabury","name":"Shad","id":309651639,"id_str":"309651639","indices":[0,11]}]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:12:47 +0000 2013","id":369673341541445634,"id_str":"369673341541445634","text":"Court
+        Vision: Lakers'' Kobe Bryant cleared to run on anti-gravity treadmill - http:\/\/t.co\/1PnKZeU1Z1
+        http:\/\/t.co\/tktFUjiY6c","source":"\u003ca href=\"http:\/\/dlvr.it\" rel=\"nofollow\"\u003edlvr.it\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":593407164,"id_str":"593407164","name":"Kobe
+        Bryant","screen_name":"KobeBryant24x7","location":"","description":"We deliver
+        the latest Kobe Bryant news everyday.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7045,"friends_count":6827,"listed_count":7,"created_at":"Tue
+        May 29 03:47:19 +0000 2012","favourites_count":0,"utc_offset":28800,"time_zone":"Beijing","geo_enabled":false,"verified":false,"statuses_count":5454,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/581880164\/3lw91ooslwye3f1moti5.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/581880164\/3lw91ooslwye3f1moti5.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2318338066\/q7h543cnj0x6hmg1wt0m_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2318338066\/q7h543cnj0x6hmg1wt0m_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/1PnKZeU1Z1","expanded_url":"http:\/\/SI.com","display_url":"SI.com","indices":[77,99]},{"url":"http:\/\/t.co\/tktFUjiY6c","expanded_url":"http:\/\/dlvr.it\/3qd3dP","display_url":"dlvr.it\/3qd3dP","indices":[100,122]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:12:45 +0000 2013","id":369673331748134914,"id_str":"369673331748134914","text":"TheNabizzy
+        x Mutare review! Iron Mag, WTT and Denim Lebron PE, LV Jasper!: http:\/\/t.co\/dWx2597dDi
+        via @YouTube","source":"\u003ca href=\"http:\/\/www.google.com\/\" rel=\"nofollow\"\u003eGoogle\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":21533673,"id_str":"21533673","name":"Nabizzy","screen_name":"nabizzy","location":"","description":"#wutzahellbro","url":"http:\/\/t.co\/v1dVuWTLMd","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/v1dVuWTLMd","expanded_url":"http:\/\/www.youtube.com\/TheNabizzy","display_url":"youtube.com\/TheNabizzy","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":272,"friends_count":78,"listed_count":4,"created_at":"Sun
+        Feb 22 01:10:52 +0000 2009","favourites_count":225,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":10504,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"1A1B1F","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/21618286\/kobe-bryant-la-lakers-nba-championship-2009-mvp.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/21618286\/kobe-bryant-la-lakers-nba-championship-2009-mvp.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000326795650\/67a449659984235f802c0b2882313328_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000326795650\/67a449659984235f802c0b2882313328_normal.jpeg","profile_link_color":"2FC2EF","profile_sidebar_border_color":"181A1E","profile_sidebar_fill_color":"252429","profile_text_color":"666666","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/dWx2597dDi","expanded_url":"http:\/\/youtu.be\/sBp-APFvtSI?a","display_url":"youtu.be\/sBp-APFvtSI?a","indices":[75,97]}],"user_mentions":[{"screen_name":"YouTube","name":"YouTube","id":10228272,"id_str":"10228272","indices":[102,110]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:12:44 +0000 2013","id":369673329109499905,"id_str":"369673329109499905","text":"@trutriciahelfer
+        #LeBron ;  )","source":"web","truncated":false,"in_reply_to_status_id":368816838320197632,"in_reply_to_status_id_str":"368816838320197632","in_reply_to_user_id":140233086,"in_reply_to_user_id_str":"140233086","in_reply_to_screen_name":"trutriciahelfer","user":{"id":142763855,"id_str":"142763855","name":"jonathan
+        s. marshall","screen_name":"jsmnola","location":"Los Angeles, CA","description":"USA
+        TODAY Sports Media Group, SVP, Business Development & Strategy","url":"http:\/\/t.co\/ageMHd86AZ","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/ageMHd86AZ","expanded_url":"http:\/\/usatoday.com\/sports","display_url":"usatoday.com\/sports","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":204,"friends_count":319,"listed_count":3,"created_at":"Tue
+        May 11 18:05:52 +0000 2010","favourites_count":17,"utc_offset":-25200,"time_zone":"Arizona","geo_enabled":false,"verified":false,"statuses_count":622,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/548977645\/October_View.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/548977645\/October_View.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2296029384\/19tw9cjx5cf4m3ivcbl0_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2296029384\/19tw9cjx5cf4m3ivcbl0_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/142763855\/1353729663","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"LeBron","indices":[17,24]}],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"trutriciahelfer","name":"Tricia
+        Helfer","id":140233086,"id_str":"140233086","indices":[0,16]}]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:12:37 +0000 2013","id":369673300055560192,"id_str":"369673300055560192","text":"Alex
+        Rodriguez, LeBron James, PK Subban Clear Contenders Atop List of ... http:\/\/t.co\/MudfI1pg8d","source":"\u003ca
+        href=\"http:\/\/www.snsanalytics.com\" rel=\"nofollow\"\u003eSNS Analytics\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":636265167,"id_str":"636265167","name":"LeBron
+        James","screen_name":"LBJUpdate","location":"San Francisco","description":"This
+        account is not affiliated with LeBron James.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":637,"friends_count":211,"listed_count":0,"created_at":"Sun
+        Jul 15 13:33:49 +0000 2012","favourites_count":0,"utc_offset":28800,"time_zone":"Beijing","geo_enabled":false,"verified":false,"statuses_count":4110,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/752033188\/b5547a022c72865d40801284783d4d30.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/752033188\/b5547a022c72865d40801284783d4d30.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/3046488842\/717a08026ace91bfd24a8fda85949ec6_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/3046488842\/717a08026ace91bfd24a8fda85949ec6_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/MudfI1pg8d","expanded_url":"http:\/\/www.snsanalytics.com\/NXzfy0","display_url":"snsanalytics.com\/NXzfy0","indices":[74,96]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"in"},"created_at":"Tue
+        Aug 20 04:12:35 +0000 2013","id":369673290601615360,"id_str":"369673290601615360","text":"5.
+        Lebron","source":"\u003ca href=\"http:\/\/twitter.com\/download\/iphone\"
+        rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":713222288,"id_str":"713222288","name":"\u265a
+        PRINCE \u265a","screen_name":"thedavidprince","location":"\u265a All eyes
+        on me \u265a","description":"6''0 Guard. Just trying to make it for the ones
+        I call family. Class of 2016. Brotherhood. Sacrafice. Sacrafice. Sacrafice.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":256,"friends_count":146,"listed_count":0,"created_at":"Mon
+        Jul 23 22:15:13 +0000 2012","favourites_count":1550,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":1572,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/844781931\/45fc65db841e7163946071e199451706.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/844781931\/45fc65db841e7163946071e199451706.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000326621585\/0024ed16c7d9b86655e7ca73cd5f3200_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000326621585\/0024ed16c7d9b86655e7ca73cd5f3200_normal.jpeg","profile_link_color":"191582","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"in"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:12:34 +0000 2013","id":369673288328294400,"id_str":"369673288328294400","text":"Them
+        Lebron 11s A Must Cop For Me","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":150325817,"id_str":"150325817","name":"Zulu
+        Xion\u2020","screen_name":"JoccyBaker","location":"Baltimore,Md","description":"Art\/Painting\/Branding\/Clothing\/Graphic\/Illustration\/Media
+        Guru Contact Me For Business Inquries JoccyBaker@gmail.com","url":"http:\/\/t.co\/fkapcIoL3R","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/fkapcIoL3R","expanded_url":"http:\/\/whatweekly.com","display_url":"whatweekly.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1301,"friends_count":854,"listed_count":6,"created_at":"Mon
+        May 31 17:11:34 +0000 2010","favourites_count":35,"utc_offset":-18000,"time_zone":"Quito","geo_enabled":true,"verified":false,"statuses_count":65163,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"022330","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/585051162\/h635zk38m55hlflvnb3i.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/585051162\/h635zk38m55hlflvnb3i.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000073592310\/462247d05dfd195a522fac9847b20cb6_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000073592310\/462247d05dfd195a522fac9847b20cb6_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/150325817\/1357581747","profile_link_color":"B30000","profile_sidebar_border_color":"089411","profile_sidebar_fill_color":"010203","profile_text_color":"D4D4D4","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 04:12:33 +0000 2013","id":369673280988647424,"id_str":"369673280988647424","text":"I
+        look related to lebron i need to go to get a cut tomorrow after work","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":407459560,"id_str":"407459560","name":"CAPITAL
+        VI$ION$","screen_name":"DopeAsManny","location":"Jersey city, New Jersey","description":"Bred
+        from a dominican lady & a black dude The bad news is time flies. The good
+        news is you\u2019re the pilot","url":"http:\/\/t.co\/pVaAqWxHzS","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/pVaAqWxHzS","expanded_url":"http:\/\/americasmosttblunted.tumblr.com\/","display_url":"americasmosttblunted.tumblr.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":627,"friends_count":391,"listed_count":1,"created_at":"Tue
+        Nov 08 03:21:25 +0000 2011","favourites_count":1667,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":20278,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/368167676\/bbc_starfield.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/368167676\/bbc_starfield.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000252049220\/32ff3b5de1603b921f9d854403a63bf1_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000252049220\/32ff3b5de1603b921f9d854403a63bf1_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/407459560\/1376440738","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"}],"search_metadata":{"completed_in":0.02,"max_id":369673446210285568,"max_id_str":"369673446210285568","next_results":"?max_id=369673280988647423&q=lebron&include_entities=1&result_type=","query":"lebron","refresh_url":"?since_id=369673446210285568&q=lebron&result_type=&include_entities=1","count":15,"since_id":0,"since_id_str":"0"}}'
+    http_version: 
+  recorded_at: Tue, 20 Aug 2013 04:13:31 GMT
+recorded_with: VCR 2.5.0

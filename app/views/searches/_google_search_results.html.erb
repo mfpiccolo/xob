@@ -7,7 +7,7 @@
 
     <% @results[:google_results].items.each do |result| %>
       <tr>
-        <td><%= result.title %></td>
+        <td><%= result.htmlTitle.html_safe %></td>
         <td><%= link_to result.link, result.link %></td>
       </tr>
     <% end %>
