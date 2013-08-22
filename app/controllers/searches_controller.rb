@@ -8,7 +8,6 @@ class SearchesController < ApplicationController
   def create
     @search = Search.new(search_params)
     @results = @search.search
-    @service = params[:search][:service]
   end
 
   def save_search

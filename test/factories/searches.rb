@@ -1,5 +1,5 @@
-FactoryGirl.define do
-  factory :search do
-    terms "test"
-  end
-end
+# FactoryGirl.define do
+#   factory :search do
+#     terms "test"
+#   end
+# end

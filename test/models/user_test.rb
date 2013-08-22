@@ -1,10 +1,6 @@
 require 'minitest_helper'
 
 describe User do
-
-  describe "validations" do
-
-    it { must have_many(:searches) }
-  end
-
+  subject { User.new }
+  it { must have_many(:searches) }
 end

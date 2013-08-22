@@ -10,7 +10,7 @@ class Search < ActiveRecord::Base
   after_initialize :set_services, :build_query_string
 
   attr_accessor :domain, :required_terms, :image, :add_terms, :file_type, :must_have,
-    :excluded_terms, :exact_terms, :google, :twitter, :services, :result_type, :google_query,
+    :excluded_terms, :exact_terms, :date_restrict, :google, :twitter, :services, :result_type, :google_query,
     :twitter_terms, :twitter_options
 
   def search
@@ -69,7 +69,8 @@ class Search < ActiveRecord::Base
             fileType: (("&fileType=#{file_type}" if file_type) || ""),
             orTerms: (("&orTerms=#{must_have}" if must_have) || ""),
             excludeTerms: (("&excludeTerms=#{excluded_terms}" if excluded_terms) || ""),
-            exactTerms: (("&exactTerms=#{exact_terms}" if exact_terms) || "")
+            exactTerms: (("&exactTerms=#{exact_terms}" if exact_terms) || ""),
+            dateRestrict: (("&dateRestrict=#{date_restrict}" if date_restrict) || "")
           }
 
           query_hash.each_pair do |k, v|

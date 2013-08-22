@@ -1,0 +1,881 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=005725305140932479840:tmucz4yln4s&key=AIzaSyBb-c6luucnupLoXKbttAdF57ncuIgRBZs&q=lebron
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Tue, 20 Aug 2013 17:52:44 GMT
+      Date:
+      - Tue, 20 Aug 2013 17:52:44 GMT
+      Cache-Control:
+      - private, max-age=0, must-revalidate, no-transform
+      Etag:
+      - '"-Tovf7bBO_sxgIuyqJ-V8mxev7A/OUeNdch4O1qYoRpubTHt5qisbaY"'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogImtpbmQiOiAiY3VzdG9tc2VhcmNoI3NlYXJjaCIsCiAidXJsIjogewog
+        ICJ0eXBlIjogImFwcGxpY2F0aW9uL2pzb24iLAogICJ0ZW1wbGF0ZSI6ICJo
+        dHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9jdXN0b21zZWFyY2gvdjE/cT17
+        c2VhcmNoVGVybXN9Jm51bT17Y291bnQ/fSZzdGFydD17c3RhcnRJbmRleD99
+        JmxyPXtsYW5ndWFnZT99JnNhZmU9e3NhZmU/fSZjeD17Y3g/fSZjcmVmPXtj
+        cmVmP30mc29ydD17c29ydD99JmZpbHRlcj17ZmlsdGVyP30mZ2w9e2dsP30m
+        Y3I9e2NyP30mZ29vZ2xlaG9zdD17Z29vZ2xlSG9zdD99JmMyY29mZj17ZGlz
+        YWJsZUNuVHdUcmFuc2xhdGlvbj99JmhxPXtocT99JmhsPXtobD99JnNpdGVT
+        ZWFyY2g9e3NpdGVTZWFyY2g/fSZzaXRlU2VhcmNoRmlsdGVyPXtzaXRlU2Vh
+        cmNoRmlsdGVyP30mZXhhY3RUZXJtcz17ZXhhY3RUZXJtcz99JmV4Y2x1ZGVU
+        ZXJtcz17ZXhjbHVkZVRlcm1zP30mbGlua1NpdGU9e2xpbmtTaXRlP30mb3JU
+        ZXJtcz17b3JUZXJtcz99JnJlbGF0ZWRTaXRlPXtyZWxhdGVkU2l0ZT99JmRh
+        dGVSZXN0cmljdD17ZGF0ZVJlc3RyaWN0P30mbG93UmFuZ2U9e2xvd1Jhbmdl
+        P30maGlnaFJhbmdlPXtoaWdoUmFuZ2U/fSZzZWFyY2hUeXBlPXtzZWFyY2hU
+        eXBlfSZmaWxlVHlwZT17ZmlsZVR5cGU/fSZyaWdodHM9e3JpZ2h0cz99Jmlt
+        Z1NpemU9e2ltZ1NpemU/fSZpbWdUeXBlPXtpbWdUeXBlP30maW1nQ29sb3JU
+        eXBlPXtpbWdDb2xvclR5cGU/fSZpbWdEb21pbmFudENvbG9yPXtpbWdEb21p
+        bmFudENvbG9yP30mYWx0PWpzb24iCiB9LAogInF1ZXJpZXMiOiB7CiAgIm5l
+        eHRQYWdlIjogWwogICB7CiAgICAidGl0bGUiOiAiR29vZ2xlIEN1c3RvbSBT
+        ZWFyY2ggLSBsZWJyb24iLAogICAgInRvdGFsUmVzdWx0cyI6ICI3MjcwMDAw
+        IiwKICAgICJzZWFyY2hUZXJtcyI6ICJsZWJyb24iLAogICAgImNvdW50Ijog
+        MTAsCiAgICAic3RhcnRJbmRleCI6IDExLAogICAgImlucHV0RW5jb2Rpbmci
+        OiAidXRmOCIsCiAgICAib3V0cHV0RW5jb2RpbmciOiAidXRmOCIsCiAgICAi
+        c2FmZSI6ICJvZmYiLAogICAgImN4IjogIjAwNTcyNTMwNTE0MDkzMjQ3OTg0
+        MDp0bXVjejR5bG40cyIKICAgfQogIF0sCiAgInJlcXVlc3QiOiBbCiAgIHsK
+        ICAgICJ0aXRsZSI6ICJHb29nbGUgQ3VzdG9tIFNlYXJjaCAtIGxlYnJvbiIs
+        CiAgICAidG90YWxSZXN1bHRzIjogIjcyNzAwMDAiLAogICAgInNlYXJjaFRl
+        cm1zIjogImxlYnJvbiIsCiAgICAiY291bnQiOiAxMCwKICAgICJzdGFydElu
+        ZGV4IjogMSwKICAgICJpbnB1dEVuY29kaW5nIjogInV0ZjgiLAogICAgIm91
+        dHB1dEVuY29kaW5nIjogInV0ZjgiLAogICAgInNhZmUiOiAib2ZmIiwKICAg
+        ICJjeCI6ICIwMDU3MjUzMDUxNDA5MzI0Nzk4NDA6dG11Y3o0eWxuNHMiCiAg
+        IH0KICBdCiB9LAogImNvbnRleHQiOiB7CiAgInRpdGxlIjogInhvYi1zZWFy
+        Y2giCiB9LAogInNlYXJjaEluZm9ybWF0aW9uIjogewogICJzZWFyY2hUaW1l
+        IjogMC4yNDAyNTEsCiAgImZvcm1hdHRlZFNlYXJjaFRpbWUiOiAiMC4yNCIs
+        CiAgInRvdGFsUmVzdWx0cyI6ICI3MjcwMDAwIiwKICAiZm9ybWF0dGVkVG90
+        YWxSZXN1bHRzIjogIjcsMjcwLDAwMCIKIH0sCiAiaXRlbXMiOiBbCiAgewog
+        ICAia2luZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0IiwKICAgInRpdGxlIjog
+        IkxlQnJvbiBKYW1lcyAtIFdpa2lwZWRpYSwgdGhlIGZyZWUgZW5jeWNsb3Bl
+        ZGlhIiwKICAgImh0bWxUaXRsZSI6ICJcdTAwM2NiXHUwMDNlTGVCcm9uXHUw
+        MDNjL2JcdTAwM2UgSmFtZXMgLSBXaWtpcGVkaWEsIHRoZSBmcmVlIGVuY3lj
+        bG9wZWRpYSIsCiAgICJsaW5rIjogImh0dHA6Ly9lbi53aWtpcGVkaWEub3Jn
+        L3dpa2kvTGVCcm9uX0phbWVzIiwKICAgImRpc3BsYXlMaW5rIjogImVuLndp
+        a2lwZWRpYS5vcmciLAogICAic25pcHBldCI6ICJMZUJyb24gUmF5bW9uZSBK
+        YW1lcyAoL2zJmcuIYnLJkm4vOyBib3JuIERlY2VtYmVyIDMwLCAxOTg0KSwg
+        bmlja25hbWVkIFwiS2luZyAgIEphbWVzXCIsIGlzIGFuIEFtZXJpY2FuIHBy
+        b2Zlc3Npb25hbCBiYXNrZXRiYWxsIHBsYXllciBmb3IgdGhlIE1pYW1pIEhl
+        YXQgb2bCoC4uLiIsCiAgICJodG1sU25pcHBldCI6ICJcdTAwM2NiXHUwMDNl
+        TGVCcm9uXHUwMDNjL2JcdTAwM2UgUmF5bW9uZSBKYW1lcyAoL2zJmcuIYnLJ
+        km4vOyBib3JuIERlY2VtYmVyIDMwLCAxOTg0KSwgbmlja25hbWVkICZxdW90
+        O0tpbmcgXHUwMDNjYnJcdTAwM2UgIEphbWVzJnF1b3Q7LCBpcyBhbiBBbWVy
+        aWNhbiBwcm9mZXNzaW9uYWwgYmFza2V0YmFsbCBwbGF5ZXIgZm9yIHRoZSBN
+        aWFtaSBIZWF0IG9mJm5ic3A7XHUwMDNjYlx1MDAzZS4uLlx1MDAzYy9iXHUw
+        MDNlIiwKICAgImNhY2hlSWQiOiAieDFBR2Yxcy0yV2tKIiwKICAgImZvcm1h
+        dHRlZFVybCI6ICJlbi53aWtpcGVkaWEub3JnL3dpa2kvTGVCcm9uX0phbWVz
+        IiwKICAgImh0bWxGb3JtYXR0ZWRVcmwiOiAiZW4ud2lraXBlZGlhLm9yZy93
+        aWtpL1x1MDAzY2JcdTAwM2VMZUJyb25cdTAwM2MvYlx1MDAzZV9KYW1lcyIs
+        CiAgICJwYWdlbWFwIjogewogICAgImNzZV9pbWFnZSI6IFsKICAgICB7CiAg
+        ICAgICJzcmMiOiAiaHR0cDovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lw
+        ZWRpYS9jb21tb25zL3RodW1iLzMvM2YvTGVCcm9uX0phbWVzX2F0X0dTVy5q
+        cGcvMjM1cHgtTGVCcm9uX0phbWVzX2F0X0dTVy5qcGciCiAgICAgfQogICAg
+        XSwKICAgICJwZXJzb24iOiBbCiAgICAgewogICAgICAibG9jYXRpb24iOiAi
+        dGhlIFVuaXRlZCBTdGF0ZXMiLAogICAgICAicm9sZSI6ICJGb3J3YXJkIgog
+        ICAgIH0KICAgIF0sCiAgICAiY3NlX3RodW1ibmFpbCI6IFsKICAgICB7CiAg
+        ICAgICJ3aWR0aCI6ICIxODAiLAogICAgICAiaGVpZ2h0IjogIjI4MCIsCiAg
+        ICAgICJzcmMiOiAiaHR0cHM6Ly9lbmNyeXB0ZWQtdGJuMy5nc3RhdGljLmNv
+        bS9pbWFnZXM/cT10Ym46QU5kOUdjVExrODJyU2lYQ3NvNVhSTEl4aTFfcnZx
+        YXE3Vkw2bHgwbXJlVS0zUHRoZTlNR1VZSjIxai1oSVowIgogICAgIH0KICAg
+        IF0sCiAgICAiaGNhcmQiOiBbCiAgICAgewogICAgICAiZm4iOiAiTGVCcm9u
+        IEphbWVzIiwKICAgICAgImJkYXkiOiAiMTk4NC0xMi0zMCIsCiAgICAgICJy
+        b2xlIjogIkZvcndhcmQiCiAgICAgfQogICAgXQogICB9CiAgfSwKICB7CiAg
+        ICJraW5kIjogImN1c3RvbXNlYXJjaCNyZXN1bHQiLAogICAidGl0bGUiOiAi
+        VGhlIE9mZmljaWFsIFdlYnNpdGUgb2YgTGVCcm9uIEphbWVzIiwKICAgImh0
+        bWxUaXRsZSI6ICJUaGUgT2ZmaWNpYWwgV2Vic2l0ZSBvZiBcdTAwM2NiXHUw
+        MDNlTGVCcm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMiLAogICAibGluayI6ICJo
+        dHRwOi8vd3d3LmxlYnJvbmphbWVzLmNvbS8iLAogICAiZGlzcGxheUxpbmsi
+        OiAid3d3LmxlYnJvbmphbWVzLmNvbSIsCiAgICJzbmlwcGV0IjogIkNoZWNr
+        IG91dCB0aGUgb2ZmaWNpYWwgd2Vic2l0ZSBvZiBMZWJyb24gSmFtZXMgYW5k
+        IGV4cGVyaWVuY2UgdGhlIGxpZmVzdHlsZSwgICBmYXNoaW9uIGFuZCBtdXNp
+        YyBjb21tdW5pdHkgb2YgI3RlYW1MZWJyb24uIiwKICAgImh0bWxTbmlwcGV0
+        IjogIkNoZWNrIG91dCB0aGUgb2ZmaWNpYWwgd2Vic2l0ZSBvZiBcdTAwM2Ni
+        XHUwMDNlTGVicm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMgYW5kIGV4cGVyaWVu
+        Y2UgdGhlIGxpZmVzdHlsZSwgXHUwMDNjYnJcdTAwM2UgIGZhc2hpb24gYW5k
+        IG11c2ljIGNvbW11bml0eSBvZiAjdGVhbUxlYnJvbi4iLAogICAiY2FjaGVJ
+        ZCI6ICJKS1lpSE1rVjZnQUoiLAogICAiZm9ybWF0dGVkVXJsIjogInd3dy5s
+        ZWJyb25qYW1lcy5jb20vIiwKICAgImh0bWxGb3JtYXR0ZWRVcmwiOiAid3d3
+        Llx1MDAzY2JcdTAwM2VsZWJyb25cdTAwM2MvYlx1MDAzZWphbWVzLmNvbS8i
+        LAogICAicGFnZW1hcCI6IHsKICAgICJjc2VfaW1hZ2UiOiBbCiAgICAgewog
+        ICAgICAic3JjIjogImh0dHA6Ly93d3cubGVicm9uamFtZXMuY29tL3dwLWNv
+        bnRlbnQvdGhlbWVzL2xiai1iYXNlL2ltZy9ob21lX3RodW1iLnBuZyIKICAg
+        ICB9CiAgICBdLAogICAgImNzZV90aHVtYm5haWwiOiBbCiAgICAgewogICAg
+        ICAid2lkdGgiOiAiMjQwIiwKICAgICAgImhlaWdodCI6ICIxOTIiLAogICAg
+        ICAic3JjIjogImh0dHBzOi8vZW5jcnlwdGVkLXRibjIuZ3N0YXRpYy5jb20v
+        aW1hZ2VzP3E9dGJuOkFOZDlHY1FLTjJWcmJrRHpXWmE4V2FrOG9zZG1HaDhS
+        VTBfYzRMclZhTE01dDRPYWNrY0FBc1I5ZVJubjFFemYiCiAgICAgfQogICAg
+        XSwKICAgICJtZXRhdGFncyI6IFsKICAgICB7CiAgICAgICJ2aWV3cG9ydCI6
+        ICJ3aWR0aD1kZXZpY2Utd2lkdGgiLAogICAgICAib2c6dXJsIjogImh0dHA6
+        Ly93d3cubGVicm9uamFtZXMuY29tIiwKICAgICAgIm9nOnNpdGVfbmFtZSI6
+        ICJMZWJyb24gSmFtZXMiLAogICAgICAib2c6aW1hZ2UiOiAiaHR0cDovL3d3
+        dy5sZWJyb25qYW1lcy5jb20vd3AtY29udGVudC90aGVtZXMvbGJqLWJhc2Uv
+        aW1nL2hvbWVfdGh1bWIucG5nIgogICAgIH0KICAgIF0KICAgfQogIH0sCiAg
+        ewogICAia2luZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0IiwKICAgInRpdGxl
+        IjogIkxlQnJvbiBKYW1lcyAoS2luZ0phbWVzKSBvbiBUd2l0dGVyIiwKICAg
+        Imh0bWxUaXRsZSI6ICJcdTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAw
+        M2UgSmFtZXMgKEtpbmdKYW1lcykgb24gVHdpdHRlciIsCiAgICJsaW5rIjog
+        Imh0dHBzOi8vdHdpdHRlci5jb20vS2luZ0phbWVzIiwKICAgImRpc3BsYXlM
+        aW5rIjogInR3aXR0ZXIuY29tIiwKICAgInNuaXBwZXQiOiAiTGVCcm9uIEph
+        bWVzIFZlcmlmaWVkIGFjY291bnQuIEBLaW5nSmFtZXMuIFNULlYtTSBDbGFz
+        cyBvZiAwMy4gQW1vbmdzdCBMYSAgIEZhbWlsaWEhIMK3IGxlYnJvbmphbWVz
+        LmNvbSDCtyAzLDQ2MSBUd2VldHMgwrcgMjc4IEZvbGxvd2luZyDCtyA5LDQ4
+        NSwwNDcgRm9sbG93ZXJzLiIsCiAgICJodG1sU25pcHBldCI6ICJcdTAwM2Ni
+        XHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMgVmVyaWZpZWQgYWNj
+        b3VudC4gQEtpbmdKYW1lcy4gU1QuVi1NIENsYXNzIG9mIDAzLiBBbW9uZ3N0
+        IExhIFx1MDAzY2JyXHUwMDNlICBGYW1pbGlhISDCtyBsZWJyb25qYW1lcy5j
+        b20gJm1pZGRvdDsgMyw0NjEgVHdlZXRzICZtaWRkb3Q7IDI3OCBGb2xsb3dp
+        bmcgJm1pZGRvdDsgOSw0ODUsMDQ3IEZvbGxvd2Vycy4iLAogICAiY2FjaGVJ
+        ZCI6ICJPUGF5VFVPZnBwVUoiLAogICAiZm9ybWF0dGVkVXJsIjogImh0dHBz
+        Oi8vdHdpdHRlci5jb20vS2luZ0phbWVzIiwKICAgImh0bWxGb3JtYXR0ZWRV
+        cmwiOiAiaHR0cHM6Ly90d2l0dGVyLmNvbS9LaW5nSmFtZXMiLAogICAicGFn
+        ZW1hcCI6IHsKICAgICJjc2VfaW1hZ2UiOiBbCiAgICAgewogICAgICAic3Jj
+        IjogImh0dHBzOi8vc2kwLnR3aW1nLmNvbS9wcm9maWxlX2ltYWdlcy8xODk4
+        MzgzMDgzL0tpbmdKYW1lc19iaWdnZXIuanBnIgogICAgIH0KICAgIF0sCiAg
+        ICAiY3NlX3RodW1ibmFpbCI6IFsKICAgICB7CiAgICAgICJ3aWR0aCI6ICI3
+        MCIsCiAgICAgICJoZWlnaHQiOiAiNzAiLAogICAgICAic3JjIjogImh0dHBz
+        Oi8vZW5jcnlwdGVkLXRibjMuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFO
+        ZDlHY1NzTU53UWtORlB2YzdWN05sNFBKWDNucWo5WVczSWQ1S1NwTFgwT2pm
+        WEowY3ZrZWN6SWpPeSIKICAgICB9CiAgICBdLAogICAgIm1ldGF0YWdzIjog
+        WwogICAgIHsKICAgICAgIm1zYXBwbGljYXRpb24tdGlsZWltYWdlIjogIi8v
+        YWJzLnR3aW1nLmNvbS9mYXZpY29ucy93aW44LXRpbGUtMTQ0LnBuZyIsCiAg
+        ICAgICJtc2FwcGxpY2F0aW9uLXRpbGVjb2xvciI6ICIjMDBhY2VkIiwKICAg
+        ICAgInN3aWZ0LXBhZ2UtbmFtZSI6ICJwcm9maWxlIgogICAgIH0KICAgIF0K
+        ICAgfQogIH0sCiAgewogICAia2luZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0
+        IiwKICAgInRpdGxlIjogIkxlQnJvbiBKYW1lcyBTdGF0cywgQmlvIGFuZCBH
+        YW1lIExvZ3MgfCBOQkEuY29tIiwKICAgImh0bWxUaXRsZSI6ICJcdTAwM2Ni
+        XHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMgU3RhdHMsIEJpbyBh
+        bmQgR2FtZSBMb2dzIHwgTkJBLmNvbSIsCiAgICJsaW5rIjogImh0dHA6Ly93
+        d3cubmJhLmNvbS9wbGF5ZXJmaWxlL2xlYnJvbl9qYW1lcy8iLAogICAiZGlz
+        cGxheUxpbmsiOiAid3d3Lm5iYS5jb20iLAogICAic25pcHBldCI6ICJTdGF0
+        aXN0aWNzLCBiaW9ncmFwaHksIGFuZCBmYW50YXN5IHBsYXllciBpbmZvcm1h
+        dGlvbi4iLAogICAiaHRtbFNuaXBwZXQiOiAiU3RhdGlzdGljcywgYmlvZ3Jh
+        cGh5LCBhbmQgZmFudGFzeSBwbGF5ZXIgaW5mb3JtYXRpb24uIiwKICAgImNh
+        Y2hlSWQiOiAiblFUYlkxWE1WRGdKIiwKICAgImZvcm1hdHRlZFVybCI6ICJ3
+        d3cubmJhLmNvbS9wbGF5ZXJmaWxlL2xlYnJvbl9qYW1lcy8iLAogICAiaHRt
+        bEZvcm1hdHRlZFVybCI6ICJ3d3cubmJhLmNvbS9wbGF5ZXJmaWxlL1x1MDAz
+        Y2JcdTAwM2VsZWJyb25cdTAwM2MvYlx1MDAzZV9qYW1lcy8iLAogICAicGFn
+        ZW1hcCI6IHsKICAgICJjc2VfaW1hZ2UiOiBbCiAgICAgewogICAgICAic3Jj
+        IjogImh0dHA6Ly9pLmNkbi50dXJuZXIuY29tL25iYS9uYmEvbWVkaWEvYWN0
+        X2xlYnJvbl9qYW1lcy5qcGciCiAgICAgfQogICAgXSwKICAgICJjc2VfdGh1
+        bWJuYWlsIjogWwogICAgIHsKICAgICAgIndpZHRoIjogIjIxNiIsCiAgICAg
+        ICJoZWlnaHQiOiAiMTkyIiwKICAgICAgInNyYyI6ICJodHRwczovL2VuY3J5
+        cHRlZC10Ym4zLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NRUWxv
+        TmZoWi13SzV3M0xkTGZ3ajdQdlVZRWZiTjFIOE9OY2FORERLd2I5dFd4ZkZQ
+        YnJvcDZTdzgiCiAgICAgfQogICAgXSwKICAgICJtZXRhdGFncyI6IFsKICAg
+        ICB7CiAgICAgICJmYjphZG1pbnMiOiAiMjUxMzYwMiIsCiAgICAgICJvZzp0
+        aXRsZSI6ICJMZUJyb24gSmFtZXMgLSBOQkEgUGxheWVyIC0gTWlhbWkgSGVh
+        dCAjNiAtIEZvcndhcmQiLAogICAgICAib2c6dHlwZSI6ICJhdGhsZXRlIiwK
+        ICAgICAgIm9nOnVybCI6ICJodHRwOi8vd3d3Lm5iYS5jb20vcGxheWVyZmls
+        ZS9sZWJyb25famFtZXMvIiwKICAgICAgIm9nOmltYWdlIjogImh0dHA6Ly9p
+        LmNkbi50dXJuZXIuY29tL25iYS9uYmEvbWVkaWEvYWN0X2xlYnJvbl9qYW1l
+        cy5qcGciLAogICAgICAib2c6c2l0ZV9uYW1lIjogIk5CQS5jb20iLAogICAg
+        ICAib2c6ZGVzY3JpcHRpb24iOiAiTGVCcm9uIEphbWVzIC0gTkJBIFBsYXll
+        ciAtIE1pYW1pIEhlYXQgIzYgLSBGb3J3YXJkIgogICAgIH0KICAgIF0KICAg
+        fQogIH0sCiAgewogICAia2luZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0IiwK
+        ICAgInRpdGxlIjogIkxlQnJvbjogJ015IHZvaWNlIGNvdWxkIGJlIGh1Z2Un
+        IiwKICAgImh0bWxUaXRsZSI6ICJcdTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNj
+        L2JcdTAwM2U6ICYjMzk7TXkgdm9pY2UgY291bGQgYmUgaHVnZSYjMzk7IiwK
+        ICAgImxpbmsiOiAiaHR0cDovL2VzcG4uZ28uY29tL25iYS90cnVlaG9vcC9t
+        aWFtaWhlYXQvc3RvcnkvXy9pZC85NTU3MjkyL2xlYnJvbi1qYW1lcy1taWFt
+        aS1oZWF0LXNheXMtbmJwYS1nb2luZy1iYWNrd2FyZHMtcmlnaHQtbm93IiwK
+        ICAgImRpc3BsYXlMaW5rIjogImVzcG4uZ28uY29tIiwKICAgInNuaXBwZXQi
+        OiAiQXVnIDEyLCAyMDEzIC4uLiBMZUJyb24gSmFtZXMgc2FpZCB0aGUgTmF0
+        aW9uYWwgQmFza2V0YmFsbCBQbGF5ZXJzJyBBc3NvY2lhdGlvbiBpcyBub3Qg
+        aW4gYSBnb29kICAgcGxhY2UgcmlnaHQgbm93IGFuZCB0aGF0J3Mgd2h5IGhl
+        J3MgY29uc2lkZXJpbmcgcnVubmluZyBmb3IgdGhlwqAuLi4iLAogICAiaHRt
+        bFNuaXBwZXQiOiAiQXVnIDEyLCAyMDEzIFx1MDAzY2JcdTAwM2UuLi5cdTAw
+        M2MvYlx1MDAzZSBcdTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2Ug
+        SmFtZXMgc2FpZCB0aGUgTmF0aW9uYWwgQmFza2V0YmFsbCBQbGF5ZXJzJiMz
+        OTsgQXNzb2NpYXRpb24gaXMgbm90IGluIGEgZ29vZCBcdTAwM2Niclx1MDAz
+        ZSAgcGxhY2UgcmlnaHQgbm93IGFuZCB0aGF0JiMzOTtzIHdoeSBoZSYjMzk7
+        cyBjb25zaWRlcmluZyBydW5uaW5nIGZvciB0aGUmbmJzcDtcdTAwM2NiXHUw
+        MDNlLi4uXHUwMDNjL2JcdTAwM2UiLAogICAiY2FjaGVJZCI6ICJRcXVVUHVF
+        TEhaSUoiLAogICAiZm9ybWF0dGVkVXJsIjogImVzcG4uZ28uY29tLy4uLi9s
+        ZWJyb24tamFtZXMtbWlhbWktaGVhdC1zYXlzLW5icGEtZ29pbmctYmFja3dh
+        cmRzLXJpZ2h0LSBub3ciLAogICAiaHRtbEZvcm1hdHRlZFVybCI6ICJlc3Bu
+        LmdvLmNvbS8uLi4vXHUwMDNjYlx1MDAzZWxlYnJvblx1MDAzYy9iXHUwMDNl
+        LWphbWVzLW1pYW1pLWhlYXQtc2F5cy1uYnBhLWdvaW5nLWJhY2t3YXJkcy1y
+        aWdodC0gbm93IiwKICAgInBhZ2VtYXAiOiB7CiAgICAiY3NlX2ltYWdlIjog
+        WwogICAgIHsKICAgICAgInNyYyI6ICJodHRwOi8vYS5lc3BuY2RuLmNvbS9j
+        b21iaW5lci9pP2ltZz0vaS9oZWFkc2hvdHMvbmJhL3BsYXllcnMvZnVsbC8x
+        OTY2LnBuZyZ3PTY1Jmg9OTAmc2NhbGU9Y3JvcCZiYWNrZ3JvdW5kPTB4Y2Nj
+        Y2NjJnRyYW5zcGFyZW50PWZhbHNlIgogICAgIH0KICAgIF0sCiAgICAiY3Nl
+        X3RodW1ibmFpbCI6IFsKICAgICB7CiAgICAgICJ3aWR0aCI6ICI2MSIsCiAg
+        ICAgICJoZWlnaHQiOiAiODUiLAogICAgICAic3JjIjogImh0dHBzOi8vZW5j
+        cnlwdGVkLXRibjMuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1Fi
+        VGFwZkt5eEJqWHh3OV9zTzVNRnFIOXY3bU9zYmpNZjdjQXIxMTM1aTAwUGk0
+        VzduRnhRdExnIgogICAgIH0KICAgIF0sCiAgICAibWV0YXRhZ3MiOiBbCiAg
+        ICAgewogICAgICAibXN2YWxpZGF0ZS4wMSI6ICJCMUZFQjdDNjgyQzQ2QzhG
+        Q0RBMzEzMEYzRDE4QUMyOCIsCiAgICAgICJuZXdzX2tleXdvcmRzIjogIm5i
+        YSwgbGVicm9uIGphbWVzLCBtaWFtaSBoZWF0LCBkZXJlayBmaXNoZXIsIGJy
+        b29rbHluIG5ldHMsIGtldmluIGdhcm5ldHQsIHBhdWwgcGllcmNlLCBqYXNv
+        biB0ZXJyeSwgamFzb24ga2lkZCwgZHdpZ2h0IGhvd2FyZCwgaG91c3RvbiBy
+        b2NrZXRzLCBqYW1lcyBoYXJkZW4sIGNoYW5kbGVyIHBhcnNvbnMsIGplcmVt
+        eSBsaW4sIG1pa2UgbWlsbGVyLCBncmVnIG9kZW4sIG5icGEsIHVuaW9uLCBw
+        cmVzaWRlbnQiLAogICAgICAic3luZGljYXRpb24tc291cmNlIjogImh0dHA6
+        Ly9lc3BuLmdvLmNvbS9uYmEvdHJ1ZWhvb3AvbWlhbWloZWF0L3N0b3J5L18v
+        aWQvOTU1NzI5Mi9sZWJyb24tamFtZXMtbWlhbWktaGVhdC1zYXlzLW5icGEt
+        Z29pbmctYmFja3dhcmRzLXJpZ2h0LW5vdyIsCiAgICAgICJvZzp0aXRsZSI6
+        ICJMZUJyb246IE5CUEEgJ25vdCBpbiBnb29kIHBsYWNlIHJpZ2h0IG5vdyci
+        LAogICAgICAib2c6dHlwZSI6ICJhcnRpY2xlIiwKICAgICAgIm9nOnVybCI6
+        ICJodHRwOi8vZXNwbi5nby5jb20vbmJhL3RydWVob29wL21pYW1paGVhdC9z
+        dG9yeS9fL2lkLzk1NTcyOTIvbGVicm9uLWphbWVzLW1pYW1pLWhlYXQtc2F5
+        cy1uYnBhLWdvaW5nLWJhY2t3YXJkcy1yaWdodC1ub3ciLAogICAgICAib2c6
+        ZGVzY3JpcHRpb24iOiAiTGVCcm9uIEphbWVzIHNhaWQgdGhlIE5hdGlvbmFs
+        IEJhc2tldGJhbGwgUGxheWVycycgQXNzb2NpYXRpb24gaXMgbm90IGluIGEg
+        Z29vZCBwbGFjZSByaWdodCBub3cgYW5kIHRoYXQncyB3aHkgaGUncyBjb25z
+        aWRlcmluZyBydW5uaW5nIGZvciB0aGUgdW5pb24ncyB2YWNhbnQgcHJlc2lk
+        ZW5jeS4iLAogICAgICAib2c6aW1hZ2UiOiAiaHR0cDovL2EuZXNwbmNkbi5j
+        b20vY29tYmluZXIvaT9pbWc9L2kvaGVhZHNob3RzL25iYS9wbGF5ZXJzL2Z1
+        bGwvMTk2Ni5wbmcmdz02NSZoPTkwJnNjYWxlPWNyb3AmYmFja2dyb3VuZD0w
+        eGNjY2NjYyZ0cmFuc3BhcmVudD1mYWxzZSIsCiAgICAgICJ0d2l0dGVyOmNh
+        cmQiOiAic3VtbWFyeSIsCiAgICAgICJ0d2l0dGVyOmltYWdlIjogImh0dHA6
+        Ly9hLmVzcG5jZG4uY29tL2NvbWJpbmVyL2k/aW1nPS9pL2hlYWRzaG90cy9u
+        YmEvcGxheWVycy9mdWxsLzE5NjYucG5nJnc9NjUmaD05MCZzY2FsZT1jcm9w
+        JmJhY2tncm91bmQ9MHhjY2NjY2MmdHJhbnNwYXJlbnQ9ZmFsc2UiLAogICAg
+        ICAidHdpdHRlcjp0aXRsZSI6ICJMZUJyb246IE5CUEEgJ25vdCBpbiBnb29k
+        IHBsYWNlIHJpZ2h0IG5vdyciLAogICAgICAidHdpdHRlcjpkZXNjcmlwdGlv
+        biI6ICJMZUJyb24gSmFtZXMgc2FpZCB0aGUgTmF0aW9uYWwgQmFza2V0YmFs
+        bCBQbGF5ZXJzJyBBc3NvY2lhdGlvbiBpcyBub3QgaW4gYSBnb29kIHBsYWNl
+        IHJpZ2h0IG5vdyBhbmQgdGhhdCdzIHdoeSBoZSdzIGNvbnNpZGVyaW5nIHJ1
+        bm5pbmcgZm9yIHRoZSB1bmlvbidzIHZhY2FudCBwcmVzaWRlbmN5LiIsCiAg
+        ICAgICJvZzpzaXRlX25hbWUiOiAiRVNQTi5jb20iLAogICAgICAiZmI6YXBw
+        X2lkIjogIjExNjY1NjE2MTcwODkxNyIKICAgICB9CiAgICBdCiAgIH0KICB9
+        LAogIHsKICAgImtpbmQiOiAiY3VzdG9tc2VhcmNoI3Jlc3VsdCIsCiAgICJ0
+        aXRsZSI6ICJUaGUgMTAgQmVzdCBHYW1lcyBvZiBMZUJyb24gSmFtZXMnIE1p
+        YW1pIEhlYXQgVGVudXJlIHwgQmxlYWNoZXIgLi4uIiwKICAgImh0bWxUaXRs
+        ZSI6ICJUaGUgMTAgQmVzdCBHYW1lcyBvZiBcdTAwM2NiXHUwMDNlTGVCcm9u
+        XHUwMDNjL2JcdTAwM2UgSmFtZXMmIzM5OyBNaWFtaSBIZWF0IFRlbnVyZSB8
+        IEJsZWFjaGVyIFx1MDAzY2JcdTAwM2UuLi5cdTAwM2MvYlx1MDAzZSIsCiAg
+        ICJsaW5rIjogImh0dHA6Ly9ibGVhY2hlcnJlcG9ydC5jb20vYXJ0aWNsZXMv
+        MTcyOTMzNS0xMC1iZXN0LWdhbWVzLW9mLWxlYnJvbi1qYW1lcy1taWFtaS1o
+        ZWF0LXRlbnVyZSIsCiAgICJkaXNwbGF5TGluayI6ICJibGVhY2hlcnJlcG9y
+        dC5jb20iLAogICAic25pcHBldCI6ICJBdWcgNywgMjAxMyAuLi4gSXQgaG9u
+        ZXN0bHkgZG9lc24ndCBzZWVtIGxpa2UgaXQgaGFzIGJlZW4gdGhyZWUgeWVh
+        cnMgc2luY2UgTGVCcm9uIEphbWVzIGp1bXBlZCAgIHNoaXAgZnJvbSB0aGUg
+        Q2xldmVsYW5kIENhdmFsaWVycyB0byB0aGUgTWlhbWkgSGVhdCAuIiwKICAg
+        Imh0bWxTbmlwcGV0IjogIkF1ZyA3LCAyMDEzIFx1MDAzY2JcdTAwM2UuLi5c
+        dTAwM2MvYlx1MDAzZSBJdCBob25lc3RseSBkb2VzbiYjMzk7dCBzZWVtIGxp
+        a2UgaXQgaGFzIGJlZW4gdGhyZWUgeWVhcnMgc2luY2UgXHUwMDNjYlx1MDAz
+        ZUxlQnJvblx1MDAzYy9iXHUwMDNlIEphbWVzIGp1bXBlZCBcdTAwM2Niclx1
+        MDAzZSAgc2hpcCBmcm9tIHRoZSBDbGV2ZWxhbmQgQ2F2YWxpZXJzIHRvIHRo
+        ZSBNaWFtaSBIZWF0IC4iLAogICAiY2FjaGVJZCI6ICIySjNjUVczcmZob0oi
+        LAogICAiZm9ybWF0dGVkVXJsIjogImJsZWFjaGVycmVwb3J0LmNvbS8uLi4v
+        MTcyOTMzNS0xMC1iZXN0LWdhbWVzLW9mLWxlYnJvbi1qYW1lcy1taWFtaS1o
+        ZWF0LSB0ZW51cmUiLAogICAiaHRtbEZvcm1hdHRlZFVybCI6ICJibGVhY2hl
+        cnJlcG9ydC5jb20vLi4uLzE3MjkzMzUtMTAtYmVzdC1nYW1lcy1vZi1cdTAw
+        M2NiXHUwMDNlbGVicm9uXHUwMDNjL2JcdTAwM2UtamFtZXMtbWlhbWktaGVh
+        dC0gdGVudXJlIiwKICAgInBhZ2VtYXAiOiB7CiAgICAiY3NlX2ltYWdlIjog
+        WwogICAgIHsKICAgICAgInNyYyI6ICJodHRwOi8vaW1nLmJsZWFjaGVycmVw
+        b3J0Lm5ldC9pbWcvaW1hZ2VzL3Bob3Rvcy8wMDIvNDM2LzA4My9oaS1yZXMt
+        MTcxNTQ3ODM1X2Nyb3BfZXhhY3QuanBnP3c9MTUwMCZoPTE1MDAmcT04NSIK
+        ICAgICB9CiAgICBdLAogICAgImNzZV90aHVtYm5haWwiOiBbCiAgICAgewog
+        ICAgICAid2lkdGgiOiAiMjI1IiwKICAgICAgImhlaWdodCI6ICIyMjUiLAog
+        ICAgICAic3JjIjogImh0dHBzOi8vZW5jcnlwdGVkLXRibjIuZ3N0YXRpYy5j
+        b20vaW1hZ2VzP3E9dGJuOkFOZDlHY1FiVE40RGRWWERIbmtSZEJxRU13eXZh
+        bG4yS3JRbWtjRU40U1d6Qzl0LVprZU5UZ2ZJbGlOS1cxWSIKICAgICB9CiAg
+        ICBdLAogICAgIm1ldGF0YWdzIjogWwogICAgIHsKICAgICAgImFydGljbGU6
+        cHVibGlzaGVyIjogImh0dHA6Ly93d3cuZmFjZWJvb2suY29tL2JsZWFjaGVy
+        cmVwb3J0IiwKICAgICAgIm9nOmRlc2NyaXB0aW9uIjogIkl0IGhvbmVzdGx5
+        IGRvZXNuJ3Qgc2VlbSBsaWtlIGl0IGhhcyBiZWVuIHRocmVlIHllYXJzIHNp
+        bmNlICBMZUJyb24gSmFtZXMgIGp1bXBlZCBzaGlwIGZyb20gdGhlICBDbGV2
+        ZWxhbmQgQ2F2YWxpZXJzICB0byB0aGUgIE1pYW1pIEhlYXQgLiAgICBUaW1l
+        IGZsaWVzIHdoZW4geW91J3JlIGhhdmluZyBmdW4uLi4iLAogICAgICAib2c6
+        aW1hZ2UiOiAiaHR0cDovL2ltZy5ibGVhY2hlcnJlcG9ydC5uZXQvaW1nL2lt
+        YWdlcy9waG90b3MvMDAyLzQzNi8wODMvaGktcmVzLTE3MTU0NzgzNV9jcm9w
+        X2V4YWN0LmpwZz93PTE1MDAmaD0xNTAwJnE9ODUiLAogICAgICAib2c6c2l0
+        ZV9uYW1lIjogIkJsZWFjaGVyIFJlcG9ydCIsCiAgICAgICJvZzp0aXRsZSI6
+        ICIxMCBCZXN0IEdhbWVzIG9mIExlQnJvbidzIFRlbnVyZSB3aXRoIEhlYXQi
+        LAogICAgICAib2c6dHlwZSI6ICJhcnRpY2xlIiwKICAgICAgIm9nOnVybCI6
+        ICJodHRwOi8vYmxlYWNoZXJyZXBvcnQuY29tL2FydGljbGVzLzE3MjkzMzUt
+        MTAtYmVzdC1nYW1lcy1vZi1sZWJyb24tamFtZXMtbWlhbWktaGVhdC10ZW51
+        cmUiLAogICAgICAidHdpdHRlcjpjYXJkIjogInN1bW1hcnkiLAogICAgICAi
+        dHdpdHRlcjpkZXNjcmlwdGlvbiI6ICJJdCBob25lc3RseSBkb2Vzbid0IHNl
+        ZW0gbGlrZSBpdCBoYXMgYmVlbiB0aHJlZSB5ZWFycyBzaW5jZSAgTGVCcm9u
+        IEphbWVzICBqdW1wZWQgc2hpcCBmcm9tIHRoZSAgQ2xldmVsYW5kIENhdmFs
+        aWVycyAgdG8gdGhlICBNaWFtaSBIZWF0IC4gICAgVGltZSBmbGllcyB3aGVu
+        IHlvdSdyZSBoYXZpbmcgZnVuLi4uIiwKICAgICAgInR3aXR0ZXI6aW1hZ2Ui
+        OiAiaHR0cDovL2ltZy5ibGVhY2hlcnJlcG9ydC5uZXQvaW1nL2ltYWdlcy9w
+        aG90b3MvMDAyLzQzNi8wODMvaGktcmVzLTE3MTU0NzgzNV9jcm9wX2V4YWN0
+        LmpwZz93PTIwMCZoPTIwMCZxPTg1IiwKICAgICAgInR3aXR0ZXI6c2l0ZSI6
+        ICJAYmxlYWNoZXJyZXBvcnQiLAogICAgICAidHdpdHRlcjp0aXRsZSI6ICIx
+        MCBCZXN0IEdhbWVzIG9mIExlQnJvbidzIFRlbnVyZSB3aXRoIEhlYXQiLAog
+        ICAgICAidHdpdHRlcjp1cmwiOiAiaHR0cDovL2JsZWFjaGVycmVwb3J0LmNv
+        bS9hcnRpY2xlcy8xNzI5MzM1LTEwLWJlc3QtZ2FtZXMtb2YtbGVicm9uLWph
+        bWVzLW1pYW1pLWhlYXQtdGVudXJlIiwKICAgICAgInR3aXR0ZXI6YXBwOmlk
+        OmlwaG9uZSI6ICI0MTgwNzU5MzUiLAogICAgICAidHdpdHRlcjphcHA6bmFt
+        ZTppcGhvbmUiOiAiVGVhbSBTdHJlYW0gYnkgQmxlYWNoZXIgUmVwb3J0IiwK
+        ICAgICAgInR3aXR0ZXI6YXBwOnVybDppcGhvbmUiOiAidGVhbXN0cmVhbTov
+        L2FydGljbGUvbS5ibGVhY2hlcnJlcG9ydC5jb20vYXJ0aWNsZXMvMTcyOTMz
+        NS0xMC1iZXN0LWdhbWVzLW9mLWxlYnJvbi1qYW1lcy1taWFtaS1oZWF0LXRl
+        bnVyZSIsCiAgICAgICJ0d2l0dGVyOmFwcDppZDppcGFkIjogIjQ4NDcyNTc0
+        OCIsCiAgICAgICJ0d2l0dGVyOmFwcDpuYW1lOmlwYWQiOiAiVGVhbSBTdHJl
+        YW0gYnkgQmxlYWNoZXIgUmVwb3J0IiwKICAgICAgInR3aXR0ZXI6YXBwOnVy
+        bDppcGFkIjogInRlYW1zdHJlYW06Ly9hcnRpY2xlL20uYmxlYWNoZXJyZXBv
+        cnQuY29tL2FydGljbGVzLzE3MjkzMzUtMTAtYmVzdC1nYW1lcy1vZi1sZWJy
+        b24tamFtZXMtbWlhbWktaGVhdC10ZW51cmUiLAogICAgICAidHdpdHRlcjph
+        cHA6aWQ6Z29vZ2xlcGxheSI6ICJjb20uYmxlYWNoZXJyZXBvcnQuYW5kcm9p
+        ZC50ZWFtc3RyZWFtIiwKICAgICAgInR3aXR0ZXI6YXBwOm5hbWU6Z29vZ2xl
+        cGxheSI6ICJUZWFtIFN0cmVhbSBieSBCbGVhY2hlciBSZXBvcnQiLAogICAg
+        ICAidHdpdHRlcjphcHA6dXJsOmdvb2dsZXBsYXkiOiAiaHR0cDovL20uYmxl
+        YWNoZXJyZXBvcnQuY29tL2FydGljbGVzLzE3MjkzMzUtMTAtYmVzdC1nYW1l
+        cy1vZi1sZWJyb24tamFtZXMtbWlhbWktaGVhdC10ZW51cmUiLAogICAgICAi
+        ZmI6YXBwX2lkIjogIjEzNTE3NDA1NTE2MiIsCiAgICAgICJhb2wtdGUtYXV0
+        aCI6ICIxYzQyNDU4MC0wZjg2LTRkOWItODhiMi1iYzhjMGQwMjlkNGMiCiAg
+        ICAgfQogICAgXQogICB9CiAgfSwKICB7CiAgICJraW5kIjogImN1c3RvbXNl
+        YXJjaCNyZXN1bHQiLAogICAidGl0bGUiOiAiTGVCcm9uIEphbWVzIFN0YXRz
+        LCBOZXdzLCBWaWRlb3MsIEhpZ2hsaWdodHMsIFBpY3R1cmVzLCBCaW8gLSBN
+        aWFtaSAuLi4iLAogICAiaHRtbFRpdGxlIjogIlx1MDAzY2JcdTAwM2VMZUJy
+        b25cdTAwM2MvYlx1MDAzZSBKYW1lcyBTdGF0cywgTmV3cywgVmlkZW9zLCBI
+        aWdobGlnaHRzLCBQaWN0dXJlcywgQmlvIC0gTWlhbWkgXHUwMDNjYlx1MDAz
+        ZS4uLlx1MDAzYy9iXHUwMDNlIiwKICAgImxpbmsiOiAiaHR0cDovL2VzcG4u
+        Z28uY29tL25iYS9wbGF5ZXIvXy9pZC8xOTY2L2xlYnJvbi1qYW1lcyIsCiAg
+        ICJkaXNwbGF5TGluayI6ICJlc3BuLmdvLmNvbSIsCiAgICJzbmlwcGV0Ijog
+        IkdldCB0aGUgbGF0ZXN0IG5ld3MsIHN0YXRzLCB2aWRlb3MsIGhpZ2hsaWdo
+        dHMgYW5kIG1vcmUgYWJvdXQgTWlhbWkgSGVhdCBzbWFsbCAgIGZvcndhcmQg
+        TGVCcm9uIEphbWVzIG9uIEVTUE4uY29tLiIsCiAgICJodG1sU25pcHBldCI6
+        ICJHZXQgdGhlIGxhdGVzdCBuZXdzLCBzdGF0cywgdmlkZW9zLCBoaWdobGln
+        aHRzIGFuZCBtb3JlIGFib3V0IE1pYW1pIEhlYXQgc21hbGwgXHUwMDNjYnJc
+        dTAwM2UgIGZvcndhcmQgXHUwMDNjYlx1MDAzZUxlQnJvblx1MDAzYy9iXHUw
+        MDNlIEphbWVzIG9uIEVTUE4uY29tLiIsCiAgICJjYWNoZUlkIjogIkJwSTBO
+        alJrTnBBSiIsCiAgICJmb3JtYXR0ZWRVcmwiOiAiZXNwbi5nby5jb20vbmJh
+        L3BsYXllci9fL2lkLzE5NjYvbGVicm9uLWphbWVzIiwKICAgImh0bWxGb3Jt
+        YXR0ZWRVcmwiOiAiZXNwbi5nby5jb20vbmJhL3BsYXllci9fL2lkLzE5NjYv
+        XHUwMDNjYlx1MDAzZWxlYnJvblx1MDAzYy9iXHUwMDNlLWphbWVzIiwKICAg
+        InBhZ2VtYXAiOiB7CiAgICAiY3NlX2ltYWdlIjogWwogICAgIHsKICAgICAg
+        InNyYyI6ICJodHRwOi8vYS5lc3BuY2RuLmNvbS9jb21iaW5lci9pP2ltZz0v
+        aS9oZWFkc2hvdHMvbmJhL3BsYXllcnMvZnVsbC8xOTY2LnBuZyZoPTkwIgog
+        ICAgIH0KICAgIF0sCiAgICAiY3NlX3RodW1ibmFpbCI6IFsKICAgICB7CiAg
+        ICAgICJ3aWR0aCI6ICI5OSIsCiAgICAgICJoZWlnaHQiOiAiNzIiLAogICAg
+        ICAic3JjIjogImh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20v
+        aW1hZ2VzP3E9dGJuOkFOZDlHY1NyWXBqX1hCVWd4QkE2X01oMTZWTG5OSEs4
+        M3pPZGx6dUhDc25pYmFUeVJfN0pMZzl5RGFFdkJRIgogICAgIH0KICAgIF0s
+        CiAgICAibWV0YXRhZ3MiOiBbCiAgICAgewogICAgICAic2xpY2UiOiAib2Zm
+        IiwKICAgICAgIm1zdmFsaWRhdGUuMDEiOiAiQjFGRUI3QzY4MkM0NkM4RkNE
+        QTMxMzBGM0QxOEFDMjgiLAogICAgICAib2c6dGl0bGUiOiAiTGVCcm9uIEph
+        bWVzIiwKICAgICAgIm9nOnR5cGUiOiAiYXRobGV0ZSIsCiAgICAgICJvZzp1
+        cmwiOiAiaHR0cDovL2VzcG4uZ28uY29tL25iYS9wbGF5ZXIvXy9pZC8xOTY2
+        L2xlYnJvbi1qYW1lcyIsCiAgICAgICJvZzpkZXNjcmlwdGlvbiI6ICJHZXQg
+        dGhlIGxhdGVzdCBuZXdzLCBzdGF0cywgdmlkZW9zLCBoaWdobGlnaHRzIGFu
+        ZCBtb3JlIGFib3V0IE1pYW1pIEhlYXQgc21hbGwgZm9yd2FyZCBMZUJyb24g
+        SmFtZXMgb24gRVNQTi5jb20uIiwKICAgICAgIm9nOmltYWdlIjogImh0dHA6
+        Ly9hLmVzcG5jZG4uY29tL2NvbWJpbmVyL2k/aW1nPS9pL2hlYWRzaG90cy9u
+        YmEvcGxheWVycy9mdWxsLzE5NjYucG5nJmg9OTAiLAogICAgICAidHdpdHRl
+        cjpjYXJkIjogInN1bW1hcnkiLAogICAgICAidHdpdHRlcjppbWFnZSI6ICJo
+        dHRwOi8vYS5lc3BuY2RuLmNvbS9jb21iaW5lci9pP2ltZz0vaS9oZWFkc2hv
+        dHMvbmJhL3BsYXllcnMvZnVsbC8xOTY2LnBuZyZoPTkwIiwKICAgICAgInR3
+        aXR0ZXI6dGl0bGUiOiAiTGVCcm9uIEphbWVzIiwKICAgICAgInR3aXR0ZXI6
+        ZGVzY3JpcHRpb24iOiAiR2V0IHRoZSBsYXRlc3QgbmV3cywgc3RhdHMsIHZp
+        ZGVvcywgaGlnaGxpZ2h0cyBhbmQgbW9yZSBhYm91dCBNaWFtaSBIZWF0IHNt
+        YWxsIGZvcndhcmQgTGVCcm9uIEphbWVzIG9uIEVTUE4uY29tLiIsCiAgICAg
+        ICJvZzpzaXRlX25hbWUiOiAiRVNQTi5jb20iLAogICAgICAiZmI6YXBwX2lk
+        IjogIjExNjY1NjE2MTcwODkxNyIKICAgICB9CiAgICBdCiAgIH0KICB9LAog
+        IHsKICAgImtpbmQiOiAiY3VzdG9tc2VhcmNoI3Jlc3VsdCIsCiAgICJ0aXRs
+        ZSI6ICJMZUJyb24gSmFtZXM6IOKAnEknbSBzdGlsbCBnZXR0aW5nIGJldHRl
+        cuKAnSB8IFByb0Jhc2tldGJhbGxUYWxrIiwKICAgImh0bWxUaXRsZSI6ICJc
+        dTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2UgSmFtZXM6IOKAnEkm
+        IzM5O20gc3RpbGwgZ2V0dGluZyBiZXR0ZXLigJ0gfCBQcm9CYXNrZXRiYWxs
+        VGFsayIsCiAgICJsaW5rIjogImh0dHA6Ly9wcm9iYXNrZXRiYWxsdGFsay5u
+        YmNzcG9ydHMuY29tLzIwMTMvMDgvMDkvbGVicm9uLWphbWVzLWltLXN0aWxs
+        LWdldHRpbmctYmV0dGVyLyIsCiAgICJkaXNwbGF5TGluayI6ICJwcm9iYXNr
+        ZXRiYWxsdGFsay5uYmNzcG9ydHMuY29tIiwKICAgInNuaXBwZXQiOiAiQXVn
+        IDksIDIwMTMgLi4uIExlQnJvbiBKYW1lcyB3YXMgbWFraW5nIGhpcyBmaXJz
+        dCB0b3VyIG9mIHRoZSBQaGlsaXBwaW5lcyByZWNlbnRseSwgYSBOaWtlICAg
+        c3BvbnNvcmVkIHRvdXIgdG8gYm9vc3QgaGlzIGJyYW5kIGluIG9uIG9mIHRo
+        ZSB3b3JsZCdzIHJlYWwgYmFza2V0YmFsbMKgLi4uIiwKICAgImh0bWxTbmlw
+        cGV0IjogIkF1ZyA5LCAyMDEzIFx1MDAzY2JcdTAwM2UuLi5cdTAwM2MvYlx1
+        MDAzZSBcdTAwM2NiXHUwMDNlTGVCcm9uXHUwMDNjL2JcdTAwM2UgSmFtZXMg
+        d2FzIG1ha2luZyBoaXMgZmlyc3QgdG91ciBvZiB0aGUgUGhpbGlwcGluZXMg
+        cmVjZW50bHksIGEgTmlrZSBcdTAwM2Niclx1MDAzZSAgc3BvbnNvcmVkIHRv
+        dXIgdG8gYm9vc3QgaGlzIGJyYW5kIGluIG9uIG9mIHRoZSB3b3JsZCYjMzk7
+        cyByZWFsIGJhc2tldGJhbGwmbmJzcDtcdTAwM2NiXHUwMDNlLi4uXHUwMDNj
+        L2JcdTAwM2UiLAogICAiZm9ybWF0dGVkVXJsIjogInByb2Jhc2tldGJhbGx0
+        YWxrLm5iY3Nwb3J0cy5jb20vMjAxMy8uLi4vbGVicm9uLWphbWVzLWltLXN0
+        aWxsLWdldHRpbmctYmV0dGVyLyIsCiAgICJodG1sRm9ybWF0dGVkVXJsIjog
+        InByb2Jhc2tldGJhbGx0YWxrLm5iY3Nwb3J0cy5jb20vMjAxMy8uLi4vXHUw
+        MDNjYlx1MDAzZWxlYnJvblx1MDAzYy9iXHUwMDNlLWphbWVzLWltLXN0aWxs
+        LWdldHRpbmctYmV0dGVyLyIsCiAgICJwYWdlbWFwIjogewogICAgImNzZV9p
+        bWFnZSI6IFsKICAgICB7CiAgICAgICJzcmMiOiAiaHR0cDovL2kxLnl0aW1n
+        LmNvbS92aS9iUXowYlVUUDE0OC9tYXhyZXNkZWZhdWx0LmpwZyIKICAgICB9
+        CiAgICBdLAogICAgImNzZV90aHVtYm5haWwiOiBbCiAgICAgewogICAgICAi
+        d2lkdGgiOiAiMzAwIiwKICAgICAgImhlaWdodCI6ICIxNjgiLAogICAgICAi
+        c3JjIjogImh0dHBzOi8vZW5jcnlwdGVkLXRibjMuZ3N0YXRpYy5jb20vaW1h
+        Z2VzP3E9dGJuOkFOZDlHY1RWMDMycWM3VTRNd1pWN1BVbERaQjhtWXYtWGlj
+        OWVTZzc5M2RzMG9HMEQ3Sm9WUGgyN0tEVzJVVlciCiAgICAgfQogICAgXSwK
+        ICAgICJtZXRhdGFncyI6IFsKICAgICB7CiAgICAgICJvZzp1cmwiOiAiaHR0
+        cDovL3Byb2Jhc2tldGJhbGx0YWxrLm5iY3Nwb3J0cy5jb20vMjAxMy8wOC8w
+        OS9sZWJyb24tamFtZXMtaW0tc3RpbGwtZ2V0dGluZy1iZXR0ZXIvIiwKICAg
+        ICAgIm9nOnRpdGxlIjogIkxlQnJvbiBKYW1lczog4oCcSeKAmW0gc3RpbGwg
+        Z2V0dGluZ8KgYmV0dGVy4oCdIiwKICAgICAgIm9nOmRlc2NyaXB0aW9uIjog
+        IkxlQnJvbiBKYW1lcyB3YXMgbWFraW5nIGhpcyBmaXJzdCB0b3VyIG9mIHRo
+        ZSBQaGlsaXBwaW5lc8KgcmVjZW50bHksIGEgTmlrZSBzcG9uc29yZWQgdG91
+        ciB0byBib29zdCBoaXMgYnJhbmQgaW4gb24gb2YgdGhlIHdvcmxk4oCZcyBy
+        ZWFsIGJhc2tldGJhbGwgaG90YmVkcy4gVGhlIHRvdXIgd2FzIGZpbGxlZCB3
+        aXRoIHRoZSB1c3VhbCBhcHBlYXJhbmNlcyBhbmQgYSBmZXcgZ2FtZXMuIEFu
+        ZCBoZSBkaWRu4oCZdCByZWFsbHkgc2F5IGFueXRoaW5nIHlvdSB3b3VsZG7i
+        gJl0IGV4cGVjdCwgYnV0IG9uZSB0aGluZyBoZSBzYWlkIGNvdWxkIGJlIHNj
+        YXJ54oCmIiwKICAgICAgIm9nOmltYWdlIjogImh0dHA6Ly9uYmNwcm9iYXNr
+        ZXRiYWxsdGFsay5maWxlcy53b3JkcHJlc3MuY29tLzIwMTMvMDgvMzUweC0x
+        MS5qcGc/dz0yMDAmaD0xNzAmY3JvcD0xIiwKICAgICAgImFwcGxpY2F0aW9u
+        LW5hbWUiOiAiUHJvQmFza2V0YmFsbFRhbGsiLAogICAgICAibXNhcHBsaWNh
+        dGlvbi13aW5kb3ciOiAid2lkdGg9ZGV2aWNlLXdpZHRoO2hlaWdodD1kZXZp
+        Y2UtaGVpZ2h0IiwKICAgICAgIm1zYXBwbGljYXRpb24tdG9vbHRpcCI6ICJC
+        YXNrZXRiYWxsIC0gTkJDIFNwb3J0cyIsCiAgICAgICJtc2FwcGxpY2F0aW9u
+        LXRhc2siOiAibmFtZT1TdWJzY3JpYmU7YWN0aW9uLXVyaT1odHRwOi8vcHJv
+        YmFza2V0YmFsbHRhbGsubmJjc3BvcnRzLmNvbS9mZWVkLztpY29uLXVyaT1o
+        dHRwOi8vMC5ncmF2YXRhci5jb20vYmxhdmF0YXIvNmQxNjkwZWJjMWE4OGUz
+        ZjBlYmJjNmQ5ODQxMDJhNjA/cz0xNiIsCiAgICAgICJmYjphZG1pbnMiOiAi
+        NjYwNDg0NTE3IgogICAgIH0KICAgIF0KICAgfQogIH0sCiAgewogICAia2lu
+        ZCI6ICJjdXN0b21zZWFyY2gjcmVzdWx0IiwKICAgInRpdGxlIjogIkxlQnJv
+        biBKYW1lczogV2h5IE1pYW1pIEhlYXQgU3RhciBXb24ndCBEYXJlIEpvaW4g
+        dGhlIExvcyAuLi4iLAogICAiaHRtbFRpdGxlIjogIlx1MDAzY2JcdTAwM2VM
+        ZUJyb25cdTAwM2MvYlx1MDAzZSBKYW1lczogV2h5IE1pYW1pIEhlYXQgU3Rh
+        ciBXb24mIzM5O3QgRGFyZSBKb2luIHRoZSBMb3MgXHUwMDNjYlx1MDAzZS4u
+        Llx1MDAzYy9iXHUwMDNlIiwKICAgImxpbmsiOiAiaHR0cDovL3Nwb3J0cy55
+        YWhvby5jb20vbmV3cy9sZWJyb24tamFtZXMtd2h5LW1pYW1pLWhlYXQtc3Rh
+        ci13b24tdC0xNzM1MDA2NjAuaHRtbCIsCiAgICJkaXNwbGF5TGluayI6ICJz
+        cG9ydHMueWFob28uY29tIiwKICAgInNuaXBwZXQiOiAiSnVsIDI5LCAyMDEz
+        IC4uLiBGcm9tIFlhaG9vISBTcG9ydHM6IENPTU1FTlRBUlkgfCBBIExlQnJv
+        biBKYW1lcy1Lb2JlIEJyeWFudCBCaWcgVHdvICAgc291bmRzIGdvb2Qgb24g
+        cGFwZXIgYW5kIG1ha2VzIGZvciBzYXZ2eSBtZWRpYSBzb3VuZCBiaXRlcy4i
+        LAogICAiaHRtbFNuaXBwZXQiOiAiSnVsIDI5LCAyMDEzIFx1MDAzY2JcdTAw
+        M2UuLi5cdTAwM2MvYlx1MDAzZSBGcm9tIFlhaG9vISBTcG9ydHM6IENPTU1F
+        TlRBUlkgfCBBIFx1MDAzY2JcdTAwM2VMZUJyb25cdTAwM2MvYlx1MDAzZSBK
+        YW1lcy1Lb2JlIEJyeWFudCBCaWcgVHdvIFx1MDAzY2JyXHUwMDNlICBzb3Vu
+        ZHMgZ29vZCBvbiBwYXBlciBhbmQgbWFrZXMgZm9yIHNhdnZ5IG1lZGlhIHNv
+        dW5kIGJpdGVzLiIsCiAgICJjYWNoZUlkIjogIlZlWXJCeXFtYnhVSiIsCiAg
+        ICJmb3JtYXR0ZWRVcmwiOiAic3BvcnRzLnlhaG9vLmNvbS8uLi4vbGVicm9u
+        LWphbWVzLXdoeS1taWFtaS1oZWF0LXN0YXItd29uLXQtMTczNTAwNjYwLiBo
+        dG1sIiwKICAgImh0bWxGb3JtYXR0ZWRVcmwiOiAic3BvcnRzLnlhaG9vLmNv
+        bS8uLi4vXHUwMDNjYlx1MDAzZWxlYnJvblx1MDAzYy9iXHUwMDNlLWphbWVz
+        LXdoeS1taWFtaS1oZWF0LXN0YXItd29uLXQtMTczNTAwNjYwLiBodG1sIiwK
+        ICAgInBhZ2VtYXAiOiB7CiAgICAiY3NlX2ltYWdlIjogWwogICAgIHsKICAg
+        ICAgInNyYyI6ICJodHRwOi8vbDIueWltZy5jb20vYnQvYXBpL3Jlcy8xLjIv
+        QnZsUmsyZU11WjVTNVpWdHMwaS5Vdy0tL1lYQndhV1E5ZVc1bGQzTTdjVDA0
+        TlR0M1BUWXdNQS0tL2h0dHA6Ly9sLnlpbWcuY29tL29zL3B1Ymxpc2gtaW1h
+        Z2VzL25ld3MvMjAxMy0wMy0xOS81MjhkZDJhZi04MDRhLTRkYjgtYjZlYi01
+        M2IxOGI5YjA1OTJfeWJhbmdfMjI1eDIyNS5wbmciCiAgICAgfQogICAgXSwK
+        ICAgICJwZXJzb24iOiBbCiAgICAgewogICAgICAib3JnIjogIllhaG9vISBD
+        b250cmlidXRvciBOZXR3b3JrIgogICAgIH0KICAgIF0sCiAgICAiYXJ0aWNs
+        ZSI6IFsKICAgICB7CiAgICAgICJkYXRlcHVibGlzaGVkIjogIjIwMTMtMDct
+        MjlUMTc6MzU6MDBaIiwKICAgICAgInByb3ZpZGVyIjogIllhaG9vISBDb250
+        cmlidXRvciBOZXR3b3JrIiwKICAgICAgImhlYWRsaW5lIjogIkxlQnJvbiBK
+        YW1lczogV2h5IE1pYW1pIEhlYXQgU3RhciBXb27igJl0IERhcmUgSm9pbiB0
+        aGUgTG9zIEFuZ2VsZXMgTGFrZXJzIiwKICAgICAgImF1dGhvciI6ICJCcmFk
+        bGV5IFJ5ZGVyIiwKICAgICAgImRlc2NyaXB0aW9uIjogIkNPTU1FTlRBUlkg
+        fCBBIExlQnJvbiBKYW1lcy1Lb2JlIEJyeWFudCBCaWcgVHdvIHNvdW5kcyBn
+        b29kIG9uIHBhcGVyIGFuZCBtYWtlcyBmb3Igc2F2dnkgbWVkaWEgc291bmQg
+        Yml0ZXMuIiwKICAgICAgImFydGljbGVib2R5IjogIkNPTU1FTlRBUlkgfCBB
+        IExlQnJvbiBKYW1lcy1Lb2JlIEJyeWFudCBCaWcgVHdvIHNvdW5kcyBnb29k
+        IG9uIHBhcGVyIGFuZCBtYWtlcyBmb3Igc2F2dnkgbWVkaWEgc291bmQgYml0
+        ZXMuIFNhbGFyeSBjYXAgYXNpZGUsIEkgY2FuIHRoaW5rIG9mIHRocmVlIHJl
+        YXNvbnMgdGhlIE1pYW1pIEhlYXQgc3RhciB3b24ndCBldmVyIGxlYXZlLi4u
+        IgogICAgIH0KICAgIF0sCiAgICAibWV0YXRhZ3MiOiBbCiAgICAgewogICAg
+        ICAib3JpZ2luYWwtc291cmNlIjogImh0dHA6Ly9zcG9ydHMueWFob28uY29t
+        L25ld3MvbGVicm9uLWphbWVzLXdoeS1taWFtaS1oZWF0LXN0YXItd29uLXQt
+        MTczNTAwNjYwLmh0bWwiLAogICAgICAiZmI6YXBwX2lkIjogIjE5NDY5OTMz
+        NzIzMTg1OSIsCiAgICAgICJvZzpkZXNjcmlwdGlvbiI6ICJDT01NRU5UQVJZ
+        IHwgQSBMZUJyb24gSmFtZXMtS29iZSBCcnlhbnQgQmlnIFR3byBzb3VuZHMg
+        Z29vZCBvbiBwYXBlciBhbmQgbWFrZXMgZm9yIHNhdnZ5IG1lZGlhIHNvdW5k
+        IGJpdGVzLiIsCiAgICAgICJvZzppbWFnZSI6ICJodHRwOi8vbDIueWltZy5j
+        b20vYnQvYXBpL3Jlcy8xLjIvQnZsUmsyZU11WjVTNVpWdHMwaS5Vdy0tL1lY
+        QndhV1E5ZVc1bGQzTTdjVDA0TlR0M1BUWXdNQS0tL2h0dHA6Ly9sLnlpbWcu
+        Y29tL29zL3B1Ymxpc2gtaW1hZ2VzL25ld3MvMjAxMy0wMy0xOS81MjhkZDJh
+        Zi04MDRhLTRkYjgtYjZlYi01M2IxOGI5YjA1OTJfeWJhbmdfMjI1eDIyNS5w
+        bmciLAogICAgICAib2c6c2l0ZV9uYW1lIjogIllhaG9vISBTcG9ydHMiLAog
+        ICAgICAib2c6dGl0bGUiOiAiTGVCcm9uIEphbWVzOiBXaHkgTWlhbWkgSGVh
+        dCBTdGFyIFdvbuKAmXQgRGFyZSBKb2luIHRoZSBMb3MgQW5nZWxlcyBMYWtl
+        cnMiLAogICAgICAib2c6dHlwZSI6ICJhcnRpY2xlIiwKICAgICAgIm9nOnVy
+        bCI6ICJodHRwOi8vc3BvcnRzLnlhaG9vLmNvbS9uZXdzL2xlYnJvbi1qYW1l
+        cy13aHktbWlhbWktaGVhdC1zdGFyLXdvbi10LTE3MzUwMDY2MC5odG1sIiwK
+        ICAgICAgInR3aXR0ZXI6Y2FyZCI6ICJzdW1tYXJ5IiwKICAgICAgInR3aXR0
+        ZXI6ZGVzY3JpcHRpb24iOiAiQ09NTUVOVEFSWSB8IEEgTGVCcm9uIEphbWVz
+        LUtvYmUgQnJ5YW50IEJpZyBUd28gc291bmRzIGdvb2Qgb24gcGFwZXIgYW5k
+        IG1ha2VzIGZvciBzYXZ2eSBtZWRpYSBzb3VuZCBiaXRlcy4iLAogICAgICAi
+        dHdpdHRlcjp0aXRsZSI6ICJMZUJyb24gSmFtZXM6IFdoeSBNaWFtaSBIZWF0
+        IFN0YXIgV29u4oCZdCBEYXJlIEpvaW4gdGhlIExvcyBBbmdlbGVzIExha2Vy
+        cyIsCiAgICAgICJhcHBsaWNhdGlvbi1uYW1lIjogIkxlQnJvbiBKYW1lczog
+        V2h5IE1pYW1pIEhlYXQgU3RhciBXb27igJl0IERhcmUgSm9pbiB0aGUgTG9z
+        IEFuZ2VsZXMgTGFrZXJzIiwKICAgICAgIm1zYXBwbGljYXRpb24tdGlsZWNv
+        bG9yIjogIiM2ZTMyOWQiLAogICAgICAibXNhcHBsaWNhdGlvbi10aWxlaW1h
+        Z2UiOiAiaHR0cDovL2wueWltZy5jb20vai9hc3NldHMvaXB0L3dpbjgtdGls
+        ZS5wbmciLAogICAgICAiYXBwbGUtaXR1bmVzLWFwcCI6ICJhcHAtaWQ9Mjg2
+        MDU4ODE0IgogICAgIH0KICAgIF0sCiAgICAiaGNhcmQiOiBbCiAgICAgewog
+        ICAgICAiZm4iOiAiQnJhZGxleSBSeWRlciIKICAgICB9CiAgICBdCiAgIH0K
+        ICB9LAogIHsKICAgImtpbmQiOiAiY3VzdG9tc2VhcmNoI3Jlc3VsdCIsCiAg
+        ICJ0aXRsZSI6ICJLb2JlIEJyeWFudCB2cy4gTGVCcm9uIEphbWVzOiBXaGlj
+        aCBOQkEgU3VwZXJzdGFyIEhhcyBCaWdnZXIgLi4uIiwKICAgImh0bWxUaXRs
+        ZSI6ICJLb2JlIEJyeWFudCB2cy4gXHUwMDNjYlx1MDAzZUxlQnJvblx1MDAz
+        Yy9iXHUwMDNlIEphbWVzOiBXaGljaCBOQkEgU3VwZXJzdGFyIEhhcyBCaWdn
+        ZXIgXHUwMDNjYlx1MDAzZS4uLlx1MDAzYy9iXHUwMDNlIiwKICAgImxpbmsi
+        OiAiaHR0cDovL2JsZWFjaGVycmVwb3J0LmNvbS9hcnRpY2xlcy8xNzMxOTE5
+        LWtvYmUtYnJ5YW50LXZzLWxlYnJvbi1qYW1lcy13aGljaC1uYmEtc3VwZXJz
+        dGFyLWhhcy1iaWdnZXItZ2xvYmFsLWltcGFjdCIsCiAgICJkaXNwbGF5TGlu
+        ayI6ICJibGVhY2hlcnJlcG9ydC5jb20iLAogICAic25pcHBldCI6ICJBdWcg
+        OCwgMjAxMyAuLi4gVGhlIGJhdHRsZSBiZXR3ZWVuIEtvYmUgQnJ5YW50IGFu
+        ZCBMZUJyb24gSmFtZXMgZG9lc24ndCBqdXN0IHRha2UgcGxhY2Ugb24gdGhl
+        ICAgY291cnQuIEl0IHBsYXlzIG91dCBvbiBhIGdsb2JhbCBzY2FsZSBhcyBl
+        YWNoIHN1cGVyc3RhcsKgLi4uIiwKICAgImh0bWxTbmlwcGV0IjogIkF1ZyA4
+        LCAyMDEzIFx1MDAzY2JcdTAwM2UuLi5cdTAwM2MvYlx1MDAzZSBUaGUgYmF0
+        dGxlIGJldHdlZW4gS29iZSBCcnlhbnQgYW5kIFx1MDAzY2JcdTAwM2VMZUJy
+        b25cdTAwM2MvYlx1MDAzZSBKYW1lcyBkb2VzbiYjMzk7dCBqdXN0IHRha2Ug
+        cGxhY2Ugb24gdGhlIFx1MDAzY2JyXHUwMDNlICBjb3VydC4gSXQgcGxheXMg
+        b3V0IG9uIGEgZ2xvYmFsIHNjYWxlIGFzIGVhY2ggc3VwZXJzdGFyJm5ic3A7
+        XHUwMDNjYlx1MDAzZS4uLlx1MDAzYy9iXHUwMDNlIiwKICAgImNhY2hlSWQi
+        OiAiVzhSUVNaNkItRzRKIiwKICAgImZvcm1hdHRlZFVybCI6ICJibGVhY2hl
+        cnJlcG9ydC5jb20vLi4uLzE3MzE5MTkta29iZS1icnlhbnQtdnMtbGVicm9u
+        LWphbWVzLXdoaWNoLW5iYS0gc3VwZXJzdGFyLWhhcy1iaWdnZXItZ2xvYmFs
+        LWltcGFjdCIsCiAgICJodG1sRm9ybWF0dGVkVXJsIjogImJsZWFjaGVycmVw
+        b3J0LmNvbS8uLi4vMTczMTkxOS1rb2JlLWJyeWFudC12cy1cdTAwM2NiXHUw
+        MDNlbGVicm9uXHUwMDNjL2JcdTAwM2UtamFtZXMtd2hpY2gtbmJhLSBzdXBl
+        cnN0YXItaGFzLWJpZ2dlci1nbG9iYWwtaW1wYWN0IiwKICAgInBhZ2VtYXAi
+        OiB7CiAgICAiY3NlX2ltYWdlIjogWwogICAgIHsKICAgICAgInNyYyI6ICJo
+        dHRwOi8vaW1nLmJsZWFjaGVycmVwb3J0Lm5ldC9pbWcvaW1hZ2VzL3Bob3Rv
+        cy8wMDIvNDM4LzMwOC9Lb2JlTGVicm9uX2Nyb3Bfbm9ydGguanBnP3c9NjUw
+        Jmg9NDQwJnE9NzUiCiAgICAgfQogICAgXSwKICAgICJjc2VfdGh1bWJuYWls
+        IjogWwogICAgIHsKICAgICAgIndpZHRoIjogIjI3MyIsCiAgICAgICJoZWln
+        aHQiOiAiMTg1IiwKICAgICAgInNyYyI6ICJodHRwczovL2VuY3J5cHRlZC10
+        Ym4yLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NUeHBjN1RacnNY
+        TkNUeGpOZjlSTnlnM0RqRWE3bGJqcUlSMFJSVjg5OGFOVzJ2ZTR6Znp6YjlZ
+        SWdHIgogICAgIH0KICAgIF0sCiAgICAibWV0YXRhZ3MiOiBbCiAgICAgewog
+        ICAgICAiYXJ0aWNsZTpwdWJsaXNoZXIiOiAiaHR0cDovL3d3dy5mYWNlYm9v
+        ay5jb20vYmxlYWNoZXJyZXBvcnQiLAogICAgICAib2c6ZGVzY3JpcHRpb24i
+        OiAiVGhlIGJhdHRsZSBiZXR3ZWVuICBLb2JlIEJyeWFudCAgYW5kICBMZUJy
+        b24gSmFtZXMgIGRvZXNuJ3QganVzdCB0YWtlIHBsYWNlIG9uIHRoZSBjb3Vy
+        dC4gSXQgcGxheXMgb3V0IG9uIGEgZ2xvYmFsIHNjYWxlIGFzIGVhY2ggc3Vw
+        ZXJzdGFyIGF0dGVtcHRzIHRvIGFzc2VydCBoaW1zZWxmIGFzIHRoZSBsYXJn
+        ZXN0IGJhc2tldGJhbGwgaWNvbiBpbiB0aGUgd29ybGQuLi4iLAogICAgICAi
+        b2c6aW1hZ2UiOiAiaHR0cDovL2ltZy5ibGVhY2hlcnJlcG9ydC5uZXQvaW1n
+        L2ltYWdlcy9waG90b3MvMDAyLzQzOC8zMDgvS29iZUxlYnJvbl9jcm9wX2V4
+        YWN0LmpwZz93PTE1MDAmaD0xNTAwJnE9ODUiLAogICAgICAib2c6c2l0ZV9u
+        YW1lIjogIkJsZWFjaGVyIFJlcG9ydCIsCiAgICAgICJvZzp0aXRsZSI6ICJC
+        aWdnZXIgR2xvYmFsIEltcGFjdDogS29iZSBvciBMQko/IiwKICAgICAgIm9n
+        OnR5cGUiOiAiYXJ0aWNsZSIsCiAgICAgICJvZzp1cmwiOiAiaHR0cDovL2Js
+        ZWFjaGVycmVwb3J0LmNvbS9hcnRpY2xlcy8xNzMxOTE5LWtvYmUtYnJ5YW50
+        LXZzLWxlYnJvbi1qYW1lcy13aGljaC1uYmEtc3VwZXJzdGFyLWhhcy1iaWdn
+        ZXItZ2xvYmFsLWltcGFjdCIsCiAgICAgICJ0d2l0dGVyOmNhcmQiOiAic3Vt
+        bWFyeSIsCiAgICAgICJ0d2l0dGVyOmRlc2NyaXB0aW9uIjogIlRoZSBiYXR0
+        bGUgYmV0d2VlbiAgS29iZSBCcnlhbnQgIGFuZCAgTGVCcm9uIEphbWVzICBk
+        b2Vzbid0IGp1c3QgdGFrZSBwbGFjZSBvbiB0aGUgY291cnQuIEl0IHBsYXlz
+        IG91dCBvbiBhIGdsb2JhbCBzY2FsZSBhcyBlYWNoIHN1cGVyc3RhciBhdHRl
+        bXB0cyB0byBhc3NlcnQgaGltc2VsZiBhcyB0aGUgbGFyZ2VzdCBiYXNrZXRi
+        YWxsIGljb24gaW4gdGhlIHdvcmxkLi4uIiwKICAgICAgInR3aXR0ZXI6aW1h
+        Z2UiOiAiaHR0cDovL2ltZy5ibGVhY2hlcnJlcG9ydC5uZXQvaW1nL2ltYWdl
+        cy9waG90b3MvMDAyLzQzOC8zMDgvS29iZUxlYnJvbl9jcm9wX2V4YWN0Lmpw
+        Zz93PTIwMCZoPTIwMCZxPTg1IiwKICAgICAgInR3aXR0ZXI6c2l0ZSI6ICJA
+        YmxlYWNoZXJyZXBvcnQiLAogICAgICAidHdpdHRlcjp0aXRsZSI6ICJCaWdn
+        ZXIgR2xvYmFsIEltcGFjdDogS29iZSBvciBMQko/IiwKICAgICAgInR3aXR0
+        ZXI6dXJsIjogImh0dHA6Ly9ibGVhY2hlcnJlcG9ydC5jb20vYXJ0aWNsZXMv
+        MTczMTkxOS1rb2JlLWJyeWFudC12cy1sZWJyb24tamFtZXMtd2hpY2gtbmJh
+        LXN1cGVyc3Rhci1oYXMtYmlnZ2VyLWdsb2JhbC1pbXBhY3QiLAogICAgICAi
+        dHdpdHRlcjphcHA6aWQ6aXBob25lIjogIjQxODA3NTkzNSIsCiAgICAgICJ0
+        d2l0dGVyOmFwcDpuYW1lOmlwaG9uZSI6ICJUZWFtIFN0cmVhbSBieSBCbGVh
+        Y2hlciBSZXBvcnQiLAogICAgICAidHdpdHRlcjphcHA6dXJsOmlwaG9uZSI6
+        ICJ0ZWFtc3RyZWFtOi8vYXJ0aWNsZS9tLmJsZWFjaGVycmVwb3J0LmNvbS9h
+        cnRpY2xlcy8xNzMxOTE5LWtvYmUtYnJ5YW50LXZzLWxlYnJvbi1qYW1lcy13
+        aGljaC1uYmEtc3VwZXJzdGFyLWhhcy1iaWdnZXItZ2xvYmFsLWltcGFjdCIs
+        CiAgICAgICJ0d2l0dGVyOmFwcDppZDppcGFkIjogIjQ4NDcyNTc0OCIsCiAg
+        ICAgICJ0d2l0dGVyOmFwcDpuYW1lOmlwYWQiOiAiVGVhbSBTdHJlYW0gYnkg
+        QmxlYWNoZXIgUmVwb3J0IiwKICAgICAgInR3aXR0ZXI6YXBwOnVybDppcGFk
+        IjogInRlYW1zdHJlYW06Ly9hcnRpY2xlL20uYmxlYWNoZXJyZXBvcnQuY29t
+        L2FydGljbGVzLzE3MzE5MTkta29iZS1icnlhbnQtdnMtbGVicm9uLWphbWVz
+        LXdoaWNoLW5iYS1zdXBlcnN0YXItaGFzLWJpZ2dlci1nbG9iYWwtaW1wYWN0
+        IiwKICAgICAgInR3aXR0ZXI6YXBwOmlkOmdvb2dsZXBsYXkiOiAiY29tLmJs
+        ZWFjaGVycmVwb3J0LmFuZHJvaWQudGVhbXN0cmVhbSIsCiAgICAgICJ0d2l0
+        dGVyOmFwcDpuYW1lOmdvb2dsZXBsYXkiOiAiVGVhbSBTdHJlYW0gYnkgQmxl
+        YWNoZXIgUmVwb3J0IiwKICAgICAgInR3aXR0ZXI6YXBwOnVybDpnb29nbGVw
+        bGF5IjogImh0dHA6Ly9tLmJsZWFjaGVycmVwb3J0LmNvbS9hcnRpY2xlcy8x
+        NzMxOTE5LWtvYmUtYnJ5YW50LXZzLWxlYnJvbi1qYW1lcy13aGljaC1uYmEt
+        c3VwZXJzdGFyLWhhcy1iaWdnZXItZ2xvYmFsLWltcGFjdCIsCiAgICAgICJm
+        YjphcHBfaWQiOiAiMTM1MTc0MDU1MTYyIiwKICAgICAgImFvbC10ZS1hdXRo
+        IjogIjFjNDI0NTgwLTBmODYtNGQ5Yi04OGIyLWJjOGMwZDAyOWQ0YyIKICAg
+        ICB9CiAgICBdCiAgIH0KICB9CiBdCn0K
+    http_version: 
+  recorded_at: Tue, 20 Aug 2013 17:52:45 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/search/tweets.json?q=lebron&result_type=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Twitter Ruby Gem 4.8.1
+      Authorization:
+      - OAuth oauth_consumer_key="JYPwBbGCOsbbkRDOEumpA", oauth_nonce="7df4ff857274cfbb912b45ef42c4e7f1",
+        oauth_signature="Ie33wptR5jzhpI0yRT3Lim6gCzc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1377021165", oauth_token="409349725-rKFQ09ejGhhTXejk2piUMd5AqTPNsEZMbJOcCVdI",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 20 Aug 2013 17:52:45 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Tue, 20 Aug 2013 17:52:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tfe
+      Set-Cookie:
+      - guest_id=v1%3A137702116535844212; Domain=.twitter.com; Path=/; Expires=Thu,
+        20-Aug-2015 17:52:45 UTC
+      - lang=en
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '179'
+      X-Rate-Limit-Reset:
+      - '1377022065'
+      X-Transaction:
+      - 6228435eccf79f35
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"statuses":[{"metadata":{"result_type":"recent","iso_language_code":"fr"},"created_at":"Tue
+        Aug 20 17:52:30 +0000 2013","id":369879631518003200,"id_str":"369879631518003200","text":"J''hesite
+        entre les lebron XI et les Jordan 4 Oreo ...","source":"\u003ca href=\"http:\/\/twitter.com\/download\/iphone\"
+        rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":447958115,"id_str":"447958115","name":"
+        Jordan Carter \u271f","screen_name":"JowCarter","location":"PARIS","description":"Echou\u00e9
+        ou r\u00e9ussir mais au moins tenter sa chance, moi j''dis que plus le combat
+        est grand plus la victoire est immense #RoadToGlory","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":118,"friends_count":96,"listed_count":0,"created_at":"Tue
+        Dec 27 13:06:57 +0000 2011","favourites_count":143,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":3663,"lang":"fr","contributors_enabled":false,"is_translator":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/549377402\/2009121314422553430438041.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/549377402\/2009121314422553430438041.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000317756513\/78ec47e28feb0a5849d771d024d7d9c2_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000317756513\/78ec47e28feb0a5849d771d024d7d9c2_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/447958115\/1376855976","profile_link_color":"EB0927","profile_sidebar_border_color":"080808","profile_sidebar_fill_color":"0420D6","profile_text_color":"0F0E0E","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"fr"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:30 +0000 2013","id":369879629613371392,"id_str":"369879629613371392","text":"RT
+        @MySportsLegion: The hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter
+        for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":595176238,"id_str":"595176238","name":"Victor
+        Trujillo","screen_name":"Mac_Daddy_V","location":"","description":"Live life
+        and have fun! #TGOD #LoveSosa #2014","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":245,"friends_count":158,"listed_count":0,"created_at":"Thu
+        May 31 04:36:38 +0000 2012","favourites_count":2892,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":9507,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"020D2E","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme15\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme15\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/3757137973\/02c3cb2fde3ace80920a7fac36cce7a9_normal.png","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/3757137973\/02c3cb2fde3ace80920a7fac36cce7a9_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/595176238\/1350929587","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:43:06 +0000 2013","id":369877265892773888,"id_str":"369877265892773888","text":"The
+        hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":291438698,"id_str":"291438698","name":"NBA
+        Legion","screen_name":"MySportsLegion","location":"","description":"Featured
+        on @ESPN and @SI_NBA Follow us for your latest authentic breaking news, updates
+        and rumors in the NBA. Instagram: nbalegion","url":"http:\/\/t.co\/bI7AGYOvbo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/bI7AGYOvbo","expanded_url":"http:\/\/www.mysportslegion.com\/forums","display_url":"mysportslegion.com\/forums","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":103784,"friends_count":195,"listed_count":508,"created_at":"Mon
+        May 02 01:05:46 +0000 2011","favourites_count":2,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":8649,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":781,"favorite_count":156,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[56,78],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":781,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[3,18]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:30 +0000 2013","id":369879628531630080,"id_str":"369879628531630080","text":"RT
+        @MySportsLegion: The hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1340606874,"id_str":"1340606874","name":"Nathanael
+        Allen","screen_name":"NathanaelJames6","location":"","description":"Ballislife","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":176,"friends_count":161,"listed_count":0,"created_at":"Wed
+        Apr 10 00:32:41 +0000 2013","favourites_count":250,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":563,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000220617876\/a5d56689d0e502187ef5d11bf3f4a2bb_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000220617876\/a5d56689d0e502187ef5d11bf3f4a2bb_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1340606874\/1376916984","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:43:06 +0000 2013","id":369877265892773888,"id_str":"369877265892773888","text":"The
+        hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":291438698,"id_str":"291438698","name":"NBA
+        Legion","screen_name":"MySportsLegion","location":"","description":"Featured
+        on @ESPN and @SI_NBA Follow us for your latest authentic breaking news, updates
+        and rumors in the NBA. Instagram: nbalegion","url":"http:\/\/t.co\/bI7AGYOvbo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/bI7AGYOvbo","expanded_url":"http:\/\/www.mysportslegion.com\/forums","display_url":"mysportslegion.com\/forums","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":103784,"friends_count":195,"listed_count":508,"created_at":"Mon
+        May 02 01:05:46 +0000 2011","favourites_count":2,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":8649,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":781,"favorite_count":156,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[56,78],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":781,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[3,18]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:29 +0000 2013","id":369879626711306240,"id_str":"369879626711306240","text":"RT
+        @MySportsLegion: The hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":259492460,"id_str":"259492460","name":"Tajon
+        Simpson","screen_name":"TajonOrSomethin","location":"The sky flying wit the
+        fishes","description":"Names Tajon..or somethin\n#WPS #CowboysNation #KD35
+        #ThunderUp #Dilf","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":633,"friends_count":383,"listed_count":0,"created_at":"Wed
+        Mar 02 01:03:16 +0000 2011","favourites_count":719,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":31159,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C40808","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/211905283\/tajon_picnik.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/211905283\/tajon_picnik.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000280825939\/6151ef09496068738863874d4a51e5ae_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000280825939\/6151ef09496068738863874d4a51e5ae_normal.jpeg","profile_link_color":"0600B3","profile_sidebar_border_color":"0F0B0B","profile_sidebar_fill_color":"A81010","profile_text_color":"030303","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:43:06 +0000 2013","id":369877265892773888,"id_str":"369877265892773888","text":"The
+        hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":291438698,"id_str":"291438698","name":"NBA
+        Legion","screen_name":"MySportsLegion","location":"","description":"Featured
+        on @ESPN and @SI_NBA Follow us for your latest authentic breaking news, updates
+        and rumors in the NBA. Instagram: nbalegion","url":"http:\/\/t.co\/bI7AGYOvbo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/bI7AGYOvbo","expanded_url":"http:\/\/www.mysportslegion.com\/forums","display_url":"mysportslegion.com\/forums","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":103784,"friends_count":195,"listed_count":508,"created_at":"Mon
+        May 02 01:05:46 +0000 2011","favourites_count":2,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":8649,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":781,"favorite_count":156,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[56,78],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":781,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[3,18]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:29 +0000 2013","id":369879625712664576,"id_str":"369879625712664576","text":"LeBron
+        must''ve talked to Ray Allen about this","source":"\u003ca href=\"http:\/\/twitter.com\/download\/iphone\"
+        rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":227151070,"id_str":"227151070","name":"Chris
+        Brown","screen_name":"EvrybodyHatesCB","location":"The Hills of Bloomfield
+        ","description":"Random tweets and Nikes on my feet IG:chrisbrown_","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":347,"friends_count":297,"listed_count":2,"created_at":"Thu
+        Dec 16 02:04:55 +0000 2010","favourites_count":91,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":68077,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/527625921\/kate-upton-wearing-air-jordan-7-e1304800814506.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/527625921\/kate-upton-wearing-air-jordan-7-e1304800814506.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000316480175\/3d6075f9e8500d9afb1fbeb3f2a12de8_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000316480175\/3d6075f9e8500d9afb1fbeb3f2a12de8_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/227151070\/1371093290","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:29 +0000 2013","id":369879625217753088,"id_str":"369879625217753088","text":"RT
+        @MySportsLegion: The hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":34525848,"id_str":"34525848","name":"Pat
+        MaGroin","screen_name":"Pierce10000","location":"","description":"Oops, thats
+        not your vagina thats your asshole","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":149,"friends_count":131,"listed_count":0,"created_at":"Thu
+        Apr 23 04:04:19 +0000 2009","favourites_count":647,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":5450,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/621345161\/ny69t5d5fdk9o34g20a3.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/621345161\/ny69t5d5fdk9o34g20a3.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000259902709\/c74732f0c60a370c851a56c3fa99565b_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000259902709\/c74732f0c60a370c851a56c3fa99565b_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/34525848\/1376040108","profile_link_color":"009999","profile_sidebar_border_color":"0A0A0A","profile_sidebar_fill_color":"F0F0F5","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:43:06 +0000 2013","id":369877265892773888,"id_str":"369877265892773888","text":"The
+        hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":291438698,"id_str":"291438698","name":"NBA
+        Legion","screen_name":"MySportsLegion","location":"","description":"Featured
+        on @ESPN and @SI_NBA Follow us for your latest authentic breaking news, updates
+        and rumors in the NBA. Instagram: nbalegion","url":"http:\/\/t.co\/bI7AGYOvbo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/bI7AGYOvbo","expanded_url":"http:\/\/www.mysportslegion.com\/forums","display_url":"mysportslegion.com\/forums","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":103784,"friends_count":195,"listed_count":508,"created_at":"Mon
+        May 02 01:05:46 +0000 2011","favourites_count":2,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":8649,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":781,"favorite_count":156,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[56,78],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":781,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[3,18]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:29 +0000 2013","id":369879624160780289,"id_str":"369879624160780289","text":"RT
+        @Hautemommie: Lebron finally cut that running away ass hair?! Praise Gawd.","source":"\u003ca
+        href=\"http:\/\/ubersocial.com\" rel=\"nofollow\"\u003eUberSocial for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":481552539,"id_str":"481552539","name":"ev","screen_name":"ev_unfurled","location":"In
+        My Feelings, USA","description":"","url":"http:\/\/t.co\/a5nMQ6bKMu","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/a5nMQ6bKMu","expanded_url":"http:\/\/instagram.com\/ev_unfurled","display_url":"instagram.com\/ev_unfurled","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":131,"friends_count":316,"listed_count":1,"created_at":"Thu
+        Feb 02 22:18:58 +0000 2012","favourites_count":58,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":12348,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"030303","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/795509457\/78724b80045dbad53cc33ae356af5ed6.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/795509457\/78724b80045dbad53cc33ae356af5ed6.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000254228746\/e304dac8ea4fdb5d19bdf28789ba7385_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000254228746\/e304dac8ea4fdb5d19bdf28789ba7385_normal.jpeg","profile_link_color":"D335F2","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"A0C5C7","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:44:34 +0000 2013","id":369877635599310848,"id_str":"369877635599310848","text":"Lebron
+        finally cut that running away ass hair?! Praise Gawd.","source":"\u003ca href=\"http:\/\/www.tweetdeck.com\"
+        rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":22736258,"id_str":"22736258","name":"Big
+        L-Ayyyee","screen_name":"Hautemommie","location":"Where cool & haute met...LA","description":"writer.
+        laugh provider. business woman.| Blog: @FlyyCoast2Coast | Biz: @CamMarComm
+        | Show: Let Leslie Tell It -- http:\/\/t.co\/s15JiVVxxn","url":"http:\/\/t.co\/ixy9YCoexO","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/ixy9YCoexO","expanded_url":"http:\/\/www.flyycoast2coast.wordpress.com","display_url":"flyycoast2coast.wordpress.com","indices":[0,22]}]},"description":{"urls":[{"url":"http:\/\/t.co\/s15JiVVxxn","expanded_url":"http:\/\/bit.ly\/15kJn50","display_url":"bit.ly\/15kJn50","indices":[113,135]}]}},"protected":false,"followers_count":1774,"friends_count":415,"listed_count":20,"created_at":"Wed
+        Mar 04 05:00:47 +0000 2009","favourites_count":144,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":80231,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"9AE4E8","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/585036648\/px8z3paympwwi4g6vujp.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/585036648\/px8z3paympwwi4g6vujp.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000235047589\/ecebea01a4c8379ea6f8e3421a59e083_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000235047589\/ecebea01a4c8379ea6f8e3421a59e083_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"BDDCAD","profile_sidebar_fill_color":"DDFFCC","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":2,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},"retweet_count":2,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"Hautemommie","name":"Big
+        L-Ayyyee","id":22736258,"id_str":"22736258","indices":[3,15]}]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:28 +0000 2013","id":369879620545703937,"id_str":"369879620545703937","text":"\u201c@MySportsLegion:
+        The hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/duPPLqbLMc\u201dlmao","source":"\u003ca
+        href=\"http:\/\/twitter.com\/#!\/download\/ipad\" rel=\"nofollow\"\u003eTwitter
+        for iPad\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":369877265892773888,"in_reply_to_status_id_str":"369877265892773888","in_reply_to_user_id":291438698,"in_reply_to_user_id_str":"291438698","in_reply_to_screen_name":"MySportsLegion","user":{"id":1307776603,"id_str":"1307776603","name":"C
+        V P","screen_name":"CheckCuttaCvp","location":"South Florida","description":"LIVE
+        AND YOU LEARN..GRIND AND YOU EARN\nR.I.P PATBO","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":198,"friends_count":196,"listed_count":0,"created_at":"Wed
+        Mar 27 15:18:52 +0000 2013","favourites_count":139,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":2625,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000324777363\/2308c1ac8e62d31eebc381b15efeddd1_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000324777363\/2308c1ac8e62d31eebc381b15efeddd1_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1307776603\/1376323229","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[1,16]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[74,96],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/duPPLqbLMc","display_url":"pic.twitter.com\/duPPLqbLMc","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:28 +0000 2013","id":369879619832279041,"id_str":"369879619832279041","text":"RT
+        @BleacherReport: LeBron James has shaved his head for his \"Witness History
+        Tour\". http:\/\/t.co\/0ePspD6XPg","source":"\u003ca href=\"http:\/\/www.echofon.com\/\"
+        rel=\"nofollow\"\u003eEchofon\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":551226568,"id_str":"551226568","name":"McFarland","screen_name":"DevDMac","location":"Texas","description":"I
+        just be talking #49ers #Eagles #Patriots #Redskins #OKCThunder","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":360,"friends_count":302,"listed_count":0,"created_at":"Wed
+        Apr 11 18:45:34 +0000 2012","favourites_count":1,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":21131,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000246745102\/7301d375cb786f1bfb888d76d4ce8437_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000246745102\/7301d375cb786f1bfb888d76d4ce8437_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/551226568\/1373781102","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:41:18 +0000 2013","id":369876811032702976,"id_str":"369876811032702976","text":"LeBron
+        James has shaved his head for his \"Witness History Tour\". http:\/\/t.co\/0ePspD6XPg","source":"\u003ca
+        href=\"http:\/\/www.tweetdeck.com\" rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":890891,"id_str":"890891","name":"Bleacher
+        Report","screen_name":"BleacherReport","location":"\u00dcT: 37.76723,-122.430845","description":"","url":"http:\/\/t.co\/PyaTkozfZw","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/PyaTkozfZw","expanded_url":"http:\/\/bleacherreport.com","display_url":"bleacherreport.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":355970,"friends_count":463,"listed_count":4270,"created_at":"Sat
+        Mar 10 23:52:36 +0000 2007","favourites_count":18,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":15761,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"9AE4E8","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/638356640\/c9s2xx9kkzfj8wkvcc5w.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/638356640\/c9s2xx9kkzfj8wkvcc5w.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1574135809\/apple-touch-icon_normal.png","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1574135809\/apple-touch-icon_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/890891\/1372008778","profile_link_color":"0084B4","profile_sidebar_border_color":"BDDCAD","profile_sidebar_fill_color":"DDFFCC","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":148,"favorite_count":29,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/0ePspD6XPg","expanded_url":"http:\/\/bit.ly\/13P76Ha","display_url":"bit.ly\/13P76Ha","indices":[65,87]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":148,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/0ePspD6XPg","expanded_url":"http:\/\/bit.ly\/13P76Ha","display_url":"bit.ly\/13P76Ha","indices":[85,107]}],"user_mentions":[{"screen_name":"BleacherReport","name":"Bleacher
+        Report","id":890891,"id_str":"890891","indices":[3,18]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:27 +0000 2013","id":369879618288775169,"id_str":"369879618288775169","text":"RT
+        \"@MySportsLegion: The hairline is gone. LeBron James has shaved his head.
+        http:\/\/t.co\/R3KViFjTBQ\"","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\"
+        rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":36563840,"id_str":"36563840","name":"LEEZUS","screen_name":"OhLuckyLee","location":"Belize
+        \u2708 Texas","description":"Old enough to know better. Young enough to not
+        give a fuck. Life''s about who makes it, not who makes it the fastest. #FGTP","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":697,"friends_count":519,"listed_count":0,"created_at":"Thu
+        Apr 30 02:13:13 +0000 2009","favourites_count":5450,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":22518,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/511387557\/black_clover.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/511387557\/black_clover.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2461661966\/1o49960y_normal","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2461661966\/1o49960y_normal","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/36563840\/1370318712","profile_link_color":"257306","profile_sidebar_border_color":"850505","profile_sidebar_fill_color":"000000","profile_text_color":"7A0A0A","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[4,19]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[77,99],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/R3KViFjTBQ","display_url":"pic.twitter.com\/R3KViFjTBQ","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:27 +0000 2013","id":369879617785856000,"id_str":"369879617785856000","text":"\"@MySportsLegion:
+        The hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/NoP7SQjKrP\"
+        me lebron Kobe and mj got big foreheads","source":"\u003ca href=\"https:\/\/mobile.twitter.com\"
+        rel=\"nofollow\"\u003eMobile Web (M5)\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":398980959,"id_str":"398980959","name":"Harun","screen_name":"71Aaron17","location":"Toronto,
+        Canada","description":"God is the Greatest. Be God Conscious.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":120,"friends_count":160,"listed_count":0,"created_at":"Wed
+        Oct 26 20:31:52 +0000 2011","favourites_count":23,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":11589,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"5B615F","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/879549182\/b75ea6865b4ea0c90838125aaede77aa.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/879549182\/b75ea6865b4ea0c90838125aaede77aa.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/344513261569970800\/89b79f08ed5ae16f805790dec0ee4318_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/344513261569970800\/89b79f08ed5ae16f805790dec0ee4318_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/398980959\/1370537081","profile_link_color":"1F2021","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[1,16]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[74,96],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/NoP7SQjKrP","display_url":"pic.twitter.com\/NoP7SQjKrP","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:27 +0000 2013","id":369879617731330048,"id_str":"369879617731330048","text":"RT
+        @MySportsLegion: The hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":217534803,"id_str":"217534803","name":"Tommy
+        Raneses","screen_name":"TommyRaneses","location":"[D]MV","description":"#SaxonWrestling
+        #SaveOlympicWrestling #KOTD #FutureChampion #TeamJones #Bulls #Blackhawks
+        #Eagles #SneakerHead #SIFP","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":128,"friends_count":303,"listed_count":0,"created_at":"Fri
+        Nov 19 20:05:25 +0000 2010","favourites_count":2558,"utc_offset":-18000,"time_zone":"Quito","geo_enabled":false,"verified":false,"statuses_count":6193,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000247847027\/54a5615a059435950b6fd69ad9d8e1a6_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000247847027\/54a5615a059435950b6fd69ad9d8e1a6_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/217534803\/1368885181","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:43:06 +0000 2013","id":369877265892773888,"id_str":"369877265892773888","text":"The
+        hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":291438698,"id_str":"291438698","name":"NBA
+        Legion","screen_name":"MySportsLegion","location":"","description":"Featured
+        on @ESPN and @SI_NBA Follow us for your latest authentic breaking news, updates
+        and rumors in the NBA. Instagram: nbalegion","url":"http:\/\/t.co\/bI7AGYOvbo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/bI7AGYOvbo","expanded_url":"http:\/\/www.mysportslegion.com\/forums","display_url":"mysportslegion.com\/forums","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":103784,"friends_count":195,"listed_count":508,"created_at":"Mon
+        May 02 01:05:46 +0000 2011","favourites_count":2,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":8649,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":781,"favorite_count":156,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[56,78],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":781,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[3,18]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:27 +0000 2013","id":369879617374392320,"id_str":"369879617374392320","text":"RT
+        @MySportsLegion: The hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":721240886,"id_str":"721240886","name":"Cookie","screen_name":"bradleycook6","location":"Btown","description":"Wrestler
+        and football player","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":242,"friends_count":176,"listed_count":0,"created_at":"Sat
+        Jul 28 01:29:09 +0000 2012","favourites_count":3053,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":5175,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000326237172\/ee965335182d012501d969e14637850a_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000326237172\/ee965335182d012501d969e14637850a_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/721240886\/1369262282","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:43:06 +0000 2013","id":369877265892773888,"id_str":"369877265892773888","text":"The
+        hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":291438698,"id_str":"291438698","name":"NBA
+        Legion","screen_name":"MySportsLegion","location":"","description":"Featured
+        on @ESPN and @SI_NBA Follow us for your latest authentic breaking news, updates
+        and rumors in the NBA. Instagram: nbalegion","url":"http:\/\/t.co\/bI7AGYOvbo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/bI7AGYOvbo","expanded_url":"http:\/\/www.mysportslegion.com\/forums","display_url":"mysportslegion.com\/forums","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":103784,"friends_count":195,"listed_count":508,"created_at":"Mon
+        May 02 01:05:46 +0000 2011","favourites_count":2,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":8649,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":781,"favorite_count":156,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[56,78],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":781,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[3,18]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:27 +0000 2013","id":369879616715886592,"id_str":"369879616715886592","text":"Man,
+        if I was 6''8\" like Lebron, I woulda avoided so many unwarranted head rubs.","source":"web","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":18366119,"id_str":"18366119","name":"That
+        backflip tho...","screen_name":"Justinfication","location":"SW Houston, TX","description":"Humble-bragger,
+        Enthusiatic foodie, Alicia Key''s ex-husband, Wayne Brady and Alfonso Ribeiro''s
+        best friend, Living to pursue justification and avoid apostasy.","url":"http:\/\/t.co\/cvIneBjyTt","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/cvIneBjyTt","expanded_url":"http:\/\/threaders.wordpress.com","display_url":"threaders.wordpress.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":512,"friends_count":440,"listed_count":17,"created_at":"Wed
+        Dec 24 22:22:41 +0000 2008","favourites_count":124,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":15126,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"000505","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/830667025\/719f854a4f339e6bf4de5cde5ed292e5.jpeg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/830667025\/719f854a4f339e6bf4de5cde5ed292e5.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000241881381\/950bece62c3116805297a8bc5f7b736b_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000241881381\/950bece62c3116805297a8bc5f7b736b_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/18366119\/1363696745","profile_link_color":"FF3300","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"A0C5C7","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:52:27 +0000 2013","id":369879616514580480,"id_str":"369879616514580480","text":"RT
+        @MySportsLegion: The hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/www.echofon.com\" rel=\"nofollow\"\u003eEchofon  Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":37146510,"id_str":"37146510","name":"C.Penn","screen_name":"C_Penn_816","location":"Kansas
+        City, MO","description":"New year, same me but I''m not done yet! Still striving
+        for the life that I want to live for me, myself and I.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":667,"friends_count":826,"listed_count":13,"created_at":"Sat
+        May 02 05:08:49 +0000 2009","favourites_count":412,"utc_offset":-18000,"time_zone":"Central
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":98359,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"FF0000","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/658724780\/CHIEFS.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/658724780\/CHIEFS.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/3695303633\/afd26699e4d215034ff9507f695e01e2_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/3695303633\/afd26699e4d215034ff9507f695e01e2_normal.jpeg","profile_link_color":"000000","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"FFD500","profile_text_color":"000000","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"metadata":{"result_type":"recent","iso_language_code":"en"},"created_at":"Tue
+        Aug 20 17:43:06 +0000 2013","id":369877265892773888,"id_str":"369877265892773888","text":"The
+        hairline is gone. LeBron James has shaved his head. http:\/\/t.co\/Ypc2k7MsyT","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":291438698,"id_str":"291438698","name":"NBA
+        Legion","screen_name":"MySportsLegion","location":"","description":"Featured
+        on @ESPN and @SI_NBA Follow us for your latest authentic breaking news, updates
+        and rumors in the NBA. Instagram: nbalegion","url":"http:\/\/t.co\/bI7AGYOvbo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/bI7AGYOvbo","expanded_url":"http:\/\/www.mysportslegion.com\/forums","display_url":"mysportslegion.com\/forums","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":103784,"friends_count":195,"listed_count":508,"created_at":"Mon
+        May 02 01:05:46 +0000 2011","favourites_count":2,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":8649,"lang":"en","contributors_enabled":false,"is_translator":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/430989051\/g-spt-120120-kevin-love-winner-1110p_nbcsports-story-612.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/378800000069923406\/0f0e7ddd9793f7c09324b3184eae86ab_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":781,"favorite_count":156,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[56,78],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"retweet_count":781,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"MySportsLegion","name":"NBA
+        Legion","id":291438698,"id_str":"291438698","indices":[3,18]}],"media":[{"id":369877265783721985,"id_str":"369877265783721985","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/BSIRad2IEAE0-PA.jpg","url":"http:\/\/t.co\/Ypc2k7MsyT","display_url":"pic.twitter.com\/Ypc2k7MsyT","expanded_url":"http:\/\/twitter.com\/MySportsLegion\/status\/369877265892773888\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":400,"h":374,"resize":"fit"},"large":{"w":400,"h":374,"resize":"fit"},"small":{"w":339,"h":317,"resize":"fit"}},"source_status_id":369877265892773888,"source_status_id_str":"369877265892773888"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}],"search_metadata":{"completed_in":0.027,"max_id":369879631518003200,"max_id_str":"369879631518003200","next_results":"?max_id=369879616514580479&q=lebron&include_entities=1&result_type=","query":"lebron","refresh_url":"?since_id=369879631518003200&q=lebron&result_type=&include_entities=1","count":15,"since_id":0,"since_id_str":"0"}}'
+    http_version: 
+  recorded_at: Tue, 20 Aug 2013 17:52:45 GMT
+recorded_with: VCR 2.5.0
