@@ -62,22 +62,22 @@ group :development do
 end
 
 group :test, :development do
-  gem 'rspec-rails'
-  gem 'shoulda-matchers'
-  gem 'pry'
-  gem 'pry-debugger'
-  gem 'factory_girl_rails'
-  gem 'rb-fsevent'
-  gem 'guard-rspec'
-  gem 'vcr'
-
+  gem "rspec-rails"
+  gem "shoulda-matchers"
+  gem "pry"
+  gem "pry-debugger"
+  gem "factory_girl_rails"
+  gem "rb-fsevent"
+  gem "guard-rspec"
+  gem "vcr"
+  gem "jasminerice", :git => 'https://github.com/bradphelan/jasminerice.git'
 end
 
 group :test do
-  gem 'capybara'
+  gem "capybara"
   gem "capybara-firebug"
-  gem 'poltergeist'
-  gem 'webmock'
+  gem "poltergeist"
+  gem "webmock"
 end
 
 # To use ActiveModel has_secure_password
